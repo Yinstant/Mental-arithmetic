@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="ComplexityChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModeChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ResultPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TimeChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TrainingPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
