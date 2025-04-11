@@ -13,12 +13,29 @@ namespace MentalArithmApp1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonMainMenuStart_Click(object sender, EventArgs e)
         {
-
+            ModeChoice modeChoice = new ModeChoice();
+            modeChoice.Show();
+            this.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonMainMenuTextbook_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void buttonMainMenuStatistics_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void buttonMainMenuManual_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void buttonMainMenuSettings_Click(object sender, EventArgs e)
         {
 
         }

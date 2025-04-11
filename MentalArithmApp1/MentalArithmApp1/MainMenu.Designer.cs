@@ -28,64 +28,102 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainMenu));
             buttonMainMenuStart = new Button();
             buttonMainMenuTextbook = new Button();
             buttonMainMenuStatistics = new Button();
             buttonMainMenuManual = new Button();
+            buttonMainMenuSettings = new Button();
+            labelMainMenuHeading = new Label();
             SuspendLayout();
             // 
             // buttonMainMenuStart
             // 
-            buttonMainMenuStart.BackColor = Color.FromArgb(255, 224, 192);
+            buttonMainMenuStart.BackColor = Color.FromArgb(195, 215, 255);
+            buttonMainMenuStart.FlatAppearance.BorderSize = 0;
             buttonMainMenuStart.FlatStyle = FlatStyle.Flat;
-            buttonMainMenuStart.Location = new Point(425, 214);
+            buttonMainMenuStart.Image = (Image)resources.GetObject("buttonMainMenuStart.Image");
+            buttonMainMenuStart.Location = new Point(388, 215);
             buttonMainMenuStart.Name = "buttonMainMenuStart";
-            buttonMainMenuStart.Size = new Size(216, 68);
+            buttonMainMenuStart.Size = new Size(281, 60);
             buttonMainMenuStart.TabIndex = 0;
             buttonMainMenuStart.Text = "Начать тренировку";
             buttonMainMenuStart.UseVisualStyleBackColor = false;
-            buttonMainMenuStart.Click += button1_Click;
+            buttonMainMenuStart.Click += buttonMainMenuStart_Click;
             // 
             // buttonMainMenuTextbook
             // 
-            buttonMainMenuTextbook.BackColor = Color.FromArgb(255, 224, 192);
+            buttonMainMenuTextbook.BackColor = Color.FromArgb(195, 215, 255);
+            buttonMainMenuTextbook.FlatAppearance.BorderSize = 0;
             buttonMainMenuTextbook.FlatStyle = FlatStyle.Flat;
-            buttonMainMenuTextbook.Location = new Point(425, 302);
+            buttonMainMenuTextbook.Image = (Image)resources.GetObject("buttonMainMenuTextbook.Image");
+            buttonMainMenuTextbook.Location = new Point(395, 293);
             buttonMainMenuTextbook.Name = "buttonMainMenuTextbook";
-            buttonMainMenuTextbook.Size = new Size(216, 68);
+            buttonMainMenuTextbook.Size = new Size(274, 68);
             buttonMainMenuTextbook.TabIndex = 1;
             buttonMainMenuTextbook.Text = "Учебные материалы";
             buttonMainMenuTextbook.UseVisualStyleBackColor = false;
-            buttonMainMenuTextbook.Click += button2_Click;
+            buttonMainMenuTextbook.Click += buttonMainMenuTextbook_Click;
             // 
             // buttonMainMenuStatistics
             // 
-            buttonMainMenuStatistics.BackColor = Color.FromArgb(255, 224, 192);
+            buttonMainMenuStatistics.BackColor = Color.FromArgb(195, 215, 255);
+            buttonMainMenuStatistics.FlatAppearance.BorderSize = 0;
             buttonMainMenuStatistics.FlatStyle = FlatStyle.Flat;
-            buttonMainMenuStatistics.Location = new Point(425, 399);
+            buttonMainMenuStatistics.Image = (Image)resources.GetObject("buttonMainMenuStatistics.Image");
+            buttonMainMenuStatistics.Location = new Point(388, 383);
             buttonMainMenuStatistics.Name = "buttonMainMenuStatistics";
-            buttonMainMenuStatistics.Size = new Size(216, 68);
+            buttonMainMenuStatistics.Size = new Size(281, 68);
             buttonMainMenuStatistics.TabIndex = 2;
             buttonMainMenuStatistics.Text = "Статистика и достижения";
             buttonMainMenuStatistics.UseVisualStyleBackColor = false;
+            buttonMainMenuStatistics.Click += buttonMainMenuStatistics_Click;
             // 
             // buttonMainMenuManual
             // 
-            buttonMainMenuManual.BackColor = Color.FromArgb(255, 224, 192);
+            buttonMainMenuManual.BackColor = Color.FromArgb(195, 215, 255);
+            buttonMainMenuManual.FlatAppearance.BorderSize = 0;
             buttonMainMenuManual.FlatStyle = FlatStyle.Flat;
-            buttonMainMenuManual.Location = new Point(425, 500);
+            buttonMainMenuManual.Image = (Image)resources.GetObject("buttonMainMenuManual.Image");
+            buttonMainMenuManual.Location = new Point(388, 472);
             buttonMainMenuManual.Name = "buttonMainMenuManual";
-            buttonMainMenuManual.Size = new Size(216, 68);
+            buttonMainMenuManual.Size = new Size(281, 68);
             buttonMainMenuManual.TabIndex = 3;
             buttonMainMenuManual.Text = "Инструкция";
             buttonMainMenuManual.UseVisualStyleBackColor = false;
+            buttonMainMenuManual.Click += buttonMainMenuManual_Click;
+            // 
+            // buttonMainMenuSettings
+            // 
+            buttonMainMenuSettings.FlatAppearance.BorderSize = 0;
+            buttonMainMenuSettings.FlatStyle = FlatStyle.Flat;
+            buttonMainMenuSettings.Image = (Image)resources.GetObject("buttonMainMenuSettings.Image");
+            buttonMainMenuSettings.Location = new Point(937, 529);
+            buttonMainMenuSettings.Name = "buttonMainMenuSettings";
+            buttonMainMenuSettings.Size = new Size(91, 88);
+            buttonMainMenuSettings.TabIndex = 4;
+            buttonMainMenuSettings.UseVisualStyleBackColor = true;
+            buttonMainMenuSettings.Click += buttonMainMenuSettings_Click;
+            // 
+            // labelMainMenuHeading
+            // 
+            labelMainMenuHeading.AutoSize = true;
+            labelMainMenuHeading.Font = new Font("Microsoft Sans Serif", 50F, FontStyle.Bold);
+            labelMainMenuHeading.ForeColor = Color.FromArgb(255, 15, 159);
+            labelMainMenuHeading.Location = new Point(280, 80);
+            labelMainMenuHeading.Name = "labelMainMenuHeading";
+            labelMainMenuHeading.Size = new Size(533, 95);
+            labelMainMenuHeading.TabIndex = 5;
+            labelMainMenuHeading.Text = "Устный счёт";
             // 
             // MainMenu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
-            ClientSize = new Size(1060, 643);
+            ClientSize = new Size(1082, 653);
+            Controls.Add(labelMainMenuHeading);
+            Controls.Add(buttonMainMenuSettings);
             Controls.Add(buttonMainMenuManual);
             Controls.Add(buttonMainMenuStatistics);
             Controls.Add(buttonMainMenuTextbook);
@@ -94,6 +132,7 @@
             Text = "Mental arithmetic";
             Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -102,5 +141,7 @@
         private Button buttonMainMenuTextbook;
         private Button buttonMainMenuStatistics;
         private Button buttonMainMenuManual;
+        private Button buttonMainMenuSettings;
+        private Label labelMainMenuHeading;
     }
 }
