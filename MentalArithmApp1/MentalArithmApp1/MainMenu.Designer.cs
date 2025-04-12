@@ -129,6 +129,7 @@
             Controls.Add(buttonMainMenuTextbook);
             Controls.Add(buttonMainMenuStart);
             Name = "MainMenu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
             Load += Form1_Load;
             ResumeLayout(false);

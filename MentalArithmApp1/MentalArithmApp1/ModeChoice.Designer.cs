@@ -98,7 +98,6 @@
             buttonModeChoiceMultiplication.Text = "Умножение";
             buttonModeChoiceMultiplication.UseVisualStyleBackColor = true;
             buttonModeChoiceMultiplication.Click += buttonModeChoiceMultiplication_Click;
-            //buttonModeChoiceMultiplication.Click += button1_Click;
             // 
             // buttonModeChoiceDivision
             // 
@@ -140,6 +139,7 @@
             Controls.Add(buttonModeChoiceSettings);
             Controls.Add(labelModeChoiceHeading);
             Name = "ModeChoice";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ModeChoice";
             ResumeLayout(false);
             PerformLayout();
