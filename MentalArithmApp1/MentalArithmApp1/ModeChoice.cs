@@ -16,5 +16,40 @@ namespace MentalArithmApp1
         {
             InitializeComponent();
         }
+
+        private void buttonModeChoiceToMenu_Click(object sender, EventArgs e)
+        {
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.Show();
+            this.Hide();
+        }
+
+        private void buttonModeChoiceAddition_Click(object sender, EventArgs e)
+        {
+            ComplexityChoice complexityChoice = new();
+            complexityChoice.Show();
+            this.Hide();
+        }
+
+        private void buttonModeChoiceSubtraction_Click(object sender, EventArgs e)
+        {
+            ComplexityChoice complexityChoice = new();
+            complexityChoice.Show();
+            this.Hide();
+        }
+
+        private void buttonModeChoiceMultiplication_Click(object sender, EventArgs e)
+        {
+            ComplexityChoice complexityChoice = new();
+            complexityChoice.Show();
+            this.Hide();
+        }
+
+        private void buttonModeChoiceDivision_Click(object sender, EventArgs e)
+        {
+            ComplexityChoice complexityChoice = new();
+            complexityChoice.Show();
+            this.Hide();
+        }
     }
 }
