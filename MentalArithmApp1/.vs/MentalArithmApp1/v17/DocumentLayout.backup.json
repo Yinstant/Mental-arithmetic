@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\bocig\\onedrive\\desktop\\mental-arithmeticc\\mentalarithmapp1\\mentalarithmapp1\\trainingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\trainingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\bocig\\onedrive\\desktop\\mental-arithmeticc\\mentalarithmapp1\\mentalarithmapp1\\trainingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\trainingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\bocig\\onedrive\\desktop\\mental-arithmeticc\\mentalarithmapp1\\mentalarithmapp1\\trainingpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\trainingpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\mentalarithmapp1\\timechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\timechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\bocig\\onedrive\\desktop\\mental-arithmeticc\\mentalarithmapp1\\mentalarithmapp1\\timechoice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\timechoice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\bocig\\onedrive\\desktop\\mental-arithmeticc\\mentalarithmapp1\\mentalarithmapp1\\timechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\timechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\mentalarithmapp1\\complexitychoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\complexitychoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\mentalarithmapp1\\modechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\modechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\mentalarithmapp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\bocig\\onedrive\\desktop\\mental-arithmeticc\\mentalarithmapp1\\mentalarithmapp1\\complexitychoice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\complexitychoice.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,24 +55,8 @@
       "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\resultpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\bocig\\onedrive\\desktop\\mental-arithmeticc\\mentalarithmapp1\\mentalarithmapp1\\timechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\timechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\bocig\\onedrive\\desktop\\mental-arithmeticc\\mentalarithmapp1\\mentalarithmapp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\mentalarithmapp1\\modechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\modechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\mentalarithmapp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\mentalarithmapp1\\complexitychoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\complexitychoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\bocig\\onedrive\\desktop\\mental-arithmeticc\\mentalarithmapp1\\mentalarithmapp1\\modechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,109 +70,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "TrainingPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TrainingPage.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\TrainingPage.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TrainingPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MentalArithmApp1\\TrainingPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:59:47.42Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrainingPage.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TrainingPage.Designer.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\TrainingPage.Designer.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TrainingPage.Designer.cs",
+              "RelativeToolTip": "MentalArithmApp1\\TrainingPage.Designer.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwG0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:51:56.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainingPage.cs",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TrainingPage.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\TrainingPage.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TrainingPage.cs",
+              "RelativeToolTip": "MentalArithmApp1\\TrainingPage.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T09:28:25.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TimeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TimeChoice.cs",
               "RelativeDocumentMoniker": "MentalArithmApp1\\TimeChoice.cs",
               "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TimeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "MentalArithmApp1\\TimeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T06:49:41.265Z",
+              "WhenOpened": "2025-04-23T08:51:27.292Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResultPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ResultPage.cs",
-              "RelativeDocumentMoniker": "MentalArithmApp1\\ResultPage.cs",
-              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ResultPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "MentalArithmApp1\\ResultPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 4,
+              "Title": "TimeChoice.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TimeChoice.Designer.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\TimeChoice.Designer.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TimeChoice.Designer.cs",
+              "RelativeToolTip": "MentalArithmApp1\\TimeChoice.Designer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T06:49:36.381Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\Program.cs",
-              "RelativeDocumentMoniker": "MentalArithmApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\Program.cs",
-              "RelativeToolTip": "MentalArithmApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T06:49:32.712Z",
+              "WhenOpened": "2025-04-23T08:46:12.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MentalArithmApp1\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\MainMenu.cs",
-              "RelativeToolTip": "MentalArithmApp1\\MainMenu.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
+              "Title": "TimeChoice.cs",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TimeChoice.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\TimeChoice.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\TimeChoice.cs",
+              "RelativeToolTip": "MentalArithmApp1\\TimeChoice.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T06:49:11.673Z",
+              "WhenOpened": "2025-04-23T08:17:52.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "ComplexityChoice.Designer.cs",
               "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.Designer.cs",
               "RelativeDocumentMoniker": "MentalArithmApp1\\ComplexityChoice.Designer.cs",
               "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.Designer.cs",
               "RelativeToolTip": "MentalArithmApp1\\ComplexityChoice.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T08:27:21.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ComplexityChoice.cs",
-              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.cs",
-              "RelativeDocumentMoniker": "MentalArithmApp1\\ComplexityChoice.cs",
-              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.cs",
-              "RelativeToolTip": "MentalArithmApp1\\ComplexityChoice.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowDQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T08:27:13.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T08:27:21.096Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ComplexityChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.cs",
-              "RelativeDocumentMoniker": "MentalArithmApp1\\ComplexityChoice.cs",
-              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "MentalArithmApp1\\ComplexityChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T08:27:12.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ModeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ModeChoice.cs",
-              "RelativeDocumentMoniker": "MentalArithmApp1\\ModeChoice.cs",
-              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ModeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "MentalArithmApp1\\ModeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T08:32:23.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\MainMenu.cs",
               "RelativeDocumentMoniker": "MentalArithmApp1\\MainMenu.cs",
@@ -163,7 +173,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
+              "Title": "ModeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ModeChoice.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\ModeChoice.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ModeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MentalArithmApp1\\ModeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:32:23.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComplexityChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\ComplexityChoice.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MentalArithmApp1\\ComplexityChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:27:12.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ComplexityChoice.cs",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\ComplexityChoice.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ComplexityChoice.cs",
+              "RelativeToolTip": "MentalArithmApp1\\ComplexityChoice.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:27:13.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\Program.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\Program.cs",
+              "RelativeToolTip": "MentalArithmApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T06:49:32.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResultPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ResultPage.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\ResultPage.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ResultPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MentalArithmApp1\\ResultPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T06:49:36.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\MainMenu.cs",
+              "RelativeToolTip": "MentalArithmApp1\\MainMenu.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T06:49:11.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ModeChoice.cs",
               "DocumentMoniker": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\ModeChoice.cs",
               "RelativeDocumentMoniker": "MentalArithmApp1\\ModeChoice.cs",

@@ -16,5 +16,22 @@ namespace MentalArithmApp1
         {
             InitializeComponent();
         }
+
+        private void buttonTrainingPageTo_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void buttonTrainingPageToTimeChoice_Click(object sender, EventArgs e)
+        {
+            TimeChoice timeChoice = new TimeChoice();
+            timeChoice.Show();
+            this.Hide();
+        }
+        private void buttonTrainingPageEnd_Click(object sender, EventArgs e)
+        {
+            ResultPage resultPage = new ResultPage();
+            resultPage.Show();
+            this.Hide();
+        }
     }
 }
