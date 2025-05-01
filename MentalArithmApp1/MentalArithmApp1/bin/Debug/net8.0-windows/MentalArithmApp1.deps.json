@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "MentalArithmApp1/1.0.0": {
+        "dependencies": {
+          "DataClasses": "1.0.0"
+        },
         "runtime": {
           "MentalArithmApp1.dll": {}
+        }
+      },
+      "DataClasses/1.0.0": {
+        "runtime": {
+          "DataClasses.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "MentalArithmApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataClasses/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

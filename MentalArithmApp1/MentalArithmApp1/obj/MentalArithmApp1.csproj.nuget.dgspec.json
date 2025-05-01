@@ -1,23 +1,88 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\MentalArithmApp1.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\MentalArithmApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\MentalArithmApp1.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\DataClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\MentalArithmApp1.csproj",
-        "projectName": "MentalArithmApp1",
-        "projectPath": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\MentalArithmApp1.csproj",
-        "packagesPath": "C:\\Users\\bocig\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bocig\\OneDrive\\Desktop\\Mental-arithmeticc\\MentalArithmApp1\\MentalArithmApp1\\obj\\",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\DataClasses.csproj",
+        "projectName": "DataClasses",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\DataClasses.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bocig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\MentalArithmApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\MentalArithmApp1.csproj",
+        "projectName": "MentalArithmApp1",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\MentalArithmApp1.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,7 +96,11 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\DataClasses.csproj": {
+                "projectPath": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\DataClasses.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -42,7 +111,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -68,7 +137,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,6 +18,7 @@ namespace MentalArithmApp1
             ModeChoice modeChoice = new ModeChoice();
             modeChoice.Show();
             this.Hide();
+            Program.training = new DataClasses.Training();
         }
 
         private void buttonMainMenuTextbook_Click(object sender, EventArgs e)

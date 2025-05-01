@@ -38,30 +38,35 @@ namespace MentalArithmApp1
         }
         private void buttonTimeChoiceNoTime_Click(object sender, EventArgs e)
         {
+            Program.training.TimerTime = 0;
             TrainingPage trainingPage = new TrainingPage();
             trainingPage.Show();
             this.Hide();
         }
         private void buttonTimeChoiceOneMinute_Click(object sender, EventArgs e)
         {
+            Program.training.TimerTime = 1;
             TrainingPage trainingPage = new TrainingPage();
             trainingPage.Show();
             this.Hide();
         }
         private void buttonTimeChoiceThreeMinute_Click(object sender, EventArgs e)
         {
+            Program.training.TimerTime = 3;
             TrainingPage trainingPage = new TrainingPage();
             trainingPage.Show();
             this.Hide();
         }
         private void buttonTimeChoiceFiveMinute_Click(object sender, EventArgs e)
         {
+            Program.training.TimerTime = 5;
             TrainingPage trainingPage = new TrainingPage();
             trainingPage.Show();
             this.Hide();
         }
         private void buttonTimeChoice15Minute_Click(object sender, EventArgs e)
         {
+            Program.training.TimerTime = 15;
             TrainingPage trainingPage = new TrainingPage();
             trainingPage.Show();
             this.Hide();

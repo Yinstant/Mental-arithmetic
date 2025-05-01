@@ -1,4 +1,6 @@
-﻿namespace MentalArithmApp1
+﻿using DataClasses;
+
+namespace MentalArithmApp1
 {
     partial class TrainingPage
     {
@@ -28,6 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrainingPage));
             buttonTrainingPageToTimeChoice = new Button();
             buttonTrainingPageEnd = new Button();
@@ -35,11 +38,11 @@
             labelTrainingPageTime = new Label();
             textBoxTrainingPage = new TextBox();
             labelTrainingPageExample = new Label();
+            timerTrainingPage = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // buttonTrainingPageToTimeChoice
             // 
-            buttonTrainingPageToTimeChoice.Click += buttonTrainingPageToTimeChoice_Click;
             buttonTrainingPageToTimeChoice.FlatAppearance.BorderSize = 0;
             buttonTrainingPageToTimeChoice.FlatStyle = FlatStyle.Flat;
             buttonTrainingPageToTimeChoice.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
@@ -64,6 +67,7 @@
             buttonTrainingPageEnd.TabIndex = 1;
             buttonTrainingPageEnd.Text = "Закончить досрочно";
             buttonTrainingPageEnd.UseVisualStyleBackColor = true;
+            buttonTrainingPageEnd.Click += buttonTrainingPageEnd_Click;
             // 
             // buttonTrainingPageSettings
             // 
@@ -105,9 +109,16 @@
             labelTrainingPageExample.TabIndex = 5;
             labelTrainingPageExample.Text = "Пример";
             // 
+            // timerTrainingPage
+            // 
+            if (Program.training.TimerTime != 0) { 
+                timerTrainingPage.Enabled = true;
+                timerTrainingPage.Interval = 1000;
+                timerTrainingPage.Tick += timerTrainingPage_Tick;
+            }
+            // 
             // TrainingPage
             // 
-            buttonTrainingPageEnd.Click += buttonTrainingPageEnd_Click;
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
@@ -132,5 +143,6 @@
         private Label labelTrainingPageTime;
         private TextBox textBoxTrainingPage;
         private Label labelTrainingPageExample;
+        private System.Windows.Forms.Timer timerTrainingPage;
     }
 }

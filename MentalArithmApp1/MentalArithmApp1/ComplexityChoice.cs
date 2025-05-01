@@ -19,12 +19,14 @@ namespace MentalArithmApp1
 
         private void buttonComplexityChoiceEasy_Click(object sender, EventArgs e)
         {
+            Program.training.Complexity = 1;
             TimeChoice timeChoice = new();
             timeChoice.Show();
             this.Hide();
         }
         private void buttonComplexityChoiceMedium_Click(object sender, EventArgs e)
         {
+            Program.training.Complexity = 2;
             TimeChoice timeChoice = new();
             timeChoice.Show();
             this.Hide();
@@ -32,6 +34,7 @@ namespace MentalArithmApp1
 
         private void buttonComplexityChoiceHard_Click(object sender, EventArgs e)
         {
+            Program.training.Complexity = 3;
             TimeChoice timeChoice = new();
             timeChoice.Show();
             this.Hide();

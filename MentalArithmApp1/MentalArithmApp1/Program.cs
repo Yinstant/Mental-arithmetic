@@ -1,13 +1,11 @@
 using System.Security.Cryptography.X509Certificates;
+using DataClasses;
 
 namespace MentalArithmApp1
 {
     public static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
-        /// 
+        public static Training training = new();
 
         [STAThread]
         static void Main()

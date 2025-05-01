@@ -26,6 +26,7 @@ namespace MentalArithmApp1
 
         private void buttonModeChoiceAddition_Click(object sender, EventArgs e)
         {
+            Program.training.Mode = 1;
             ComplexityChoice complexityChoice = new();
             complexityChoice.Show();
             this.Hide();
@@ -33,6 +34,7 @@ namespace MentalArithmApp1
 
         private void buttonModeChoiceSubtraction_Click(object sender, EventArgs e)
         {
+            Program.training.Mode = 2;
             ComplexityChoice complexityChoice = new();
             complexityChoice.Show();
             this.Hide();
@@ -40,6 +42,7 @@ namespace MentalArithmApp1
 
         private void buttonModeChoiceMultiplication_Click(object sender, EventArgs e)
         {
+            Program.training.Mode = 3;
             ComplexityChoice complexityChoice = new();
             complexityChoice.Show();
             this.Hide();
@@ -47,6 +50,7 @@ namespace MentalArithmApp1
 
         private void buttonModeChoiceDivision_Click(object sender, EventArgs e)
         {
+            Program.training.Mode = 4;
             ComplexityChoice complexityChoice = new();
             complexityChoice.Show();
             this.Hide();

@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DataClasses;
 
 namespace MentalArithmApp1
 {
     public partial class TrainingPage : Form
     {
+        Time time = new Time(Program.training);
         public TrainingPage()
         {
             InitializeComponent();
@@ -32,6 +34,19 @@ namespace MentalArithmApp1
             ResultPage resultPage = new ResultPage();
             resultPage.Show();
             this.Hide();
+        }
+
+        private void timerTrainingPage_Tick(object sender, EventArgs e)
+        {
+            labelTrainingPageTime.Text = time.ToString();
+            time.Decrement();
+            if (time.IsTimeEnd())
+            {
+                timerTrainingPage.Stop();
+                ResultPage resultPage = new ResultPage();
+                resultPage.Show();
+                this.Hide();
+            }
         }
     }
 }
