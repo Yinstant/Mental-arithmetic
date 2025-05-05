@@ -17,6 +17,18 @@ namespace MentalArithmApp1
         public TrainingPage()
         {
             InitializeComponent();
+            // 
+            // timerTrainingPage
+            // 
+            if (Program.training.TimerTime != 0)
+            {
+                timerTrainingPage.Enabled = true;
+                timerTrainingPage.Interval = 1000;
+                timerTrainingPage.Tick += timerTrainingPage_Tick;
+            }
+            else {
+                labelTrainingPageTime.Text = "--:--";
+            }
         }
 
         private void buttonTrainingPageTo_Click(object sender, EventArgs e)

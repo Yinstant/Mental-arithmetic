@@ -53,7 +53,7 @@ namespace MentalArithmApp1
             buttonTrainingPageToTimeChoice.TabIndex = 0;
             buttonTrainingPageToTimeChoice.Text = "Вернуться к выбору режима";
             buttonTrainingPageToTimeChoice.UseVisualStyleBackColor = true;
-            buttonTrainingPageToTimeChoice.Click += buttonTrainingPageTo_Click;
+            buttonTrainingPageToTimeChoice.Click += buttonTrainingPageToTimeChoice_Click;
             // 
             // buttonTrainingPageEnd
             // 
@@ -108,14 +108,7 @@ namespace MentalArithmApp1
             labelTrainingPageExample.Size = new Size(216, 120);
             labelTrainingPageExample.TabIndex = 5;
             labelTrainingPageExample.Text = "Пример";
-            // 
-            // timerTrainingPage
-            // 
-            if (Program.training.TimerTime != 0) { 
-                timerTrainingPage.Enabled = true;
-                timerTrainingPage.Interval = 1000;
-                timerTrainingPage.Tick += timerTrainingPage_Tick;
-            }
+            
             // 
             // TrainingPage
             // 
