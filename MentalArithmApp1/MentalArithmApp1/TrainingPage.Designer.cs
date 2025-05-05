@@ -118,9 +118,8 @@ namespace MentalArithmApp1
             labelTrainingPageReaction.Font = new Font("Segoe UI", 40F, FontStyle.Bold);
             labelTrainingPageReaction.Location = new Point(460, 68);
             labelTrainingPageReaction.Name = "labelTrainingPageReaction";
-            labelTrainingPageReaction.Size = new Size(56, 89);
+            labelTrainingPageReaction.Size = new Size(0, 89);
             labelTrainingPageReaction.TabIndex = 6;
-            labelTrainingPageReaction.Text = ".";
             // 
             // TrainingPage
             // 

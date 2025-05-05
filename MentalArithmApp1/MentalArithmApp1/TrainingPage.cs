@@ -17,6 +17,7 @@ namespace MentalArithmApp1
         MathTask task;
         public TrainingPage()
         {
+            Program.training.Reset();
             InitializeComponent();
             // 
             // timerTrainingPage

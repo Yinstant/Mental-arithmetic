@@ -68,6 +68,16 @@
             }
         }
 
+        public int CorrectSolved {
+            get { return correctSolved; }
+        }
+
+        public int IncorrectSolved
+        {
+            get { return incorrectSolved; }
+        }
+
+
         public Training() {
             Mode = 1;
             Complexity = 1;
@@ -87,6 +97,11 @@
 
         public void IfIncorrect() {
             incorrectSolved++;
+        }
+
+        public void Reset() {
+            correctSolved = 0;
+            incorrectSolved = 0;
         }
     }
 }

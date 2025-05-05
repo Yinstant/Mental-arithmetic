@@ -14,6 +14,7 @@ namespace MentalArithmApp1
     {
         public ModeChoice()
         {
+            Program.training = new DataClasses.Training();
             InitializeComponent();
         }
 
