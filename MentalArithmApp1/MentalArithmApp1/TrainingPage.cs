@@ -14,6 +14,7 @@ namespace MentalArithmApp1
     public partial class TrainingPage : Form
     {
         Time time = new Time(Program.training);
+        MathTask task;
         public TrainingPage()
         {
             InitializeComponent();
@@ -29,6 +30,9 @@ namespace MentalArithmApp1
             else {
                 labelTrainingPageTime.Text = "--:--";
             }
+
+            task = new(Program.training.Complexity, Program.training.Mode);
+            labelTrainingPageExample.Text = task.ToString();
         }
 
         private void buttonTrainingPageTo_Click(object sender, EventArgs e)
@@ -58,6 +62,38 @@ namespace MentalArithmApp1
                 ResultPage resultPage = new ResultPage();
                 resultPage.Show();
                 this.Hide();
+            }
+        }
+
+        private void input_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == Keys.Enter)
+            {
+                string buf = textBoxTrainingPage.Text;
+                int attempt;
+                bool IsNum = int.TryParse(buf, out attempt);
+
+                textBoxTrainingPage.Text = "";
+                if (IsNum)
+                {
+                    if (task.IsRight(attempt))
+                    {
+                        labelTrainingPageReaction.Text = "Правильно!";
+                        labelTrainingPageReaction.ForeColor = Color.Green;
+                        Program.training.IfCorrect();
+                        task = new(Program.training.Complexity, Program.training.Mode);
+                        labelTrainingPageExample.Text = task.ToString();
+                    }
+                    else {
+                        labelTrainingPageReaction.Text = "Неверно!";
+                        labelTrainingPageReaction.ForeColor = Color.Red;
+                        Program.training.IfIncorrect();
+                    }
+                }
+                else {
+                    labelTrainingPageReaction.Text = "Введите число!";
+                    labelTrainingPageReaction.ForeColor = Color.Orange;
+                }
             }
         }
     }

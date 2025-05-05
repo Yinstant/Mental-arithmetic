@@ -39,6 +39,7 @@ namespace MentalArithmApp1
             textBoxTrainingPage = new TextBox();
             labelTrainingPageExample = new Label();
             timerTrainingPage = new System.Windows.Forms.Timer(components);
+            labelTrainingPageReaction = new Label();
             SuspendLayout();
             // 
             // buttonTrainingPageToTimeChoice
@@ -94,9 +95,11 @@ namespace MentalArithmApp1
             // 
             textBoxTrainingPage.Font = new Font("Segoe UI", 25F);
             textBoxTrainingPage.Location = new Point(306, 413);
+            textBoxTrainingPage.MaxLength = 10;
             textBoxTrainingPage.Name = "textBoxTrainingPage";
             textBoxTrainingPage.Size = new Size(500, 63);
             textBoxTrainingPage.TabIndex = 4;
+            textBoxTrainingPage.KeyDown += input_KeyDown;
             // 
             // labelTrainingPageExample
             // 
@@ -108,7 +111,16 @@ namespace MentalArithmApp1
             labelTrainingPageExample.Size = new Size(216, 120);
             labelTrainingPageExample.TabIndex = 5;
             labelTrainingPageExample.Text = "Пример";
-            
+            // 
+            // labelTrainingPageReaction
+            // 
+            labelTrainingPageReaction.AutoSize = true;
+            labelTrainingPageReaction.Font = new Font("Segoe UI", 40F, FontStyle.Bold);
+            labelTrainingPageReaction.Location = new Point(460, 68);
+            labelTrainingPageReaction.Name = "labelTrainingPageReaction";
+            labelTrainingPageReaction.Size = new Size(56, 89);
+            labelTrainingPageReaction.TabIndex = 6;
+            labelTrainingPageReaction.Text = ".";
             // 
             // TrainingPage
             // 
@@ -116,6 +128,7 @@ namespace MentalArithmApp1
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelTrainingPageReaction);
             Controls.Add(labelTrainingPageExample);
             Controls.Add(textBoxTrainingPage);
             Controls.Add(labelTrainingPageTime);
@@ -137,5 +150,6 @@ namespace MentalArithmApp1
         private TextBox textBoxTrainingPage;
         private Label labelTrainingPageExample;
         private System.Windows.Forms.Timer timerTrainingPage;
+        private Label labelTrainingPageReaction;
     }
 }

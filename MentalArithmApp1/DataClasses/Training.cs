@@ -6,6 +6,10 @@
         private int complexity;
         private int timerTime;
 
+        private int correctSolved;
+        private int incorrectSolved;
+
+
         /*
         По значениям Mode:
         1 - Сложение
@@ -75,6 +79,14 @@
             Mode = mode;
             Complexity = complexity;
             TimerTime = timerTime;
+        }
+
+        public void IfCorrect() {
+            correctSolved++;
+        }
+
+        public void IfIncorrect() {
+            incorrectSolved++;
         }
     }
 }
