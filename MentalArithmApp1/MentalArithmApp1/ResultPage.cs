@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataClasses;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +19,8 @@ namespace MentalArithmApp1
 
             labelResultPageCorrectCnt.Text = $"Количество верно решённых примеров: {Program.training.CorrectSolved}";
             labelResultPageIncorrectCnt.Text = $"Количество неверных попыток: {Program.training.IncorrectSolved}";
+
+            Statistics.SetTrainig(Program.training);
         }
 
         private void buttonResultPageToMenu_Click(object sender, EventArgs e)

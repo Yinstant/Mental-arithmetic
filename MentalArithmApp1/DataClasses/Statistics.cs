@@ -1,0 +1,177 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+
+namespace DataClasses
+{
+    public class Statistics
+    {
+        public int trainingCountGeneral;
+        public int trainingCountAdd, trainingCountSub, trainingCountMult, trainingCountDiv;
+        public int correctCountGeneral;
+        public int correctCountAdd, correctCountSub, correctCountMult, correctCountDiv;
+        public int incorrectCountGeneral;
+        public int incorrectCountAdd, incorrectCountSub, incorrectCountMult, incorrectCountDiv;
+
+        public Statistics() {
+            trainingCountGeneral = 0;
+            trainingCountDiv = 0;
+            trainingCountMult = 0;
+            trainingCountSub = 0;
+            trainingCountAdd = 0;
+
+            correctCountGeneral = 0;
+            correctCountAdd = 0;
+            correctCountSub = 0;
+            correctCountMult = 0;
+            correctCountDiv = 0;
+
+            incorrectCountGeneral = 0;
+            incorrectCountAdd = 0;
+            incorrectCountSub = 0;
+            incorrectCountMult = 0;
+            incorrectCountDiv = 0;
+        }
+
+        public Statistics(
+            int trainingCountGeneral = 0, 
+            int trainingCountAdd = 0, 
+            int trainingCountSub = 0, 
+            int trainingCountMult = 0, 
+            int trainingCountDiv = 0, 
+
+            int correctCountGeneral = 0, 
+            int correctCountAdd = 0, 
+            int correctCountSub = 0, 
+            int correctCountMult = 0, 
+            int correctCountDiv = 0, 
+
+            int incorrectCountGeneral = 0, 
+            int incorrectCountAdd = 0, 
+            int incorrectCountSub = 0, 
+            int incorrectCountMult = 0, 
+            int incorrectCountDiv = 0
+            )
+        {
+            this.trainingCountGeneral = trainingCountGeneral;
+            this.trainingCountAdd = trainingCountAdd;
+            this.trainingCountSub = trainingCountSub;
+            this.trainingCountMult = trainingCountMult;
+            this.trainingCountDiv = trainingCountDiv;
+            this.correctCountGeneral = correctCountGeneral;
+            this.correctCountAdd = correctCountAdd;
+            this.correctCountSub = correctCountSub;
+            this.correctCountMult = correctCountMult;
+            this.correctCountDiv = correctCountDiv;
+            this.incorrectCountGeneral = incorrectCountGeneral;
+            this.incorrectCountAdd = incorrectCountAdd;
+            this.incorrectCountSub = incorrectCountSub;
+            this.incorrectCountMult = incorrectCountMult;
+            this.incorrectCountDiv = incorrectCountDiv;
+        }
+
+        private static int GetVar(string varName) {
+            string path = $"C:\\Mental-arithmetic\\Statistics\\{varName}.txt";
+            if (!File.Exists(path))
+            {
+                //throw new Exception($"Отсутствует файл {varName}.txt");
+                return 0;
+            }
+            else {
+                string fileText = File.ReadAllText(path);
+                int numInfo;
+                if (!int.TryParse(fileText, out numInfo))
+                {
+                    throw new Exception($"Данные файла {varName}.txt не поддаются преобразованию в число");
+                }
+                else {
+                    return numInfo;
+                }
+            }
+        }
+
+        public void Get() {
+            trainingCountGeneral = GetVar("trainingCountGeneral");
+            trainingCountDiv = GetVar("trainingCountDiv");
+            trainingCountMult = GetVar("trainingCountMult");
+            trainingCountSub = GetVar("trainingCountSub");
+            trainingCountAdd = GetVar("trainingCountAdd");
+
+            correctCountGeneral = GetVar("correctCountGeneral");
+            correctCountAdd = GetVar("correctCountAdd");
+            correctCountSub = GetVar("correctCountSub");
+            correctCountMult = GetVar("correctCountMult");
+            correctCountDiv = GetVar("correctCountDiv");
+
+            incorrectCountGeneral = GetVar("incorrectCountGeneral");
+            incorrectCountAdd = GetVar("incorrectCountAdd");
+            incorrectCountSub = GetVar("incorrectCountSub");
+            incorrectCountMult = GetVar("incorrectCountMult");
+            incorrectCountDiv = GetVar("incorrectCountDiv");
+        }
+
+        private static async void SetVar(int var, string varName) {
+            string path = $"C:\\Mental-arithmetic\\Statistics\\{varName}.txt";
+            string dataText = var.ToString();
+            await File.WriteAllTextAsync(path, dataText);
+        }
+
+        public void Set() {
+            SetVar(trainingCountGeneral, "trainingCountGeneral");
+            SetVar(trainingCountDiv, "trainingCountDiv");
+            SetVar(trainingCountMult, "trainingCountMult");
+            SetVar(trainingCountSub, "trainingCountSub");
+            SetVar(trainingCountAdd, "trainingCountAdd");
+
+            SetVar(trainingCountAdd, "trainingCountAdd");
+            SetVar(trainingCountSub, "trainingCountSub");
+            SetVar(trainingCountMult, "trainingCountMult");
+            SetVar(trainingCountDiv, "trainingCountDiv");
+            SetVar(trainingCountGeneral, "trainingCountGeneral");
+
+            SetVar(trainingCountGeneral, "trainingCountGeneral");
+            SetVar(trainingCountAdd, "trainingCountAdd");
+            SetVar(trainingCountSub, "trainingCountSub");
+            SetVar(trainingCountMult, "trainingCountMult");
+            SetVar(trainingCountDiv, "trainingCountDiv");
+        }
+
+        public static void SetTrainig(Training training) {
+            Statistics statistics = new();
+            statistics.Get();
+            statistics.trainingCountGeneral++;
+            statistics.correctCountGeneral += training.CorrectSolved;
+            statistics.incorrectCountGeneral += training.IncorrectSolved;
+
+            if (training.Mode == 1)
+            {
+                statistics.trainingCountAdd++;
+                statistics.correctCountAdd += training.CorrectSolved;
+                statistics.incorrectCountAdd += training.IncorrectSolved;
+            }
+            else if (training.Mode == 2)
+            {
+                statistics.trainingCountSub++;
+                statistics.correctCountSub += training.CorrectSolved;
+                statistics.incorrectCountSub += training.IncorrectSolved;
+
+            }
+            else if (training.Mode == 3)
+            {
+                statistics.trainingCountMult++;
+                statistics.correctCountMult += training.CorrectSolved;
+                statistics.incorrectCountMult += training.IncorrectSolved;
+            }
+            else if (training.Mode == 4)
+            {
+                statistics.trainingCountDiv++;
+                statistics.correctCountDiv += training.CorrectSolved;
+                statistics.incorrectCountDiv += training.IncorrectSolved;
+            }
+            statistics.Set();
+        }
+    }
+}
