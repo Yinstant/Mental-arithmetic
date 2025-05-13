@@ -74,7 +74,10 @@ namespace DataClasses
         }
 
         private static int GetVar(string varName) {
-            string path = $"C:\\Mental-arithmetic\\Statistics\\{varName}.txt";
+            string dir = Directory.GetCurrentDirectory();
+            for (int i = 0; i < 5; i++)
+                dir = Directory.GetParent(dir).FullName;
+            string path = $"{dir}\\Statistics\\{varName}.txt";
             if (!File.Exists(path))
             {
                 //throw new Exception($"Отсутствует файл {varName}.txt");
@@ -113,10 +116,13 @@ namespace DataClasses
             incorrectCountDiv = GetVar("incorrectCountDiv");
         }
 
-        private static async void SetVar(int var, string varName) {
-            string path = $"C:\\Mental-arithmetic\\Statistics\\{varName}.txt";
+        private static void SetVar(int var, string varName) {
+            string dir = Directory.GetCurrentDirectory();
+            for (int i = 0; i < 5; i++)
+                dir = Directory.GetParent(dir).FullName;
+            string path = $"{dir}\\Statistics\\{varName}.txt";
             string dataText = var.ToString();
-            await File.WriteAllTextAsync(path, dataText);
+            File.WriteAllText(path, dataText);
         }
 
         public void Set() {
@@ -126,17 +132,17 @@ namespace DataClasses
             SetVar(trainingCountSub, "trainingCountSub");
             SetVar(trainingCountAdd, "trainingCountAdd");
 
-            SetVar(trainingCountAdd, "trainingCountAdd");
-            SetVar(trainingCountSub, "trainingCountSub");
-            SetVar(trainingCountMult, "trainingCountMult");
-            SetVar(trainingCountDiv, "trainingCountDiv");
-            SetVar(trainingCountGeneral, "trainingCountGeneral");
+            SetVar(correctCountAdd, "correctCountAdd");
+            SetVar(correctCountSub, "correctCountSub");
+            SetVar(correctCountMult, "correctCountMult");
+            SetVar(correctCountDiv, "correctCountDiv");
+            SetVar(correctCountGeneral, "correctCountGeneral");
 
-            SetVar(trainingCountGeneral, "trainingCountGeneral");
-            SetVar(trainingCountAdd, "trainingCountAdd");
-            SetVar(trainingCountSub, "trainingCountSub");
-            SetVar(trainingCountMult, "trainingCountMult");
-            SetVar(trainingCountDiv, "trainingCountDiv");
+            SetVar(incorrectCountGeneral, "incorrectCountGeneral");
+            SetVar(incorrectCountAdd, "incorrectCountAdd");
+            SetVar(incorrectCountSub, "incorrectCountSub");
+            SetVar(incorrectCountMult, "incorrectCountMult");
+            SetVar(incorrectCountDiv, "incorrectCountDiv");
         }
 
         public static void SetTrainig(Training training) {

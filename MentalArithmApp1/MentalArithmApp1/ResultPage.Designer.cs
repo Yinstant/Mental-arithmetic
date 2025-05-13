@@ -35,6 +35,7 @@
             buttonResultPageToMenu = new Button();
             buttonResultPageToModeChoice = new Button();
             panel1 = new Panel();
+            buttonResultPageToStatistics = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -110,18 +111,38 @@
             panel1.Size = new Size(864, 246);
             panel1.TabIndex = 0;
             // 
+            // buttonResultPageToStatistics
+            // 
+            buttonResultPageToStatistics.FlatAppearance.BorderSize = 0;
+            buttonResultPageToStatistics.FlatStyle = FlatStyle.Flat;
+            buttonResultPageToStatistics.Image = (Image)resources.GetObject("buttonResultPageToStatistics.Image");
+            buttonResultPageToStatistics.Location = new Point(415, 457);
+            buttonResultPageToStatistics.Name = "buttonResultPageToStatistics";
+            buttonResultPageToStatistics.Size = new Size(171, 132);
+            buttonResultPageToStatistics.TabIndex = 6;
+            buttonResultPageToStatistics.Text = "Общая статистика";
+            buttonResultPageToStatistics.UseVisualStyleBackColor = true;
+            buttonResultPageToStatistics.Click += buttonResultPageToStatistics_Click;
+            // 
             // ResultPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(buttonResultPageToStatistics);
             Controls.Add(buttonResultPageToModeChoice);
             Controls.Add(buttonResultPageToMenu);
             Controls.Add(labelResultPageHeading);
             Controls.Add(panel1);
+            HelpButton = true;
+            MaximizeBox = false;
+            MaximumSize = new Size(1100, 700);
+            MinimizeBox = false;
+            MinimumSize = new Size(1100, 700);
             Name = "ResultPage";
-            Text = "ResultPage";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Mental arithmetic";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -136,5 +157,6 @@
         private Button buttonResultPageToMenu;
         private Button buttonResultPageToModeChoice;
         private Panel panel1;
+        private Button buttonResultPageToStatistics;
     }
 }

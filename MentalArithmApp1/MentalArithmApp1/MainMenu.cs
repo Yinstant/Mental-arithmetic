@@ -6,6 +6,8 @@ namespace MentalArithmApp1
         public MainMenu()
         {
             InitializeComponent();
+
+            this.AcceptButton = buttonMainMenuStart;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -27,7 +29,9 @@ namespace MentalArithmApp1
 
         private void buttonMainMenuStatistics_Click(object sender, EventArgs e)
         {
-            
+            StatisticPage statisticPage = new();
+            statisticPage.Show();
+            this.Hide();
         }
 
         private void buttonMainMenuManual_Click(object sender, EventArgs e)

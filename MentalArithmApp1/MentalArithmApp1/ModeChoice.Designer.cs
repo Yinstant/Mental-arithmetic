@@ -138,9 +138,14 @@
             Controls.Add(buttonModeChoiceAddition);
             Controls.Add(buttonModeChoiceSettings);
             Controls.Add(labelModeChoiceHeading);
+            HelpButton = true;
+            MaximizeBox = false;
+            MaximumSize = new Size(1100, 700);
+            MinimizeBox = false;
+            MinimumSize = new Size(1100, 700);
             Name = "ModeChoice";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "ModeChoice";
+            Text = "Mental arithmetic";
             ResumeLayout(false);
             PerformLayout();
         }

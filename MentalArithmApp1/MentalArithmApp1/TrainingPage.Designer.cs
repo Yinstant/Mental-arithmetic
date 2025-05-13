@@ -134,8 +134,14 @@ namespace MentalArithmApp1
             Controls.Add(buttonTrainingPageSettings);
             Controls.Add(buttonTrainingPageEnd);
             Controls.Add(buttonTrainingPageToTimeChoice);
+            HelpButton = true;
+            MaximizeBox = false;
+            MaximumSize = new Size(1100, 700);
+            MinimizeBox = false;
+            MinimumSize = new Size(1100, 700);
             Name = "TrainingPage";
-            Text = "TrainingPage";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Mental arithmetic";
             ResumeLayout(false);
             PerformLayout();
         }

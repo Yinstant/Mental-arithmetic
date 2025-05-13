@@ -137,9 +137,14 @@
             Controls.Add(buttonComplexityChoiceMedium);
             Controls.Add(buttonComplexityChoiceEasy);
             Controls.Add(labelComplexityChoiceHeading);
+            HelpButton = true;
+            MaximizeBox = false;
+            MaximumSize = new Size(1100, 700);
+            MinimizeBox = false;
+            MinimumSize = new Size(1100, 700);
             Name = "ComplexityChoice";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "ComplexityChoice";
+            Text = "Mental arithmetic";
             ResumeLayout(false);
             PerformLayout();
         }

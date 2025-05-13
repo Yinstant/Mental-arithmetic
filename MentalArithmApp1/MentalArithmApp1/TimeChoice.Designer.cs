@@ -61,8 +61,7 @@
             buttonTimeChoiceSettings.UseVisualStyleBackColor = true;
             // 
             // buttonTimeChoiceNoTime
-            //
-            buttonTimeChoiceNoTime.Click += buttonTimeChoiceNoTime_Click;
+            // 
             buttonTimeChoiceNoTime.FlatAppearance.BorderSize = 0;
             buttonTimeChoiceNoTime.FlatStyle = FlatStyle.Flat;
             buttonTimeChoiceNoTime.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
@@ -73,10 +72,10 @@
             buttonTimeChoiceNoTime.TabIndex = 2;
             buttonTimeChoiceNoTime.Text = "Без ограничений";
             buttonTimeChoiceNoTime.UseVisualStyleBackColor = true;
+            buttonTimeChoiceNoTime.Click += buttonTimeChoiceNoTime_Click;
             // 
             // buttonTimeChoiceOneMinute
             // 
-            buttonTimeChoiceOneMinute.Click += buttonTimeChoiceOneMinute_Click;
             buttonTimeChoiceOneMinute.FlatAppearance.BorderSize = 0;
             buttonTimeChoiceOneMinute.FlatStyle = FlatStyle.Flat;
             buttonTimeChoiceOneMinute.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
@@ -87,10 +86,10 @@
             buttonTimeChoiceOneMinute.TabIndex = 3;
             buttonTimeChoiceOneMinute.Text = "1 минута";
             buttonTimeChoiceOneMinute.UseVisualStyleBackColor = true;
+            buttonTimeChoiceOneMinute.Click += buttonTimeChoiceOneMinute_Click;
             // 
             // buttonTimeChoiceThreeMinute
             // 
-            buttonTimeChoiceThreeMinute.Click += buttonTimeChoiceThreeMinute_Click;
             buttonTimeChoiceThreeMinute.FlatAppearance.BorderSize = 0;
             buttonTimeChoiceThreeMinute.FlatStyle = FlatStyle.Flat;
             buttonTimeChoiceThreeMinute.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
@@ -101,10 +100,10 @@
             buttonTimeChoiceThreeMinute.TabIndex = 4;
             buttonTimeChoiceThreeMinute.Text = "3 минуты";
             buttonTimeChoiceThreeMinute.UseVisualStyleBackColor = true;
+            buttonTimeChoiceThreeMinute.Click += buttonTimeChoiceThreeMinute_Click;
             // 
             // buttonTimeChoiceFiveMinute
             // 
-            buttonTimeChoiceFiveMinute.Click += buttonTimeChoiceFiveMinute_Click;
             buttonTimeChoiceFiveMinute.FlatAppearance.BorderSize = 0;
             buttonTimeChoiceFiveMinute.FlatStyle = FlatStyle.Flat;
             buttonTimeChoiceFiveMinute.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
@@ -115,10 +114,10 @@
             buttonTimeChoiceFiveMinute.TabIndex = 5;
             buttonTimeChoiceFiveMinute.Text = "5 минут";
             buttonTimeChoiceFiveMinute.UseVisualStyleBackColor = true;
+            buttonTimeChoiceFiveMinute.Click += buttonTimeChoiceFiveMinute_Click;
             // 
             // buttonTimeChoice15Minute
             // 
-            buttonTimeChoice15Minute.Click += buttonTimeChoice15Minute_Click;
             buttonTimeChoice15Minute.FlatAppearance.BorderSize = 0;
             buttonTimeChoice15Minute.FlatStyle = FlatStyle.Flat;
             buttonTimeChoice15Minute.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
@@ -129,10 +128,10 @@
             buttonTimeChoice15Minute.TabIndex = 6;
             buttonTimeChoice15Minute.Text = "15 минут";
             buttonTimeChoice15Minute.UseVisualStyleBackColor = true;
+            buttonTimeChoice15Minute.Click += buttonTimeChoice15Minute_Click;
             // 
             // buttonTimeChoiceToBack
             // 
-            buttonTimeChoiceToBack.Click += buttonTimeChoiceToBack_Click;
             buttonTimeChoiceToBack.FlatAppearance.BorderSize = 0;
             buttonTimeChoiceToBack.FlatStyle = FlatStyle.Flat;
             buttonTimeChoiceToBack.Image = (Image)resources.GetObject("buttonTimeChoiceToBack.Image");
@@ -141,10 +140,10 @@
             buttonTimeChoiceToBack.Size = new Size(151, 103);
             buttonTimeChoiceToBack.TabIndex = 7;
             buttonTimeChoiceToBack.UseVisualStyleBackColor = true;
+            buttonTimeChoiceToBack.Click += buttonTimeChoiceToBack_Click;
             // 
             // buttonTimeChoiceToMenu
             // 
-            buttonTimeChoiceToMenu.Click += buttonTimeChoiceToMenu_Click;
             buttonTimeChoiceToMenu.FlatAppearance.BorderSize = 0;
             buttonTimeChoiceToMenu.FlatStyle = FlatStyle.Flat;
             buttonTimeChoiceToMenu.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
@@ -155,6 +154,7 @@
             buttonTimeChoiceToMenu.TabIndex = 8;
             buttonTimeChoiceToMenu.Text = "Вернуться в меню";
             buttonTimeChoiceToMenu.UseVisualStyleBackColor = true;
+            buttonTimeChoiceToMenu.Click += buttonTimeChoiceToMenu_Click;
             // 
             // TimeChoice
             // 
@@ -171,8 +171,14 @@
             Controls.Add(buttonTimeChoiceNoTime);
             Controls.Add(buttonTimeChoiceSettings);
             Controls.Add(labelTimeChoiceHeading);
+            HelpButton = true;
+            MaximizeBox = false;
+            MaximumSize = new Size(1100, 700);
+            MinimizeBox = false;
+            MinimumSize = new Size(1100, 700);
             Name = "TimeChoice";
-            Text = "TimeChoice";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Mental arithmetic";
             Load += TimeChoice_Load;
             ResumeLayout(false);
             PerformLayout();

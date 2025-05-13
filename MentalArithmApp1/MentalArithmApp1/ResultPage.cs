@@ -36,5 +36,12 @@ namespace MentalArithmApp1
             modeChoice.Show();
             this.Hide();
         }
+
+        private void buttonResultPageToStatistics_Click(object sender, EventArgs e)
+        {
+            StatisticPage statisticPage = new();
+            statisticPage.Show();
+            this.Hide();
+        }
     }
 }

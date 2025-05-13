@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StatisticPage));
             labelStatisticPageHeading = new Label();
             labelStatisticPageCountGeneral = new Label();
             labelStatisticPageCorrectGeneral = new Label();
@@ -44,6 +45,7 @@
             labelStatisticPageMistakeMult = new Label();
             labelStatisticPageMistakeSub = new Label();
             labelStatisticPageMistakeAdd = new Label();
+            buttonStatisticPageToMenu = new Button();
             SuspendLayout();
             // 
             // labelStatisticPageHeading
@@ -206,12 +208,26 @@
             labelStatisticPageMistakeAdd.TabIndex = 12;
             labelStatisticPageMistakeAdd.Text = "На сложение: ";
             // 
+            // buttonStatisticPageToMenu
+            // 
+            buttonStatisticPageToMenu.FlatAppearance.BorderSize = 0;
+            buttonStatisticPageToMenu.FlatStyle = FlatStyle.Flat;
+            buttonStatisticPageToMenu.Image = (Image)resources.GetObject("buttonStatisticPageToMenu.Image");
+            buttonStatisticPageToMenu.Location = new Point(812, 470);
+            buttonStatisticPageToMenu.Name = "buttonStatisticPageToMenu";
+            buttonStatisticPageToMenu.Size = new Size(173, 136);
+            buttonStatisticPageToMenu.TabIndex = 16;
+            buttonStatisticPageToMenu.Text = "В главное меню";
+            buttonStatisticPageToMenu.UseVisualStyleBackColor = true;
+            buttonStatisticPageToMenu.Click += buttonStatisticPageToMenu_Click;
+            // 
             // StatisticPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(buttonStatisticPageToMenu);
             Controls.Add(labelStatisticPageMistakeDiv);
             Controls.Add(labelStatisticPageMistakeMult);
             Controls.Add(labelStatisticPageMistakeSub);
@@ -228,8 +244,14 @@
             Controls.Add(labelStatisticPageCorrectGeneral);
             Controls.Add(labelStatisticPageCountGeneral);
             Controls.Add(labelStatisticPageHeading);
+            HelpButton = true;
+            MaximizeBox = false;
+            MaximumSize = new Size(1100, 700);
+            MinimizeBox = false;
+            MinimumSize = new Size(1100, 700);
             Name = "StatisticPage";
-            Text = "StatisticPage";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Mental arithmetic";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -252,5 +274,6 @@
         private Label labelStatisticPageMistakeMult;
         private Label labelStatisticPageMistakeSub;
         private Label labelStatisticPageMistakeAdd;
+        private Button buttonStatisticPageToMenu;
     }
 }

@@ -118,8 +118,8 @@
             // 
             // MainMenu
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
+            AutoValidate = AutoValidate.EnablePreventFocusChange;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
             Controls.Add(labelMainMenuHeading);
@@ -128,6 +128,11 @@
             Controls.Add(buttonMainMenuStatistics);
             Controls.Add(buttonMainMenuTextbook);
             Controls.Add(buttonMainMenuStart);
+            HelpButton = true;
+            MaximizeBox = false;
+            MaximumSize = new Size(1100, 700);
+            MinimizeBox = false;
+            MinimumSize = new Size(1100, 700);
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
