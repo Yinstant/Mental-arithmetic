@@ -254,6 +254,8 @@
             Text = "Mental arithmetic";
             ResumeLayout(false);
             PerformLayout();
+            HelpButtonClicked += StatisticPage_HelpButtonClicked;
+            HelpRequested += StatisticPage_HelpRequested;
         }
 
         #endregion

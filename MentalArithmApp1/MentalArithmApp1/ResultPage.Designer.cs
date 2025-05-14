@@ -147,6 +147,8 @@
             panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
+            HelpButtonClicked += ResultPage_HelpButtonClicked;
+            HelpRequested += ResultPage_HelpRequested;
         }
 
         #endregion

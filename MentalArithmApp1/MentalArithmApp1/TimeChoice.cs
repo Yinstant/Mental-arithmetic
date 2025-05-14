@@ -71,5 +71,15 @@ namespace MentalArithmApp1
             trainingPage.Show();
             this.Hide();
         }
+
+        private void TimeChoice_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Help.ShowHelp(this, "Руководство_пользователя.chm");
+        }
+
+        private void TimeChoice_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            Help.ShowHelp(this, "Руководство_пользователя.chm", HelpNavigator.Topic, "opisanie_operatsij.htm");
+        }
     }
 }

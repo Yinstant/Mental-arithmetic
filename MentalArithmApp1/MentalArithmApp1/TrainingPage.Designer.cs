@@ -144,6 +144,8 @@ namespace MentalArithmApp1
             Text = "Mental arithmetic";
             ResumeLayout(false);
             PerformLayout();
+            HelpButtonClicked += TrainingPage_HelpButtonClicked;
+            HelpRequested += TrainingPage_HelpRequested;
         }
 
         #endregion

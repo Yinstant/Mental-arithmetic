@@ -182,6 +182,8 @@
             Load += TimeChoice_Load;
             ResumeLayout(false);
             PerformLayout();
+            HelpButtonClicked += TimeChoice_HelpButtonClicked;
+            HelpRequested += TimeChoice_HelpRequested;
         }
 
         #endregion

@@ -44,5 +44,15 @@ namespace MentalArithmApp1
             mainMenu.Show();
             this.Hide();
         }
+
+        private void StatisticPage_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Help.ShowHelp(this, "Руководство_пользователя.chm");
+        }
+
+        private void StatisticPage_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            Help.ShowHelp(this, "Руководство_пользователя.chm", HelpNavigator.Topic, "avarijnye_situatsii.htm");
+        }
     }
 }

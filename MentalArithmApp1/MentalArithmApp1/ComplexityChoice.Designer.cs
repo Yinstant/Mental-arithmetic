@@ -147,6 +147,8 @@
             Text = "Mental arithmetic";
             ResumeLayout(false);
             PerformLayout();
+            HelpButtonClicked += ComplexityChoice_HelpButtonClicked;
+            HelpRequested += ComplexityChoice_HelpRequested;
         }
 
         #endregion

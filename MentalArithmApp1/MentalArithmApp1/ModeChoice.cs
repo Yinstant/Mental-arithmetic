@@ -56,5 +56,15 @@ namespace MentalArithmApp1
             complexityChoice.Show();
             this.Hide();
         }
+
+        private void ModeChoice_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Help.ShowHelp(this, "Руководство_пользователя.chm");
+        }
+
+        private void ModeChoice_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            Help.ShowHelp(this, "Руководство_пользователя.chm", HelpNavigator.Topic, "opisanie_operatsij.htm");
+        }
     }
 }

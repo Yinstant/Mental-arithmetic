@@ -118,6 +118,7 @@
             // 
             // MainMenu
             // 
+            AcceptButton = buttonMainMenuStart;
             AutoScaleMode = AutoScaleMode.None;
             AutoValidate = AutoValidate.EnablePreventFocusChange;
             BackColor = Color.FromArgb(195, 215, 255);
@@ -136,7 +137,8 @@
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
-            Load += Form1_Load;
+            HelpButtonClicked += MainMenu_HelpButtonClicked;
+            HelpRequested += MainMenu_HelpRequested;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -6,13 +6,6 @@ namespace MentalArithmApp1
         public MainMenu()
         {
             InitializeComponent();
-
-            this.AcceptButton = buttonMainMenuStart;
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void buttonMainMenuStart_Click(object sender, EventArgs e)
@@ -24,7 +17,7 @@ namespace MentalArithmApp1
 
         private void buttonMainMenuTextbook_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void buttonMainMenuStatistics_Click(object sender, EventArgs e)
@@ -36,12 +29,22 @@ namespace MentalArithmApp1
 
         private void buttonMainMenuManual_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void buttonMainMenuSettings_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void MainMenu_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            Help.ShowHelp(this, "Руководство_пользователя.chm");
+        }
+
+        private void MainMenu_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            Help.ShowHelp(this, "Руководство_пользователя.chm", HelpNavigator.Topic, "rekomendatsii_po_osvoeniyu.htm");
         }
     }
 }
