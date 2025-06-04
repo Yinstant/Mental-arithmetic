@@ -145,10 +145,11 @@
             Name = "ComplexityChoice";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
+            HelpButtonClicked += ComplexityChoice_HelpButtonClicked;
+            FormClosed += ComplexityChoice_FormClosed;
+            HelpRequested += ComplexityChoice_HelpRequested;
             ResumeLayout(false);
             PerformLayout();
-            HelpButtonClicked += ComplexityChoice_HelpButtonClicked;
-            HelpRequested += ComplexityChoice_HelpRequested;
         }
 
         #endregion

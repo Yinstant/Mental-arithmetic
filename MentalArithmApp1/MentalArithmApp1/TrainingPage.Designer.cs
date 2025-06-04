@@ -142,10 +142,11 @@ namespace MentalArithmApp1
             Name = "TrainingPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
+            HelpButtonClicked += TrainingPage_HelpButtonClicked;
+            FormClosed += TrainingPage_FormClosed;
+            HelpRequested += TrainingPage_HelpRequested;
             ResumeLayout(false);
             PerformLayout();
-            HelpButtonClicked += TrainingPage_HelpButtonClicked;
-            HelpRequested += TrainingPage_HelpRequested;
         }
 
         #endregion

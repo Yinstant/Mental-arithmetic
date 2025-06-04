@@ -179,11 +179,12 @@
             Name = "TimeChoice";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
+            HelpButtonClicked += TimeChoice_HelpButtonClicked;
+            FormClosed += TimeChoice_FormClosed;
             Load += TimeChoice_Load;
+            HelpRequested += TimeChoice_HelpRequested;
             ResumeLayout(false);
             PerformLayout();
-            HelpButtonClicked += TimeChoice_HelpButtonClicked;
-            HelpRequested += TimeChoice_HelpRequested;
         }
 
         #endregion

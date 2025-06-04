@@ -252,10 +252,11 @@
             Name = "StatisticPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
+            HelpButtonClicked += StatisticPage_HelpButtonClicked;
+            FormClosed += StatisticPage_FormClosed;
+            HelpRequested += StatisticPage_HelpRequested;
             ResumeLayout(false);
             PerformLayout();
-            HelpButtonClicked += StatisticPage_HelpButtonClicked;
-            HelpRequested += StatisticPage_HelpRequested;
         }
 
         #endregion

@@ -63,5 +63,10 @@ namespace MentalArithmApp1
         {
             Help.ShowHelp(this, "Руководство_пользователя.chm", HelpNavigator.Topic, "opisanie_operatsij.htm");
         }
+
+        private void ComplexityChoice_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

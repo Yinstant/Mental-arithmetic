@@ -28,7 +28,8 @@ namespace MentalArithmApp1
                 timerTrainingPage.Interval = 1000;
                 timerTrainingPage.Tick += timerTrainingPage_Tick;
             }
-            else {
+            else
+            {
                 labelTrainingPageTime.Text = "--:--";
             }
 
@@ -85,13 +86,15 @@ namespace MentalArithmApp1
                         task = new(Program.training.Complexity, Program.training.Mode);
                         labelTrainingPageExample.Text = task.ToString();
                     }
-                    else {
+                    else
+                    {
                         labelTrainingPageReaction.Text = "Неверно!";
                         labelTrainingPageReaction.ForeColor = Color.Red;
                         Program.training.IfIncorrect();
                     }
                 }
-                else {
+                else
+                {
                     labelTrainingPageReaction.Text = "Введите число!";
                     labelTrainingPageReaction.ForeColor = Color.Orange;
                 }
@@ -106,6 +109,11 @@ namespace MentalArithmApp1
         private void TrainingPage_HelpRequested(object sender, HelpEventArgs hlpevent)
         {
             Help.ShowHelp(this, "Руководство_пользователя.chm", HelpNavigator.Topic, "avarijnye_situatsii.htm");
+        }
+
+        private void TrainingPage_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

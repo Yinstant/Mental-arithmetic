@@ -32,7 +32,6 @@
             buttonMainMenuStart = new Button();
             buttonMainMenuTextbook = new Button();
             buttonMainMenuStatistics = new Button();
-            buttonMainMenuManual = new Button();
             buttonMainMenuSettings = new Button();
             labelMainMenuHeading = new Label();
             SuspendLayout();
@@ -79,20 +78,6 @@
             buttonMainMenuStatistics.UseVisualStyleBackColor = false;
             buttonMainMenuStatistics.Click += buttonMainMenuStatistics_Click;
             // 
-            // buttonMainMenuManual
-            // 
-            buttonMainMenuManual.BackColor = Color.FromArgb(195, 215, 255);
-            buttonMainMenuManual.FlatAppearance.BorderSize = 0;
-            buttonMainMenuManual.FlatStyle = FlatStyle.Flat;
-            buttonMainMenuManual.Image = (Image)resources.GetObject("buttonMainMenuManual.Image");
-            buttonMainMenuManual.Location = new Point(388, 472);
-            buttonMainMenuManual.Name = "buttonMainMenuManual";
-            buttonMainMenuManual.Size = new Size(281, 68);
-            buttonMainMenuManual.TabIndex = 3;
-            buttonMainMenuManual.Text = "Инструкция";
-            buttonMainMenuManual.UseVisualStyleBackColor = false;
-            buttonMainMenuManual.Click += buttonMainMenuManual_Click;
-            // 
             // buttonMainMenuSettings
             // 
             buttonMainMenuSettings.FlatAppearance.BorderSize = 0;
@@ -125,7 +110,6 @@
             ClientSize = new Size(1082, 653);
             Controls.Add(labelMainMenuHeading);
             Controls.Add(buttonMainMenuSettings);
-            Controls.Add(buttonMainMenuManual);
             Controls.Add(buttonMainMenuStatistics);
             Controls.Add(buttonMainMenuTextbook);
             Controls.Add(buttonMainMenuStart);
@@ -138,6 +122,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
             HelpButtonClicked += MainMenu_HelpButtonClicked;
+            FormClosed += MainMenu_FormClosed;
             HelpRequested += MainMenu_HelpRequested;
             ResumeLayout(false);
             PerformLayout();
@@ -148,7 +133,6 @@
         private Button buttonMainMenuStart;
         private Button buttonMainMenuTextbook;
         private Button buttonMainMenuStatistics;
-        private Button buttonMainMenuManual;
         private Button buttonMainMenuSettings;
         private Label labelMainMenuHeading;
     }

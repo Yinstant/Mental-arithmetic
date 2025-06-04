@@ -146,10 +146,12 @@
             Name = "ModeChoice";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
+            HelpButtonClicked += ModeChoice_HelpButtonClicked;
+            FormClosed += ModeChoice_FormClosed;
+            Load += ModeChoice_Load;
+            HelpRequested += ModeChoice_HelpRequested;
             ResumeLayout(false);
             PerformLayout();
-            HelpButtonClicked += ModeChoice_HelpButtonClicked;
-            HelpRequested += ModeChoice_HelpRequested;
         }
 
         #endregion

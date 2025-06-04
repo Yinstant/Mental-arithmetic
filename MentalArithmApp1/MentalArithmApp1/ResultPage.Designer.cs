@@ -143,12 +143,13 @@
             Name = "ResultPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
+            HelpButtonClicked += ResultPage_HelpButtonClicked;
+            FormClosed += ResultPage_FormClosed;
+            HelpRequested += ResultPage_HelpRequested;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
-            HelpButtonClicked += ResultPage_HelpButtonClicked;
-            HelpRequested += ResultPage_HelpRequested;
         }
 
         #endregion

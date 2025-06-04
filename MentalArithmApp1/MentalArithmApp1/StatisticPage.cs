@@ -54,5 +54,10 @@ namespace MentalArithmApp1
         {
             Help.ShowHelp(this, "Руководство_пользователя.chm", HelpNavigator.Topic, "avarijnye_situatsii.htm");
         }
+
+        private void StatisticPage_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

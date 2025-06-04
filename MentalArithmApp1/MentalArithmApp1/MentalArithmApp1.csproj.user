@@ -16,6 +16,12 @@
     <Compile Update="StatisticPage.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="TextbookChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TextbookPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TimeChoice.cs">
       <SubType>Form</SubType>
     </Compile>
