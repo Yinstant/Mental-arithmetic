@@ -98,6 +98,7 @@
             buttonComplexityChoiceSettings.Size = new Size(90, 77);
             buttonComplexityChoiceSettings.TabIndex = 4;
             buttonComplexityChoiceSettings.UseVisualStyleBackColor = true;
+            buttonComplexityChoiceSettings.Click += buttonComplexityChoiceSettings_Click;
             // 
             // buttonComplexityChoiceToBack
             // 

@@ -113,6 +113,7 @@
             buttonTextbookChoiceSettings.Size = new Size(86, 76);
             buttonTextbookChoiceSettings.TabIndex = 8;
             buttonTextbookChoiceSettings.UseVisualStyleBackColor = true;
+            buttonTextbookChoiceSettings.Click += buttonTextbookChoiceSettings_Click;
             // 
             // labelTextbookChoiceHeading
             // 

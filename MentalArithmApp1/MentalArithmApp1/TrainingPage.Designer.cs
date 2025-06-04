@@ -80,6 +80,7 @@ namespace MentalArithmApp1
             buttonTrainingPageSettings.Size = new Size(119, 91);
             buttonTrainingPageSettings.TabIndex = 2;
             buttonTrainingPageSettings.UseVisualStyleBackColor = true;
+            buttonTrainingPageSettings.Click += buttonTrainingPageSettings_Click;
             // 
             // labelTrainingPageTime
             // 

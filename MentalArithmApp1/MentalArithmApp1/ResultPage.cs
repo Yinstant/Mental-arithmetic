@@ -58,5 +58,10 @@ namespace MentalArithmApp1
         {
             Application.Exit();
         }
+
+        private void buttonResultPageSettings_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

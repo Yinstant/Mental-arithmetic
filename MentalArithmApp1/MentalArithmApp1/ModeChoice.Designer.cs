@@ -59,6 +59,7 @@
             buttonModeChoiceSettings.Size = new Size(86, 76);
             buttonModeChoiceSettings.TabIndex = 1;
             buttonModeChoiceSettings.UseVisualStyleBackColor = true;
+            buttonModeChoiceSettings.Click += buttonModeChoiceSettings_Click;
             // 
             // buttonModeChoiceAddition
             // 

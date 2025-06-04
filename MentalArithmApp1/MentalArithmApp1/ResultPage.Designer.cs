@@ -36,6 +36,7 @@
             buttonResultPageToModeChoice = new Button();
             panel1 = new Panel();
             buttonResultPageToStatistics = new Button();
+            buttonResultPageSettings = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -124,12 +125,25 @@
             buttonResultPageToStatistics.UseVisualStyleBackColor = true;
             buttonResultPageToStatistics.Click += buttonResultPageToStatistics_Click;
             // 
+            // buttonResultPageSettings
+            // 
+            buttonResultPageSettings.FlatAppearance.BorderSize = 0;
+            buttonResultPageSettings.FlatStyle = FlatStyle.Flat;
+            buttonResultPageSettings.Image = (Image)resources.GetObject("buttonResultPageSettings.Image");
+            buttonResultPageSettings.Location = new Point(949, 29);
+            buttonResultPageSettings.Name = "buttonResultPageSettings";
+            buttonResultPageSettings.Size = new Size(86, 76);
+            buttonResultPageSettings.TabIndex = 7;
+            buttonResultPageSettings.UseVisualStyleBackColor = true;
+            buttonResultPageSettings.Click += buttonResultPageSettings_Click;
+            // 
             // ResultPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(buttonResultPageSettings);
             Controls.Add(buttonResultPageToStatistics);
             Controls.Add(buttonResultPageToModeChoice);
             Controls.Add(buttonResultPageToMenu);
@@ -161,5 +175,6 @@
         private Button buttonResultPageToModeChoice;
         private Panel panel1;
         private Button buttonResultPageToStatistics;
+        private Button buttonResultPageSettings;
     }
 }

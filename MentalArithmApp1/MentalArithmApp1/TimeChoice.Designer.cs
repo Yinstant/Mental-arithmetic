@@ -59,6 +59,7 @@
             buttonTimeChoiceSettings.Size = new Size(94, 68);
             buttonTimeChoiceSettings.TabIndex = 1;
             buttonTimeChoiceSettings.UseVisualStyleBackColor = true;
+            buttonTimeChoiceSettings.Click += buttonTimeChoiceSettings_Click;
             // 
             // buttonTimeChoiceNoTime
             // 

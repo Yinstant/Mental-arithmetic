@@ -46,6 +46,7 @@
             labelStatisticPageMistakeSub = new Label();
             labelStatisticPageMistakeAdd = new Label();
             buttonStatisticPageToMenu = new Button();
+            buttonStatisticPageSettings = new Button();
             SuspendLayout();
             // 
             // labelStatisticPageHeading
@@ -221,12 +222,25 @@
             buttonStatisticPageToMenu.UseVisualStyleBackColor = true;
             buttonStatisticPageToMenu.Click += buttonStatisticPageToMenu_Click;
             // 
+            // buttonStatisticPageSettings
+            // 
+            buttonStatisticPageSettings.FlatAppearance.BorderSize = 0;
+            buttonStatisticPageSettings.FlatStyle = FlatStyle.Flat;
+            buttonStatisticPageSettings.Image = (Image)resources.GetObject("buttonStatisticPageSettings.Image");
+            buttonStatisticPageSettings.Location = new Point(961, 32);
+            buttonStatisticPageSettings.Name = "buttonStatisticPageSettings";
+            buttonStatisticPageSettings.Size = new Size(86, 76);
+            buttonStatisticPageSettings.TabIndex = 17;
+            buttonStatisticPageSettings.UseVisualStyleBackColor = true;
+            buttonStatisticPageSettings.Click += buttonStatisticPageSettings_Click;
+            // 
             // StatisticPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(buttonStatisticPageSettings);
             Controls.Add(buttonStatisticPageToMenu);
             Controls.Add(labelStatisticPageMistakeDiv);
             Controls.Add(labelStatisticPageMistakeMult);
@@ -278,5 +292,6 @@
         private Label labelStatisticPageMistakeSub;
         private Label labelStatisticPageMistakeAdd;
         private Button buttonStatisticPageToMenu;
+        private Button buttonStatisticPageSettings;
     }
 }

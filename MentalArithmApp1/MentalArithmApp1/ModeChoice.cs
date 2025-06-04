@@ -76,5 +76,12 @@ namespace MentalArithmApp1
         {
             Application.Exit();
         }
+
+        private void buttonModeChoiceSettings_Click(object sender, EventArgs e)
+        {
+            SettingsPage settingsPage = new();
+            settingsPage.Show();
+            this.Hide();
+        }
     }
 }

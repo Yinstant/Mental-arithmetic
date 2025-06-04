@@ -34,6 +34,7 @@
             buttonTextbookPageToNext = new Button();
             buttonTextbookPageToMenu = new Button();
             pictureBoxTextbookPage = new PictureBox();
+            buttonTextbookPageSettings = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBoxTextbookPage).BeginInit();
             SuspendLayout();
             // 
@@ -94,12 +95,25 @@
             pictureBoxTextbookPage.TabIndex = 9;
             pictureBoxTextbookPage.TabStop = false;
             // 
+            // buttonTextbookPageSettings
+            // 
+            buttonTextbookPageSettings.FlatAppearance.BorderSize = 0;
+            buttonTextbookPageSettings.FlatStyle = FlatStyle.Flat;
+            buttonTextbookPageSettings.Image = (Image)resources.GetObject("buttonTextbookPageSettings.Image");
+            buttonTextbookPageSettings.Location = new Point(964, 30);
+            buttonTextbookPageSettings.Name = "buttonTextbookPageSettings";
+            buttonTextbookPageSettings.Size = new Size(86, 76);
+            buttonTextbookPageSettings.TabIndex = 10;
+            buttonTextbookPageSettings.UseVisualStyleBackColor = true;
+            buttonTextbookPageSettings.Click += buttonTextbookPageSettings_Click;
+            // 
             // TextbookPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(buttonTextbookPageSettings);
             Controls.Add(pictureBoxTextbookPage);
             Controls.Add(buttonTextbookPageToMenu);
             Controls.Add(buttonTextbookPageToNext);
@@ -126,5 +140,6 @@
         private Button buttonTextbookPageToNext;
         private Button buttonTextbookPageToMenu;
         private PictureBox pictureBoxTextbookPage;
+        private Button buttonTextbookPageSettings;
     }
 }

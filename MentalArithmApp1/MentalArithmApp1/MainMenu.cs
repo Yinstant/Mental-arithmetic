@@ -29,14 +29,11 @@ namespace MentalArithmApp1
             this.Hide();
         }
 
-        private void buttonMainMenuManual_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonMainMenuSettings_Click(object sender, EventArgs e)
         {
-
+            SettingsPage settingsPage = new();
+            settingsPage.Show();
+            this.Hide();
         }
 
         private void MainMenu_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
