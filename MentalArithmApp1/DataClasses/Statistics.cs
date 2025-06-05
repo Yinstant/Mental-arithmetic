@@ -179,5 +179,10 @@ namespace DataClasses
             }
             statistics.Set();
         }
+
+        public static void DeleteStat() {
+            Statistics statistics = new();
+            statistics.Set();
+        }
     }
 }

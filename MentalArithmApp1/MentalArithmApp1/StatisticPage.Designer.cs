@@ -47,6 +47,7 @@
             labelStatisticPageMistakeAdd = new Label();
             buttonStatisticPageToMenu = new Button();
             buttonStatisticPageSettings = new Button();
+            buttonStatisticPageDelete = new Button();
             SuspendLayout();
             // 
             // labelStatisticPageHeading
@@ -234,12 +235,26 @@
             buttonStatisticPageSettings.UseVisualStyleBackColor = true;
             buttonStatisticPageSettings.Click += buttonStatisticPageSettings_Click;
             // 
+            // buttonStatisticPageDelete
+            // 
+            buttonStatisticPageDelete.FlatAppearance.BorderSize = 0;
+            buttonStatisticPageDelete.FlatStyle = FlatStyle.Flat;
+            buttonStatisticPageDelete.Image = (Image)resources.GetObject("buttonStatisticPageDelete.Image");
+            buttonStatisticPageDelete.Location = new Point(564, 470);
+            buttonStatisticPageDelete.Name = "buttonStatisticPageDelete";
+            buttonStatisticPageDelete.Size = new Size(173, 136);
+            buttonStatisticPageDelete.TabIndex = 18;
+            buttonStatisticPageDelete.Text = "Удалить статистику";
+            buttonStatisticPageDelete.UseVisualStyleBackColor = true;
+            buttonStatisticPageDelete.Click += buttonStatisticPageDelete_Click;
+            // 
             // StatisticPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(buttonStatisticPageDelete);
             Controls.Add(buttonStatisticPageSettings);
             Controls.Add(buttonStatisticPageToMenu);
             Controls.Add(labelStatisticPageMistakeDiv);
@@ -293,5 +308,6 @@
         private Label labelStatisticPageMistakeAdd;
         private Button buttonStatisticPageToMenu;
         private Button buttonStatisticPageSettings;
+        private Button buttonStatisticPageDelete;
     }
 }

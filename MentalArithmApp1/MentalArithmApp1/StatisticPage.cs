@@ -66,5 +66,13 @@ namespace MentalArithmApp1
             settingsPage.Show();
             this.Hide();
         }
+
+        private void buttonStatisticPageDelete_Click(object sender, EventArgs e)
+        {
+            Statistics.DeleteStat();
+            StatisticPage statisticPage = new();
+            statisticPage.Show();
+            this.Hide();
+        }
     }
 }
