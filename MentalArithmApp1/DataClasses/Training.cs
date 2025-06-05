@@ -5,6 +5,7 @@
         private int mode;
         private int complexity;
         private int timerTime;
+        private int incrementTime;
 
         private int correctSolved;
         private int incorrectSolved;
@@ -48,12 +49,7 @@
         }
 
         /*
-        По значениям TimerTime:
-        0 - Без ограничений по времени
-        1 - 1 минута
-        3 - 3 минуты
-        5 - 5 минут
-        15 - 15 минут
+        TimerTime = количество минут на тренировку
          */
 
         public int TimerTime
@@ -61,8 +57,23 @@
             get { return timerTime; }
             set
             {
-                if (value == 0 || value == 1 || value == 3 || value == 5 || value == 15)
+                if (value >= 0)
                     timerTime = value;
+                else
+                    throw new Exception("Неверное значение");
+            }
+        }
+
+        /*
+        IncrementTime = количество секунд добавления времени после правильного ответа
+         */
+
+        public int IncrementTime {
+            get { return incrementTime; }
+            set
+            {
+                if (value >= 0)
+                    incrementTime = value;
                 else
                     throw new Exception("Неверное значение");
             }
@@ -81,14 +92,16 @@
         public Training() {
             Mode = 1;
             Complexity = 1;
-            TimerTime = 1;
+            TimerTime = 0;
+            IncrementTime = 0;
         }
 
-        public Training(int mode, int complexity, int timerTime)
+        public Training(int mode, int complexity, int timerTime, int incrementTime)
         {
             Mode = mode;
             Complexity = complexity;
             TimerTime = timerTime;
+            IncrementTime = incrementTime;
         }
 
         public void IfCorrect() {

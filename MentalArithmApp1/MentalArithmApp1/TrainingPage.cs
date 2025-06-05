@@ -36,11 +36,6 @@ namespace MentalArithmApp1
             task = new(Program.training.Complexity, Program.training.Mode);
             labelTrainingPageExample.Text = task.ToString();
         }
-
-        private void buttonTrainingPageTo_Click(object sender, EventArgs e)
-        {
-
-        }
         private void buttonTrainingPageToTimeChoice_Click(object sender, EventArgs e)
         {
             TimeChoice timeChoice = new TimeChoice();
@@ -80,9 +75,13 @@ namespace MentalArithmApp1
                 {
                     if (task.IsRight(attempt))
                     {
+                        time.Increment(Program.training.IncrementTime);
+
                         labelTrainingPageReaction.Text = "Правильно!";
                         labelTrainingPageReaction.ForeColor = Color.Green;
+
                         Program.training.IfCorrect();
+
                         task = new(Program.training.Complexity, Program.training.Mode);
                         labelTrainingPageExample.Text = task.ToString();
                     }

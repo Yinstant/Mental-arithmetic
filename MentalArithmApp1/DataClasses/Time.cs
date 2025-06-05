@@ -19,12 +19,22 @@ namespace DataClasses
             seconds--;
         }
 
+        public void Increment(int incSeconds) {
+            seconds += incSeconds;
+        }
+
         public bool IsTimeEnd() {
             return !(seconds > 0);
         }
 
         public override string ToString() {
-            return $"{seconds / 60}:{seconds % 60}";
+            int inMinutes = seconds / 60;
+            int inSeconds = seconds % 60;
+
+            string formatMinutes = $"{inMinutes + 100}".Substring(1, 2);
+            string formatSeconds = $"{inSeconds + 100}".Substring(1, 2);
+
+            return $"{formatMinutes}:{formatSeconds}";
         }
     }
 }
