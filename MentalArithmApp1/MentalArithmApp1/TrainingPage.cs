@@ -36,10 +36,17 @@ namespace MentalArithmApp1
             task = new(Program.training.Complexity, Program.training.Mode);
             labelTrainingPageExample.Text = task.ToString();
         }
-        private void buttonTrainingPageToTimeChoice_Click(object sender, EventArgs e)
+        private void buttonTrainingPageToTimeIncrementChoice_Click(object sender, EventArgs e)
         {
-            TimeChoice timeChoice = new TimeChoice();
-            timeChoice.Show();
+            if (Program.training.TimerTime == 0)
+            {
+                TimeChoice timeChoice = new();
+                timeChoice.Show();
+            }
+            else { 
+                TimeIncrementChoice timeIncrementChoice = new();
+                timeIncrementChoice.Show();
+            }
             this.Hide();
         }
         private void buttonTrainingPageEnd_Click(object sender, EventArgs e)

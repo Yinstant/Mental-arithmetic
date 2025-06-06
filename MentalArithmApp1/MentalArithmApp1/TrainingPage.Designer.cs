@@ -32,7 +32,7 @@ namespace MentalArithmApp1
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrainingPage));
-            buttonTrainingPageToTimeChoice = new Button();
+            buttonTrainingPageToTimeIncrementChoice = new Button();
             buttonTrainingPageEnd = new Button();
             buttonTrainingPageSettings = new Button();
             labelTrainingPageTime = new Label();
@@ -42,19 +42,19 @@ namespace MentalArithmApp1
             labelTrainingPageReaction = new Label();
             SuspendLayout();
             // 
-            // buttonTrainingPageToTimeChoice
+            // buttonTrainingPageToTimeIncrementChoice
             // 
-            buttonTrainingPageToTimeChoice.FlatAppearance.BorderSize = 0;
-            buttonTrainingPageToTimeChoice.FlatStyle = FlatStyle.Flat;
-            buttonTrainingPageToTimeChoice.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            buttonTrainingPageToTimeChoice.Image = (Image)resources.GetObject("buttonTrainingPageToTimeChoice.Image");
-            buttonTrainingPageToTimeChoice.Location = new Point(61, 501);
-            buttonTrainingPageToTimeChoice.Name = "buttonTrainingPageToTimeChoice";
-            buttonTrainingPageToTimeChoice.Size = new Size(177, 129);
-            buttonTrainingPageToTimeChoice.TabIndex = 0;
-            buttonTrainingPageToTimeChoice.Text = "Вернуться к выбору режима";
-            buttonTrainingPageToTimeChoice.UseVisualStyleBackColor = true;
-            buttonTrainingPageToTimeChoice.Click += buttonTrainingPageToTimeChoice_Click;
+            buttonTrainingPageToTimeIncrementChoice.FlatAppearance.BorderSize = 0;
+            buttonTrainingPageToTimeIncrementChoice.FlatStyle = FlatStyle.Flat;
+            buttonTrainingPageToTimeIncrementChoice.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            buttonTrainingPageToTimeIncrementChoice.Image = (Image)resources.GetObject("buttonTrainingPageToTimeIncrementChoice.Image");
+            buttonTrainingPageToTimeIncrementChoice.Location = new Point(61, 501);
+            buttonTrainingPageToTimeIncrementChoice.Name = "buttonTrainingPageToTimeIncrementChoice";
+            buttonTrainingPageToTimeIncrementChoice.Size = new Size(177, 129);
+            buttonTrainingPageToTimeIncrementChoice.TabIndex = 0;
+            buttonTrainingPageToTimeIncrementChoice.Text = "Вернуться к выбору режима";
+            buttonTrainingPageToTimeIncrementChoice.UseVisualStyleBackColor = true;
+            buttonTrainingPageToTimeIncrementChoice.Click += buttonTrainingPageToTimeIncrementChoice_Click;
             // 
             // buttonTrainingPageEnd
             // 
@@ -134,7 +134,7 @@ namespace MentalArithmApp1
             Controls.Add(labelTrainingPageTime);
             Controls.Add(buttonTrainingPageSettings);
             Controls.Add(buttonTrainingPageEnd);
-            Controls.Add(buttonTrainingPageToTimeChoice);
+            Controls.Add(buttonTrainingPageToTimeIncrementChoice);
             HelpButton = true;
             MaximizeBox = false;
             MaximumSize = new Size(1100, 700);
@@ -152,7 +152,7 @@ namespace MentalArithmApp1
 
         #endregion
 
-        private Button buttonTrainingPageToTimeChoice;
+        private Button buttonTrainingPageToTimeIncrementChoice;
         private Button buttonTrainingPageEnd;
         private Button buttonTrainingPageSettings;
         private Label labelTrainingPageTime;

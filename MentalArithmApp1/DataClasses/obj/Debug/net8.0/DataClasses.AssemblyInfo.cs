@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataClasses")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86833068795139eef5103b09bc726a90ddff196e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+332806dd60788f88ba6e849d851950050f0fa804")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataClasses")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataClasses")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

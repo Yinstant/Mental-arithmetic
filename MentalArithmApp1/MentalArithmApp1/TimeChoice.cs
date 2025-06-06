@@ -39,8 +39,8 @@ namespace MentalArithmApp1
         private void buttonTimeChoiceNoTime_Click(object sender, EventArgs e)
         {
             Program.training.TimerTime = 0;
-            TimeIncrementChoice timeIncrementChoice = new();
-            timeIncrementChoice.Show();
+            TrainingPage trainingPage = new();
+            trainingPage.Show();
             this.Hide();
         }
         private void buttonTimeChoiceOneMinute_Click(object sender, EventArgs e)
