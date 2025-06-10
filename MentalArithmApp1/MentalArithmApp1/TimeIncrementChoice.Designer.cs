@@ -37,112 +37,160 @@
             buttonTimeIncrementChoice1sec = new Button();
             buttonTimeIncrementChoice3sec = new Button();
             buttonTimeIncrementChoice5sec = new Button();
+            panelTimeIncrementChoice = new Panel();
+            panelTimeIncrementChoice.SuspendLayout();
             SuspendLayout();
             // 
             // buttonTimeIncrementChoiceToMenu
             // 
+            buttonTimeIncrementChoiceToMenu.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            buttonTimeIncrementChoiceToMenu.BackColor = Color.Transparent;
             buttonTimeIncrementChoiceToMenu.FlatAppearance.BorderSize = 0;
+            buttonTimeIncrementChoiceToMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTimeIncrementChoiceToMenu.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTimeIncrementChoiceToMenu.FlatStyle = FlatStyle.Flat;
-            buttonTimeIncrementChoiceToMenu.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            buttonTimeIncrementChoiceToMenu.Font = new Font("Cascadia Code", 24F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonTimeIncrementChoiceToMenu.ForeColor = Color.FromArgb(106, 37, 0);
             buttonTimeIncrementChoiceToMenu.Image = (Image)resources.GetObject("buttonTimeIncrementChoiceToMenu.Image");
-            buttonTimeIncrementChoiceToMenu.Location = new Point(876, 495);
+            buttonTimeIncrementChoiceToMenu.Location = new Point(837, 513);
             buttonTimeIncrementChoiceToMenu.Name = "buttonTimeIncrementChoiceToMenu";
-            buttonTimeIncrementChoiceToMenu.Size = new Size(178, 127);
+            buttonTimeIncrementChoiceToMenu.Size = new Size(215, 124);
             buttonTimeIncrementChoiceToMenu.TabIndex = 12;
             buttonTimeIncrementChoiceToMenu.Text = "Вернуться в меню";
-            buttonTimeIncrementChoiceToMenu.UseVisualStyleBackColor = true;
+            buttonTimeIncrementChoiceToMenu.UseVisualStyleBackColor = false;
             buttonTimeIncrementChoiceToMenu.Click += buttonTimeIncrementChoiceToMenu_Click;
             // 
             // buttonTimeIncrementChoiceToBack
             // 
+            buttonTimeIncrementChoiceToBack.BackColor = Color.Transparent;
             buttonTimeIncrementChoiceToBack.FlatAppearance.BorderSize = 0;
+            buttonTimeIncrementChoiceToBack.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTimeIncrementChoiceToBack.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTimeIncrementChoiceToBack.FlatStyle = FlatStyle.Flat;
             buttonTimeIncrementChoiceToBack.Image = (Image)resources.GetObject("buttonTimeIncrementChoiceToBack.Image");
-            buttonTimeIncrementChoiceToBack.Location = new Point(53, 519);
+            buttonTimeIncrementChoiceToBack.Location = new Point(80, 502);
             buttonTimeIncrementChoiceToBack.Name = "buttonTimeIncrementChoiceToBack";
-            buttonTimeIncrementChoiceToBack.Size = new Size(151, 103);
+            buttonTimeIncrementChoiceToBack.Size = new Size(160, 140);
             buttonTimeIncrementChoiceToBack.TabIndex = 11;
-            buttonTimeIncrementChoiceToBack.UseVisualStyleBackColor = true;
+            buttonTimeIncrementChoiceToBack.UseVisualStyleBackColor = false;
             buttonTimeIncrementChoiceToBack.Click += buttonTimeIncrementChoiceToBack_Click;
             // 
             // buttonTimeIncrementChoiceSettings
             // 
+            buttonTimeIncrementChoiceSettings.BackColor = Color.Transparent;
             buttonTimeIncrementChoiceSettings.FlatAppearance.BorderSize = 0;
+            buttonTimeIncrementChoiceSettings.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTimeIncrementChoiceSettings.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTimeIncrementChoiceSettings.FlatStyle = FlatStyle.Flat;
             buttonTimeIncrementChoiceSettings.Image = (Image)resources.GetObject("buttonTimeIncrementChoiceSettings.Image");
-            buttonTimeIncrementChoiceSettings.Location = new Point(960, 44);
+            buttonTimeIncrementChoiceSettings.Location = new Point(28, 12);
             buttonTimeIncrementChoiceSettings.Name = "buttonTimeIncrementChoiceSettings";
-            buttonTimeIncrementChoiceSettings.Size = new Size(94, 68);
+            buttonTimeIncrementChoiceSettings.Size = new Size(89, 90);
             buttonTimeIncrementChoiceSettings.TabIndex = 10;
-            buttonTimeIncrementChoiceSettings.UseVisualStyleBackColor = true;
+            buttonTimeIncrementChoiceSettings.UseVisualStyleBackColor = false;
             buttonTimeIncrementChoiceSettings.Click += buttonTimeIncrementChoiceSettings_Click;
             // 
             // labelTimeIncrementChoiceHeading
             // 
             labelTimeIncrementChoiceHeading.AutoSize = true;
-            labelTimeIncrementChoiceHeading.Font = new Font("Segoe UI", 36F, FontStyle.Bold);
+            labelTimeIncrementChoiceHeading.BackColor = Color.Transparent;
+            labelTimeIncrementChoiceHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTimeIncrementChoiceHeading.ForeColor = Color.FromArgb(147, 15, 255);
-            labelTimeIncrementChoiceHeading.Location = new Point(-1, 31);
+            labelTimeIncrementChoiceHeading.Location = new Point(176, 46);
             labelTimeIncrementChoiceHeading.Name = "labelTimeIncrementChoiceHeading";
-            labelTimeIncrementChoiceHeading.Size = new Size(969, 81);
+            labelTimeIncrementChoiceHeading.Size = new Size(742, 56);
             labelTimeIncrementChoiceHeading.TabIndex = 9;
             labelTimeIncrementChoiceHeading.Text = "Выберите добавление времени";
             // 
             // buttonTimeIncrementChoice0sec
             // 
+            buttonTimeIncrementChoice0sec.BackColor = Color.Transparent;
             buttonTimeIncrementChoice0sec.FlatAppearance.BorderSize = 0;
+            buttonTimeIncrementChoice0sec.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTimeIncrementChoice0sec.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTimeIncrementChoice0sec.FlatStyle = FlatStyle.Flat;
-            buttonTimeIncrementChoice0sec.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            buttonTimeIncrementChoice0sec.Font = new Font("Cascadia Code", 16F, FontStyle.Bold);
+            buttonTimeIncrementChoice0sec.ForeColor = Color.FromArgb(106, 37, 0);
             buttonTimeIncrementChoice0sec.Image = (Image)resources.GetObject("buttonTimeIncrementChoice0sec.Image");
-            buttonTimeIncrementChoice0sec.Location = new Point(190, 151);
+            buttonTimeIncrementChoice0sec.Location = new Point(52, 18);
             buttonTimeIncrementChoice0sec.Name = "buttonTimeIncrementChoice0sec";
-            buttonTimeIncrementChoice0sec.Size = new Size(234, 119);
+            buttonTimeIncrementChoice0sec.Size = new Size(272, 140);
             buttonTimeIncrementChoice0sec.TabIndex = 13;
             buttonTimeIncrementChoice0sec.Text = "Без добавления";
-            buttonTimeIncrementChoice0sec.UseVisualStyleBackColor = true;
+            buttonTimeIncrementChoice0sec.TextAlign = ContentAlignment.TopCenter;
+            buttonTimeIncrementChoice0sec.UseVisualStyleBackColor = false;
             buttonTimeIncrementChoice0sec.Click += buttonTimeIncrementChoice0sec_Click;
             // 
             // buttonTimeIncrementChoice1sec
             // 
+            buttonTimeIncrementChoice1sec.BackColor = Color.Transparent;
             buttonTimeIncrementChoice1sec.FlatAppearance.BorderSize = 0;
+            buttonTimeIncrementChoice1sec.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTimeIncrementChoice1sec.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTimeIncrementChoice1sec.FlatStyle = FlatStyle.Flat;
-            buttonTimeIncrementChoice1sec.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            buttonTimeIncrementChoice1sec.Font = new Font("Cascadia Code", 16F, FontStyle.Bold);
+            buttonTimeIncrementChoice1sec.ForeColor = Color.FromArgb(106, 37, 0);
             buttonTimeIncrementChoice1sec.Image = (Image)resources.GetObject("buttonTimeIncrementChoice1sec.Image");
-            buttonTimeIncrementChoice1sec.Location = new Point(644, 151);
+            buttonTimeIncrementChoice1sec.Location = new Point(419, 13);
             buttonTimeIncrementChoice1sec.Name = "buttonTimeIncrementChoice1sec";
-            buttonTimeIncrementChoice1sec.Size = new Size(234, 119);
+            buttonTimeIncrementChoice1sec.Size = new Size(255, 153);
             buttonTimeIncrementChoice1sec.TabIndex = 14;
             buttonTimeIncrementChoice1sec.Text = "+ 1 секунда";
-            buttonTimeIncrementChoice1sec.UseVisualStyleBackColor = true;
+            buttonTimeIncrementChoice1sec.TextAlign = ContentAlignment.TopCenter;
+            buttonTimeIncrementChoice1sec.UseVisualStyleBackColor = false;
             buttonTimeIncrementChoice1sec.Click += buttonTimeIncrementChoice1sec_Click;
             // 
             // buttonTimeIncrementChoice3sec
             // 
+            buttonTimeIncrementChoice3sec.BackColor = Color.Transparent;
             buttonTimeIncrementChoice3sec.FlatAppearance.BorderSize = 0;
+            buttonTimeIncrementChoice3sec.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTimeIncrementChoice3sec.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTimeIncrementChoice3sec.FlatStyle = FlatStyle.Flat;
-            buttonTimeIncrementChoice3sec.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            buttonTimeIncrementChoice3sec.Font = new Font("Cascadia Code", 16F, FontStyle.Bold);
+            buttonTimeIncrementChoice3sec.ForeColor = Color.FromArgb(106, 37, 0);
             buttonTimeIncrementChoice3sec.Image = (Image)resources.GetObject("buttonTimeIncrementChoice3sec.Image");
-            buttonTimeIncrementChoice3sec.Location = new Point(190, 353);
+            buttonTimeIncrementChoice3sec.Location = new Point(59, 177);
             buttonTimeIncrementChoice3sec.Name = "buttonTimeIncrementChoice3sec";
-            buttonTimeIncrementChoice3sec.Size = new Size(234, 119);
+            buttonTimeIncrementChoice3sec.Size = new Size(265, 140);
             buttonTimeIncrementChoice3sec.TabIndex = 15;
             buttonTimeIncrementChoice3sec.Text = "+ 3 секунды";
-            buttonTimeIncrementChoice3sec.UseVisualStyleBackColor = true;
+            buttonTimeIncrementChoice3sec.TextAlign = ContentAlignment.TopCenter;
+            buttonTimeIncrementChoice3sec.UseVisualStyleBackColor = false;
             buttonTimeIncrementChoice3sec.Click += buttonTimeIncrementChoice3sec_Click;
             // 
             // buttonTimeIncrementChoice5sec
             // 
+            buttonTimeIncrementChoice5sec.BackColor = Color.Transparent;
             buttonTimeIncrementChoice5sec.FlatAppearance.BorderSize = 0;
+            buttonTimeIncrementChoice5sec.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTimeIncrementChoice5sec.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTimeIncrementChoice5sec.FlatStyle = FlatStyle.Flat;
-            buttonTimeIncrementChoice5sec.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            buttonTimeIncrementChoice5sec.Font = new Font("Cascadia Code", 16F, FontStyle.Bold);
+            buttonTimeIncrementChoice5sec.ForeColor = Color.FromArgb(106, 37, 0);
             buttonTimeIncrementChoice5sec.Image = (Image)resources.GetObject("buttonTimeIncrementChoice5sec.Image");
-            buttonTimeIncrementChoice5sec.Location = new Point(644, 353);
+            buttonTimeIncrementChoice5sec.Location = new Point(419, 172);
             buttonTimeIncrementChoice5sec.Name = "buttonTimeIncrementChoice5sec";
-            buttonTimeIncrementChoice5sec.Size = new Size(234, 119);
+            buttonTimeIncrementChoice5sec.Size = new Size(267, 145);
             buttonTimeIncrementChoice5sec.TabIndex = 16;
             buttonTimeIncrementChoice5sec.Text = "+ 5 секунд";
-            buttonTimeIncrementChoice5sec.UseVisualStyleBackColor = true;
+            buttonTimeIncrementChoice5sec.TextAlign = ContentAlignment.TopCenter;
+            buttonTimeIncrementChoice5sec.UseVisualStyleBackColor = false;
             buttonTimeIncrementChoice5sec.Click += buttonTimeIncrementChoice5sec_Click;
+            // 
+            // panelTimeIncrementChoice
+            // 
+            panelTimeIncrementChoice.BackColor = Color.Transparent;
+            panelTimeIncrementChoice.BackgroundImage = (Image)resources.GetObject("panelTimeIncrementChoice.BackgroundImage");
+            panelTimeIncrementChoice.BackgroundImageLayout = ImageLayout.Center;
+            panelTimeIncrementChoice.Controls.Add(buttonTimeIncrementChoice5sec);
+            panelTimeIncrementChoice.Controls.Add(buttonTimeIncrementChoice0sec);
+            panelTimeIncrementChoice.Controls.Add(buttonTimeIncrementChoice1sec);
+            panelTimeIncrementChoice.Controls.Add(buttonTimeIncrementChoice3sec);
+            panelTimeIncrementChoice.Location = new Point(176, 150);
+            panelTimeIncrementChoice.Name = "panelTimeIncrementChoice";
+            panelTimeIncrementChoice.Size = new Size(742, 330);
+            panelTimeIncrementChoice.TabIndex = 17;
             // 
             // TimeIncrementChoice
             // 
@@ -150,14 +198,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
-            Controls.Add(buttonTimeIncrementChoice5sec);
-            Controls.Add(buttonTimeIncrementChoice3sec);
-            Controls.Add(buttonTimeIncrementChoice1sec);
-            Controls.Add(buttonTimeIncrementChoice0sec);
             Controls.Add(buttonTimeIncrementChoiceToMenu);
             Controls.Add(buttonTimeIncrementChoiceToBack);
             Controls.Add(buttonTimeIncrementChoiceSettings);
             Controls.Add(labelTimeIncrementChoiceHeading);
+            Controls.Add(panelTimeIncrementChoice);
             HelpButton = true;
             MaximizeBox = false;
             MaximumSize = new Size(1100, 700);
@@ -167,6 +212,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
             FormClosed += TimeIncrementChoice_FormClosed;
+            panelTimeIncrementChoice.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -181,5 +227,6 @@
         private Button buttonTimeIncrementChoice1sec;
         private Button buttonTimeIncrementChoice3sec;
         private Button buttonTimeIncrementChoice5sec;
+        private Panel panelTimeIncrementChoice;
     }
 }

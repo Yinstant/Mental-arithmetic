@@ -1,8 +1,8 @@
+using System.Drawing.Text;
 namespace MentalArithmApp1
 {
     public partial class MainMenu : Form
     {
-
         public MainMenu()
         {
             InitializeComponent();
@@ -49,6 +49,11 @@ namespace MentalArithmApp1
         private void MainMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void buttonMainMenuStart_MouseEnter(object sender, EventArgs e)
+        {
+
         }
     }
 }

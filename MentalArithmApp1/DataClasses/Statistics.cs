@@ -11,10 +11,15 @@ namespace DataClasses
     {
         public int trainingCountGeneral;
         public int trainingCountAdd, trainingCountSub, trainingCountMult, trainingCountDiv;
+
         public int correctCountGeneral;
         public int correctCountAdd, correctCountSub, correctCountMult, correctCountDiv;
+
         public int incorrectCountGeneral;
         public int incorrectCountAdd, incorrectCountSub, incorrectCountMult, incorrectCountDiv;
+
+        public int accuracyGeneral;
+        public int accuracyAdd, accuracySub, accuracyMult, accuracyDiv;
 
         public Statistics() {
             trainingCountGeneral = 0;
@@ -34,26 +39,38 @@ namespace DataClasses
             incorrectCountSub = 0;
             incorrectCountMult = 0;
             incorrectCountDiv = 0;
+
+            accuracyGeneral = 0;
+            accuracyAdd = 0;
+            accuracySub = 0;
+            accuracyMult = 0;
+            accuracyDiv = 0;
         }
 
         public Statistics(
-            int trainingCountGeneral = 0, 
-            int trainingCountAdd = 0, 
-            int trainingCountSub = 0, 
-            int trainingCountMult = 0, 
-            int trainingCountDiv = 0, 
+            int trainingCountGeneral = 0,
+            int trainingCountAdd = 0,
+            int trainingCountSub = 0,
+            int trainingCountMult = 0,
+            int trainingCountDiv = 0,
 
-            int correctCountGeneral = 0, 
-            int correctCountAdd = 0, 
-            int correctCountSub = 0, 
-            int correctCountMult = 0, 
-            int correctCountDiv = 0, 
+            int correctCountGeneral = 0,
+            int correctCountAdd = 0,
+            int correctCountSub = 0,
+            int correctCountMult = 0,
+            int correctCountDiv = 0,
 
-            int incorrectCountGeneral = 0, 
-            int incorrectCountAdd = 0, 
-            int incorrectCountSub = 0, 
-            int incorrectCountMult = 0, 
-            int incorrectCountDiv = 0
+            int incorrectCountGeneral = 0,
+            int incorrectCountAdd = 0,
+            int incorrectCountSub = 0,
+            int incorrectCountMult = 0,
+            int incorrectCountDiv = 0,
+
+            int accuracyGeneral = 0,
+            int accuracyAdd = 0,
+            int accuracySub = 0,
+            int accuracyMult = 0,
+            int accuracyDiv = 0
             )
         {
             this.trainingCountGeneral = trainingCountGeneral;
@@ -61,16 +78,24 @@ namespace DataClasses
             this.trainingCountSub = trainingCountSub;
             this.trainingCountMult = trainingCountMult;
             this.trainingCountDiv = trainingCountDiv;
+
             this.correctCountGeneral = correctCountGeneral;
             this.correctCountAdd = correctCountAdd;
             this.correctCountSub = correctCountSub;
             this.correctCountMult = correctCountMult;
             this.correctCountDiv = correctCountDiv;
+
             this.incorrectCountGeneral = incorrectCountGeneral;
             this.incorrectCountAdd = incorrectCountAdd;
             this.incorrectCountSub = incorrectCountSub;
             this.incorrectCountMult = incorrectCountMult;
             this.incorrectCountDiv = incorrectCountDiv;
+
+            this.accuracyGeneral = accuracyGeneral;
+            this.accuracyAdd = accuracyAdd;
+            this.accuracySub = accuracySub;
+            this.accuracyMult = accuracyMult;
+            this.accuracyDiv = accuracyDiv;
         }
 
         private static int GetVar(string varName) {
@@ -114,6 +139,12 @@ namespace DataClasses
             incorrectCountSub = GetVar("incorrectCountSub");
             incorrectCountMult = GetVar("incorrectCountMult");
             incorrectCountDiv = GetVar("incorrectCountDiv");
+
+            accuracyGeneral = ToAccuracy(correctCountGeneral, incorrectCountGeneral);
+            accuracyAdd = ToAccuracy(correctCountAdd, incorrectCountAdd);
+            accuracySub = ToAccuracy(correctCountSub, incorrectCountSub);
+            accuracyMult = ToAccuracy(correctCountMult, incorrectCountMult);
+            accuracyDiv = ToAccuracy(correctCountDiv, incorrectCountDiv);
         }
 
         private static void SetVar(int var, string varName) {
@@ -183,6 +214,13 @@ namespace DataClasses
         public static void DeleteStat() {
             Statistics statistics = new();
             statistics.Set();
+        }
+
+        private int ToAccuracy(int corrects, int mistakes) {
+            if (corrects + mistakes == 0)
+                return 0;
+            else
+                return (int)Math.Round((double)corrects * 100d / (double)(corrects + mistakes));
         }
     }
 }

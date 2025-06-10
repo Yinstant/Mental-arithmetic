@@ -84,5 +84,12 @@ namespace MentalArithmApp1
             settingsPage.Show();
             this.Hide();
         }
+
+        private void buttonTextbookPageToChoice_Click(object sender, EventArgs e)
+        {
+            TextbookChoice textbookChoice = new();
+            textbookChoice.Show();
+            this.Hide();
+        }
     }
 }

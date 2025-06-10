@@ -9,6 +9,8 @@
 
         private int correctSolved;
         private int incorrectSolved;
+        private int accuracy;
+        private int solved;
 
 
         /*
@@ -88,6 +90,15 @@
             get { return incorrectSolved; }
         }
 
+        public int Accuracy {
+            get {
+                if (solved > 0)
+                    return (int)Math.Round((double)correctSolved * 100d / (double)(solved));
+                else
+                    return 0;
+            }
+        }
+
 
         public Training() {
             Mode = 1;
@@ -106,15 +117,53 @@
 
         public void IfCorrect() {
             correctSolved++;
+            solved++;
         }
 
         public void IfIncorrect() {
             incorrectSolved++;
+            solved++;
         }
 
         public void Reset() {
             correctSolved = 0;
             incorrectSolved = 0;
+            accuracy = 0;
+        }
+
+        public override string ToString()
+        {
+            string modeString = "",
+                complexityString = "";
+
+            if (Mode == 1) {
+                modeString = "Сложение";
+            }
+            else if (Mode == 2) {
+                modeString = "Вычитание";
+            }
+            else if (Mode == 3)
+            {
+                modeString = "Умножение";
+            }
+            else if (Mode == 4)
+            {
+                modeString = "Деление";
+            }
+
+            if (Complexity == 1) {
+                complexityString = "Начальный";
+            }
+            else if (Complexity == 2)
+            {
+                complexityString = "Средний";
+            }
+            else if (Complexity == 3)
+            {
+                complexityString = "Продвинутый";
+            }
+
+            return $"{modeString}. {complexityString}. {TimerTime}+{IncrementTime}";
         }
     }
 }

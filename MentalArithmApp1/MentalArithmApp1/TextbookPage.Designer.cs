@@ -35,60 +35,75 @@
             buttonTextbookPageToMenu = new Button();
             pictureBoxTextbookPage = new PictureBox();
             buttonTextbookPageSettings = new Button();
+            buttonTextbookPageToChoice = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBoxTextbookPage).BeginInit();
             SuspendLayout();
             // 
             // labelTextbookPageHeading
             // 
             labelTextbookPageHeading.AutoSize = true;
-            labelTextbookPageHeading.Font = new Font("Segoe UI", 36F, FontStyle.Bold);
-            labelTextbookPageHeading.Location = new Point(46, 9);
+            labelTextbookPageHeading.BackColor = Color.Transparent;
+            labelTextbookPageHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTextbookPageHeading.ForeColor = Color.FromArgb(147, 15, 255);
+            labelTextbookPageHeading.Location = new Point(191, 32);
             labelTextbookPageHeading.Name = "labelTextbookPageHeading";
-            labelTextbookPageHeading.Size = new Size(304, 81);
+            labelTextbookPageHeading.Size = new Size(227, 56);
             labelTextbookPageHeading.TabIndex = 1;
             labelTextbookPageHeading.Text = "Учебник.";
             // 
             // buttonTextbookPageToBack
             // 
+            buttonTextbookPageToBack.BackColor = Color.Transparent;
             buttonTextbookPageToBack.FlatAppearance.BorderSize = 0;
+            buttonTextbookPageToBack.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTextbookPageToBack.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTextbookPageToBack.FlatStyle = FlatStyle.Flat;
             buttonTextbookPageToBack.Image = (Image)resources.GetObject("buttonTextbookPageToBack.Image");
-            buttonTextbookPageToBack.Location = new Point(32, 504);
+            buttonTextbookPageToBack.Location = new Point(33, 496);
             buttonTextbookPageToBack.Name = "buttonTextbookPageToBack";
-            buttonTextbookPageToBack.Size = new Size(141, 127);
+            buttonTextbookPageToBack.Size = new Size(157, 127);
             buttonTextbookPageToBack.TabIndex = 6;
-            buttonTextbookPageToBack.UseVisualStyleBackColor = true;
+            buttonTextbookPageToBack.UseVisualStyleBackColor = false;
             buttonTextbookPageToBack.Visible = false;
             buttonTextbookPageToBack.Click += buttonTextbookPageToBack_Click;
             // 
             // buttonTextbookPageToNext
             // 
+            buttonTextbookPageToNext.BackColor = Color.Transparent;
             buttonTextbookPageToNext.FlatAppearance.BorderSize = 0;
+            buttonTextbookPageToNext.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTextbookPageToNext.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTextbookPageToNext.FlatStyle = FlatStyle.Flat;
             buttonTextbookPageToNext.Image = (Image)resources.GetObject("buttonTextbookPageToNext.Image");
-            buttonTextbookPageToNext.Location = new Point(880, 504);
+            buttonTextbookPageToNext.Location = new Point(880, 488);
             buttonTextbookPageToNext.Name = "buttonTextbookPageToNext";
-            buttonTextbookPageToNext.Size = new Size(141, 127);
+            buttonTextbookPageToNext.Size = new Size(160, 143);
             buttonTextbookPageToNext.TabIndex = 7;
-            buttonTextbookPageToNext.UseVisualStyleBackColor = true;
+            buttonTextbookPageToNext.UseVisualStyleBackColor = false;
             buttonTextbookPageToNext.Visible = false;
             buttonTextbookPageToNext.Click += buttonTextbookPageToNext_Click;
             // 
             // buttonTextbookPageToMenu
             // 
+            buttonTextbookPageToMenu.BackColor = Color.Transparent;
             buttonTextbookPageToMenu.FlatAppearance.BorderSize = 0;
+            buttonTextbookPageToMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTextbookPageToMenu.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTextbookPageToMenu.FlatStyle = FlatStyle.Flat;
+            buttonTextbookPageToMenu.Font = new Font("Cascadia Code", 24F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonTextbookPageToMenu.ForeColor = Color.FromArgb(106, 37, 0);
             buttonTextbookPageToMenu.Image = (Image)resources.GetObject("buttonTextbookPageToMenu.Image");
-            buttonTextbookPageToMenu.Location = new Point(454, 508);
+            buttonTextbookPageToMenu.Location = new Point(573, 496);
             buttonTextbookPageToMenu.Name = "buttonTextbookPageToMenu";
-            buttonTextbookPageToMenu.Size = new Size(163, 119);
+            buttonTextbookPageToMenu.Size = new Size(214, 123);
             buttonTextbookPageToMenu.TabIndex = 8;
             buttonTextbookPageToMenu.Text = "Вернуться в меню";
-            buttonTextbookPageToMenu.UseVisualStyleBackColor = true;
+            buttonTextbookPageToMenu.UseVisualStyleBackColor = false;
             buttonTextbookPageToMenu.Click += buttonTextbookPageToMenu_Click;
             // 
             // pictureBoxTextbookPage
             // 
+            pictureBoxTextbookPage.BackColor = Color.Transparent;
             pictureBoxTextbookPage.Location = new Point(100, 112);
             pictureBoxTextbookPage.Name = "pictureBoxTextbookPage";
             pictureBoxTextbookPage.Size = new Size(856, 370);
@@ -97,15 +112,36 @@
             // 
             // buttonTextbookPageSettings
             // 
+            buttonTextbookPageSettings.BackColor = Color.Transparent;
             buttonTextbookPageSettings.FlatAppearance.BorderSize = 0;
+            buttonTextbookPageSettings.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTextbookPageSettings.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTextbookPageSettings.FlatStyle = FlatStyle.Flat;
             buttonTextbookPageSettings.Image = (Image)resources.GetObject("buttonTextbookPageSettings.Image");
-            buttonTextbookPageSettings.Location = new Point(964, 30);
+            buttonTextbookPageSettings.Location = new Point(28, 12);
             buttonTextbookPageSettings.Name = "buttonTextbookPageSettings";
-            buttonTextbookPageSettings.Size = new Size(86, 76);
+            buttonTextbookPageSettings.Size = new Size(89, 90);
             buttonTextbookPageSettings.TabIndex = 10;
-            buttonTextbookPageSettings.UseVisualStyleBackColor = true;
+            buttonTextbookPageSettings.UseVisualStyleBackColor = false;
             buttonTextbookPageSettings.Click += buttonTextbookPageSettings_Click;
+            // 
+            // buttonTextbookPageToChoice
+            // 
+            buttonTextbookPageToChoice.BackColor = Color.Transparent;
+            buttonTextbookPageToChoice.FlatAppearance.BorderSize = 0;
+            buttonTextbookPageToChoice.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTextbookPageToChoice.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            buttonTextbookPageToChoice.FlatStyle = FlatStyle.Flat;
+            buttonTextbookPageToChoice.Font = new Font("Cascadia Code", 22F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonTextbookPageToChoice.ForeColor = Color.FromArgb(106, 37, 0);
+            buttonTextbookPageToChoice.Image = (Image)resources.GetObject("buttonTextbookPageToChoice.Image");
+            buttonTextbookPageToChoice.Location = new Point(300, 496);
+            buttonTextbookPageToChoice.Name = "buttonTextbookPageToChoice";
+            buttonTextbookPageToChoice.Size = new Size(214, 123);
+            buttonTextbookPageToChoice.TabIndex = 11;
+            buttonTextbookPageToChoice.Text = "Вернуться к выбору режима";
+            buttonTextbookPageToChoice.UseVisualStyleBackColor = false;
+            buttonTextbookPageToChoice.Click += buttonTextbookPageToChoice_Click;
             // 
             // TextbookPage
             // 
@@ -113,6 +149,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(buttonTextbookPageToChoice);
             Controls.Add(buttonTextbookPageSettings);
             Controls.Add(pictureBoxTextbookPage);
             Controls.Add(buttonTextbookPageToMenu);
@@ -141,5 +178,6 @@
         private Button buttonTextbookPageToMenu;
         private PictureBox pictureBoxTextbookPage;
         private Button buttonTextbookPageSettings;
+        private Button buttonTextbookPageToChoice;
     }
 }

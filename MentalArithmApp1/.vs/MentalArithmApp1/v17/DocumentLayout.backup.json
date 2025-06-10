@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C65C28B7-AAD0-489B-A96A-60D8E890E03F}|DataClasses\\DataClasses.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\dataclasses\\mathtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C65C28B7-AAD0-489B-A96A-60D8E890E03F}|DataClasses\\DataClasses.csproj|solutionrelative:dataclasses\\mathtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C65C28B7-AAD0-489B-A96A-60D8E890E03F}|DataClasses\\DataClasses.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\dataclasses\\statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C65C28B7-AAD0-489B-A96A-60D8E890E03F}|DataClasses\\DataClasses.csproj|solutionrelative:dataclasses\\statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\statisticpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\statisticpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\mentalarithmapp1\\statisticpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\statisticpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\statisticpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\timechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\timechoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MathTask.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\MathTask.cs",
-              "RelativeDocumentMoniker": "DataClasses\\MathTask.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\MathTask.cs",
-              "RelativeToolTip": "DataClasses\\MathTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAiAAAAAAAAAA==",
+              "Title": "Statistics.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\Statistics.cs",
+              "RelativeDocumentMoniker": "DataClasses\\Statistics.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\Statistics.cs",
+              "RelativeToolTip": "DataClasses\\Statistics.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwHsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:10:42.833Z",
+              "WhenOpened": "2025-06-10T18:08:06.355Z",
               "EditorCaption": ""
             },
             {
@@ -49,9 +53,9 @@
               "RelativeDocumentMoniker": "MentalArithmApp1\\StatisticPage.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\StatisticPage.cs",
               "RelativeToolTip": "MentalArithmApp1\\StatisticPage.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwEgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T09:18:01.639Z",
+              "WhenOpened": "2025-06-10T17:27:30.531Z",
               "EditorCaption": ""
             },
             {
@@ -63,11 +67,24 @@
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\StatisticPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "MentalArithmApp1\\StatisticPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T09:17:42.706Z"
+              "WhenOpened": "2025-06-10T17:22:42.357Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TimeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\TimeChoice.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\TimeChoice.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\TimeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MentalArithmApp1\\TimeChoice.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T17:27:03.225Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\Program.cs",
               "RelativeDocumentMoniker": "MentalArithmApp1\\Program.cs",
@@ -75,7 +92,8 @@
               "RelativeToolTip": "MentalArithmApp1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T07:48:43.449Z"
+              "WhenOpened": "2025-05-01T07:48:43.449Z",
+              "EditorCaption": ""
             }
           ]
         }

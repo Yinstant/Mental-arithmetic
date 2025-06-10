@@ -16,11 +16,19 @@ namespace MentalArithmApp1
         public ResultPage()
         {
             InitializeComponent();
-
-            labelResultPageCorrectCnt.Text = $"Количество верно решённых примеров: {Program.training.CorrectSolved}";
-            labelResultPageIncorrectCnt.Text = $"Количество неверных попыток: {Program.training.IncorrectSolved}";
-
+            
             Statistics.SetTrainig(Program.training);
+
+            labelResultPageMode.Text = Program.training.ToString();
+
+            labelResultPageCorrectCnt.Text = $"Решено {Program.training.CorrectSolved} примеров";
+            labelResultPageIncorrectCnt.Text = $"Допущено {Program.training.IncorrectSolved} ошибок";
+
+            labelResultPageAccuracy.Text = $"Точность {Program.training.Accuracy}%";
+
+            progressBar1.Step = Program.training.Accuracy;
+            progressBar1.PerformStep();
+
         }
 
         private void buttonResultPageToMenu_Click(object sender, EventArgs e)

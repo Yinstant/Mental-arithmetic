@@ -36,95 +36,143 @@
             buttonModeChoiceMultiplication = new Button();
             buttonModeChoiceDivision = new Button();
             buttonModeChoiceToMenu = new Button();
+            panelModeChoice = new Panel();
+            panelModeChoice.SuspendLayout();
             SuspendLayout();
             // 
             // labelModeChoiceHeading
             // 
             labelModeChoiceHeading.AutoSize = true;
-            labelModeChoiceHeading.Font = new Font("Segoe UI", 36F, FontStyle.Bold);
+            labelModeChoiceHeading.BackColor = Color.Transparent;
+            labelModeChoiceHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelModeChoiceHeading.ForeColor = Color.FromArgb(147, 15, 255);
-            labelModeChoiceHeading.Location = new Point(21, 36);
+            labelModeChoiceHeading.Location = new Point(176, 46);
             labelModeChoiceHeading.Name = "labelModeChoiceHeading";
-            labelModeChoiceHeading.Size = new Size(915, 81);
+            labelModeChoiceHeading.Size = new Size(690, 56);
             labelModeChoiceHeading.TabIndex = 0;
             labelModeChoiceHeading.Text = "Выберите режим тренировки";
             // 
             // buttonModeChoiceSettings
             // 
+            buttonModeChoiceSettings.BackColor = Color.Transparent;
             buttonModeChoiceSettings.FlatAppearance.BorderSize = 0;
+            buttonModeChoiceSettings.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonModeChoiceSettings.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonModeChoiceSettings.FlatStyle = FlatStyle.Flat;
             buttonModeChoiceSettings.Image = (Image)resources.GetObject("buttonModeChoiceSettings.Image");
-            buttonModeChoiceSettings.Location = new Point(964, 22);
+            buttonModeChoiceSettings.Location = new Point(28, 12);
             buttonModeChoiceSettings.Name = "buttonModeChoiceSettings";
-            buttonModeChoiceSettings.Size = new Size(86, 76);
+            buttonModeChoiceSettings.Size = new Size(89, 90);
             buttonModeChoiceSettings.TabIndex = 1;
-            buttonModeChoiceSettings.UseVisualStyleBackColor = true;
+            buttonModeChoiceSettings.UseVisualStyleBackColor = false;
             buttonModeChoiceSettings.Click += buttonModeChoiceSettings_Click;
             // 
             // buttonModeChoiceAddition
             // 
+            buttonModeChoiceAddition.BackColor = Color.Transparent;
             buttonModeChoiceAddition.FlatAppearance.BorderSize = 0;
+            buttonModeChoiceAddition.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonModeChoiceAddition.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonModeChoiceAddition.FlatStyle = FlatStyle.Flat;
+            buttonModeChoiceAddition.Font = new Font("Cascadia Code", 30F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonModeChoiceAddition.ForeColor = Color.FromArgb(106, 37, 0);
             buttonModeChoiceAddition.Image = (Image)resources.GetObject("buttonModeChoiceAddition.Image");
-            buttonModeChoiceAddition.Location = new Point(192, 185);
+            buttonModeChoiceAddition.Location = new Point(95, 37);
             buttonModeChoiceAddition.Name = "buttonModeChoiceAddition";
-            buttonModeChoiceAddition.Size = new Size(228, 119);
+            buttonModeChoiceAddition.Size = new Size(261, 147);
             buttonModeChoiceAddition.TabIndex = 2;
             buttonModeChoiceAddition.Text = "Сложение";
-            buttonModeChoiceAddition.UseVisualStyleBackColor = true;
+            buttonModeChoiceAddition.TextAlign = ContentAlignment.TopCenter;
+            buttonModeChoiceAddition.UseVisualStyleBackColor = false;
             buttonModeChoiceAddition.Click += buttonModeChoiceAddition_Click;
             // 
             // buttonModeChoiceSubtraction
             // 
+            buttonModeChoiceSubtraction.BackColor = Color.Transparent;
             buttonModeChoiceSubtraction.FlatAppearance.BorderSize = 0;
+            buttonModeChoiceSubtraction.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonModeChoiceSubtraction.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonModeChoiceSubtraction.FlatStyle = FlatStyle.Flat;
+            buttonModeChoiceSubtraction.Font = new Font("Cascadia Code", 30F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonModeChoiceSubtraction.ForeColor = Color.FromArgb(106, 37, 0);
             buttonModeChoiceSubtraction.Image = (Image)resources.GetObject("buttonModeChoiceSubtraction.Image");
-            buttonModeChoiceSubtraction.Location = new Point(522, 185);
+            buttonModeChoiceSubtraction.Location = new Point(422, 37);
             buttonModeChoiceSubtraction.Name = "buttonModeChoiceSubtraction";
-            buttonModeChoiceSubtraction.Size = new Size(228, 119);
+            buttonModeChoiceSubtraction.Size = new Size(266, 147);
             buttonModeChoiceSubtraction.TabIndex = 3;
             buttonModeChoiceSubtraction.Text = "Вычитание";
-            buttonModeChoiceSubtraction.UseVisualStyleBackColor = true;
+            buttonModeChoiceSubtraction.TextAlign = ContentAlignment.TopCenter;
+            buttonModeChoiceSubtraction.UseVisualStyleBackColor = false;
             buttonModeChoiceSubtraction.Click += buttonModeChoiceSubtraction_Click;
             // 
             // buttonModeChoiceMultiplication
             // 
+            buttonModeChoiceMultiplication.BackColor = Color.Transparent;
             buttonModeChoiceMultiplication.FlatAppearance.BorderSize = 0;
+            buttonModeChoiceMultiplication.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonModeChoiceMultiplication.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonModeChoiceMultiplication.FlatStyle = FlatStyle.Flat;
+            buttonModeChoiceMultiplication.Font = new Font("Cascadia Code", 30F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonModeChoiceMultiplication.ForeColor = Color.FromArgb(106, 37, 0);
             buttonModeChoiceMultiplication.Image = (Image)resources.GetObject("buttonModeChoiceMultiplication.Image");
-            buttonModeChoiceMultiplication.Location = new Point(192, 397);
+            buttonModeChoiceMultiplication.Location = new Point(95, 251);
             buttonModeChoiceMultiplication.Name = "buttonModeChoiceMultiplication";
-            buttonModeChoiceMultiplication.Size = new Size(228, 119);
+            buttonModeChoiceMultiplication.Size = new Size(261, 145);
             buttonModeChoiceMultiplication.TabIndex = 4;
             buttonModeChoiceMultiplication.Text = "Умножение";
-            buttonModeChoiceMultiplication.UseVisualStyleBackColor = true;
+            buttonModeChoiceMultiplication.TextAlign = ContentAlignment.TopCenter;
+            buttonModeChoiceMultiplication.UseVisualStyleBackColor = false;
             buttonModeChoiceMultiplication.Click += buttonModeChoiceMultiplication_Click;
             // 
             // buttonModeChoiceDivision
             // 
+            buttonModeChoiceDivision.BackColor = Color.Transparent;
             buttonModeChoiceDivision.FlatAppearance.BorderSize = 0;
+            buttonModeChoiceDivision.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonModeChoiceDivision.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonModeChoiceDivision.FlatStyle = FlatStyle.Flat;
+            buttonModeChoiceDivision.Font = new Font("Cascadia Code", 30F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonModeChoiceDivision.ForeColor = Color.FromArgb(106, 37, 0);
             buttonModeChoiceDivision.Image = (Image)resources.GetObject("buttonModeChoiceDivision.Image");
-            buttonModeChoiceDivision.Location = new Point(522, 397);
+            buttonModeChoiceDivision.Location = new Point(422, 251);
             buttonModeChoiceDivision.Name = "buttonModeChoiceDivision";
-            buttonModeChoiceDivision.Size = new Size(228, 119);
+            buttonModeChoiceDivision.Size = new Size(266, 145);
             buttonModeChoiceDivision.TabIndex = 5;
             buttonModeChoiceDivision.Text = "Деление";
-            buttonModeChoiceDivision.UseVisualStyleBackColor = true;
+            buttonModeChoiceDivision.TextAlign = ContentAlignment.TopCenter;
+            buttonModeChoiceDivision.UseVisualStyleBackColor = false;
             buttonModeChoiceDivision.Click += buttonModeChoiceDivision_Click;
             // 
             // buttonModeChoiceToMenu
             // 
             buttonModeChoiceToMenu.FlatAppearance.BorderSize = 0;
+            buttonModeChoiceToMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonModeChoiceToMenu.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonModeChoiceToMenu.FlatStyle = FlatStyle.Flat;
+            buttonModeChoiceToMenu.Font = new Font("Cascadia Code", 24F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonModeChoiceToMenu.ForeColor = Color.FromArgb(106, 37, 0);
             buttonModeChoiceToMenu.Image = (Image)resources.GetObject("buttonModeChoiceToMenu.Image");
-            buttonModeChoiceToMenu.Location = new Point(858, 512);
+            buttonModeChoiceToMenu.Location = new Point(837, 513);
             buttonModeChoiceToMenu.Name = "buttonModeChoiceToMenu";
-            buttonModeChoiceToMenu.Size = new Size(175, 115);
+            buttonModeChoiceToMenu.Size = new Size(212, 119);
             buttonModeChoiceToMenu.TabIndex = 6;
             buttonModeChoiceToMenu.Text = "Вернуться в меню";
             buttonModeChoiceToMenu.UseVisualStyleBackColor = true;
             buttonModeChoiceToMenu.Click += buttonModeChoiceToMenu_Click;
+            // 
+            // panelModeChoice
+            // 
+            panelModeChoice.BackColor = Color.Transparent;
+            panelModeChoice.BackgroundImage = (Image)resources.GetObject("panelModeChoice.BackgroundImage");
+            panelModeChoice.BackgroundImageLayout = ImageLayout.Center;
+            panelModeChoice.Controls.Add(buttonModeChoiceAddition);
+            panelModeChoice.Controls.Add(buttonModeChoiceMultiplication);
+            panelModeChoice.Controls.Add(buttonModeChoiceDivision);
+            panelModeChoice.Controls.Add(buttonModeChoiceSubtraction);
+            panelModeChoice.Location = new Point(60, 120);
+            panelModeChoice.Name = "panelModeChoice";
+            panelModeChoice.Size = new Size(792, 434);
+            panelModeChoice.TabIndex = 7;
             // 
             // ModeChoice
             // 
@@ -132,13 +180,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
-            Controls.Add(buttonModeChoiceToMenu);
-            Controls.Add(buttonModeChoiceDivision);
-            Controls.Add(buttonModeChoiceMultiplication);
-            Controls.Add(buttonModeChoiceSubtraction);
-            Controls.Add(buttonModeChoiceAddition);
-            Controls.Add(buttonModeChoiceSettings);
             Controls.Add(labelModeChoiceHeading);
+            Controls.Add(buttonModeChoiceSettings);
+            Controls.Add(buttonModeChoiceToMenu);
+            Controls.Add(panelModeChoice);
             HelpButton = true;
             MaximizeBox = false;
             MaximumSize = new Size(1100, 700);
@@ -151,6 +196,7 @@
             FormClosed += ModeChoice_FormClosed;
             Load += ModeChoice_Load;
             HelpRequested += ModeChoice_HelpRequested;
+            panelModeChoice.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -164,5 +210,6 @@
         private Button buttonModeChoiceMultiplication;
         private Button buttonModeChoiceDivision;
         private Button buttonModeChoiceToMenu;
+        private Panel panelModeChoice;
     }
 }

@@ -44,83 +44,111 @@ namespace MentalArithmApp1
             // 
             // buttonTrainingPageToTimeIncrementChoice
             // 
+            buttonTrainingPageToTimeIncrementChoice.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            buttonTrainingPageToTimeIncrementChoice.BackColor = Color.Transparent;
             buttonTrainingPageToTimeIncrementChoice.FlatAppearance.BorderSize = 0;
+            buttonTrainingPageToTimeIncrementChoice.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTrainingPageToTimeIncrementChoice.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTrainingPageToTimeIncrementChoice.FlatStyle = FlatStyle.Flat;
-            buttonTrainingPageToTimeIncrementChoice.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            buttonTrainingPageToTimeIncrementChoice.Font = new Font("Cascadia Code", 22F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonTrainingPageToTimeIncrementChoice.ForeColor = Color.FromArgb(106, 37, 0);
             buttonTrainingPageToTimeIncrementChoice.Image = (Image)resources.GetObject("buttonTrainingPageToTimeIncrementChoice.Image");
-            buttonTrainingPageToTimeIncrementChoice.Location = new Point(61, 501);
+            buttonTrainingPageToTimeIncrementChoice.Location = new Point(73, 504);
             buttonTrainingPageToTimeIncrementChoice.Name = "buttonTrainingPageToTimeIncrementChoice";
-            buttonTrainingPageToTimeIncrementChoice.Size = new Size(177, 129);
+            buttonTrainingPageToTimeIncrementChoice.Size = new Size(216, 122);
             buttonTrainingPageToTimeIncrementChoice.TabIndex = 0;
             buttonTrainingPageToTimeIncrementChoice.Text = "Вернуться к выбору режима";
-            buttonTrainingPageToTimeIncrementChoice.UseVisualStyleBackColor = true;
+            buttonTrainingPageToTimeIncrementChoice.UseVisualStyleBackColor = false;
             buttonTrainingPageToTimeIncrementChoice.Click += buttonTrainingPageToTimeIncrementChoice_Click;
             // 
             // buttonTrainingPageEnd
             // 
+            buttonTrainingPageEnd.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            buttonTrainingPageEnd.BackColor = Color.Transparent;
             buttonTrainingPageEnd.FlatAppearance.BorderSize = 0;
+            buttonTrainingPageEnd.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTrainingPageEnd.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTrainingPageEnd.FlatStyle = FlatStyle.Flat;
-            buttonTrainingPageEnd.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            buttonTrainingPageEnd.Font = new Font("Cascadia Code", 24F, FontStyle.Bold, GraphicsUnit.Pixel);
+            buttonTrainingPageEnd.ForeColor = Color.FromArgb(106, 37, 0);
             buttonTrainingPageEnd.Image = (Image)resources.GetObject("buttonTrainingPageEnd.Image");
-            buttonTrainingPageEnd.Location = new Point(833, 508);
+            buttonTrainingPageEnd.Location = new Point(803, 508);
             buttonTrainingPageEnd.Name = "buttonTrainingPageEnd";
-            buttonTrainingPageEnd.Size = new Size(177, 115);
+            buttonTrainingPageEnd.Size = new Size(211, 115);
             buttonTrainingPageEnd.TabIndex = 1;
             buttonTrainingPageEnd.Text = "Закончить досрочно";
-            buttonTrainingPageEnd.UseVisualStyleBackColor = true;
+            buttonTrainingPageEnd.UseVisualStyleBackColor = false;
             buttonTrainingPageEnd.Click += buttonTrainingPageEnd_Click;
             // 
             // buttonTrainingPageSettings
             // 
+            buttonTrainingPageSettings.BackColor = Color.Transparent;
             buttonTrainingPageSettings.FlatAppearance.BorderSize = 0;
+            buttonTrainingPageSettings.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            buttonTrainingPageSettings.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonTrainingPageSettings.FlatStyle = FlatStyle.Flat;
             buttonTrainingPageSettings.Image = (Image)resources.GetObject("buttonTrainingPageSettings.Image");
-            buttonTrainingPageSettings.Location = new Point(928, 35);
+            buttonTrainingPageSettings.Location = new Point(28, 12);
             buttonTrainingPageSettings.Name = "buttonTrainingPageSettings";
-            buttonTrainingPageSettings.Size = new Size(119, 91);
+            buttonTrainingPageSettings.Size = new Size(89, 90);
             buttonTrainingPageSettings.TabIndex = 2;
-            buttonTrainingPageSettings.UseVisualStyleBackColor = true;
+            buttonTrainingPageSettings.UseVisualStyleBackColor = false;
             buttonTrainingPageSettings.Click += buttonTrainingPageSettings_Click;
             // 
             // labelTrainingPageTime
             // 
             labelTrainingPageTime.AutoSize = true;
+            labelTrainingPageTime.BackColor = Color.Transparent;
+            labelTrainingPageTime.Font = new Font("Cascadia Code", 64F, FontStyle.Bold, GraphicsUnit.Pixel);
+            labelTrainingPageTime.ForeColor = Color.FromArgb(255, 15, 15);
             labelTrainingPageTime.Image = (Image)resources.GetObject("labelTrainingPageTime.Image");
-            labelTrainingPageTime.Location = new Point(100, 9);
+            labelTrainingPageTime.Location = new Point(400, 27);
             labelTrainingPageTime.Name = "labelTrainingPageTime";
-            labelTrainingPageTime.Padding = new Padding(120);
-            labelTrainingPageTime.Size = new Size(240, 260);
+            labelTrainingPageTime.Padding = new Padding(50, 15, 50, 15);
+            labelTrainingPageTime.RightToLeft = RightToLeft.No;
+            labelTrainingPageTime.Size = new Size(327, 115);
             labelTrainingPageTime.TabIndex = 3;
+            labelTrainingPageTime.Text = "14:88";
+            labelTrainingPageTime.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // textBoxTrainingPage
             // 
-            textBoxTrainingPage.Font = new Font("Segoe UI", 25F);
+            textBoxTrainingPage.Font = new Font("Cascadia Code", 25F);
+            textBoxTrainingPage.ForeColor = Color.FromArgb(106, 37, 0);
             textBoxTrainingPage.Location = new Point(306, 413);
             textBoxTrainingPage.MaxLength = 10;
             textBoxTrainingPage.Name = "textBoxTrainingPage";
-            textBoxTrainingPage.Size = new Size(500, 63);
+            textBoxTrainingPage.Size = new Size(500, 56);
             textBoxTrainingPage.TabIndex = 4;
+            textBoxTrainingPage.WordWrap = false;
             textBoxTrainingPage.KeyDown += input_KeyDown;
             // 
             // labelTrainingPageExample
             // 
-            labelTrainingPageExample.AutoSize = true;
+            labelTrainingPageExample.BackColor = Color.Transparent;
+            labelTrainingPageExample.FlatStyle = FlatStyle.Flat;
+            labelTrainingPageExample.Font = new Font("Arial Black", 80F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTrainingPageExample.ForeColor = Color.Red;
-            labelTrainingPageExample.Location = new Point(447, 258);
+            labelTrainingPageExample.Location = new Point(159, 257);
             labelTrainingPageExample.Name = "labelTrainingPageExample";
-            labelTrainingPageExample.Padding = new Padding(100, 50, 50, 50);
-            labelTrainingPageExample.Size = new Size(216, 120);
+            labelTrainingPageExample.Padding = new Padding(50, 10, 50, 10);
+            labelTrainingPageExample.Size = new Size(808, 133);
             labelTrainingPageExample.TabIndex = 5;
-            labelTrainingPageExample.Text = "Пример";
+            labelTrainingPageExample.Text = "Приготовьтесь";
+            labelTrainingPageExample.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // labelTrainingPageReaction
             // 
-            labelTrainingPageReaction.AutoSize = true;
-            labelTrainingPageReaction.Font = new Font("Segoe UI", 40F, FontStyle.Bold);
-            labelTrainingPageReaction.Location = new Point(460, 68);
+            labelTrainingPageReaction.Anchor = AnchorStyles.None;
+            labelTrainingPageReaction.BackColor = Color.Transparent;
+            labelTrainingPageReaction.Font = new Font("Arial Black", 45F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTrainingPageReaction.ForeColor = Color.Orange;
+            labelTrainingPageReaction.Location = new Point(231, 168);
             labelTrainingPageReaction.Name = "labelTrainingPageReaction";
-            labelTrainingPageReaction.Size = new Size(0, 89);
+            labelTrainingPageReaction.Size = new Size(636, 89);
             labelTrainingPageReaction.TabIndex = 6;
+            labelTrainingPageReaction.Text = "Начали!";
+            labelTrainingPageReaction.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // TrainingPage
             // 
@@ -146,6 +174,7 @@ namespace MentalArithmApp1
             HelpButtonClicked += TrainingPage_HelpButtonClicked;
             FormClosed += TrainingPage_FormClosed;
             HelpRequested += TrainingPage_HelpRequested;
+            KeyDown += input_KeyDown;
             ResumeLayout(false);
             PerformLayout();
         }

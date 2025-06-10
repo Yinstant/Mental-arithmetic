@@ -19,23 +19,29 @@ namespace MentalArithmApp1
 
             Statistics statistics = new();
             statistics.Get();
-            labelStatisticPageCorrectGeneral.Text = $"Всего правильно решённых: {statistics.correctCountGeneral.ToString()}";
-            labelStatisticPageCorrectAdd.Text = $"На сложение: {statistics.correctCountAdd.ToString()}";
-            labelStatisticPageCorrectSub.Text = $"На вычитание: {statistics.correctCountSub.ToString()}";
-            labelStatisticPageCorrectMult.Text = $"На умножение: {statistics.correctCountMult.ToString()}";
-            labelStatisticPageCorrectDiv.Text = $"На деление: {statistics.correctCountDiv.ToString()}";
+            labelStatisticPageCorrectGeneral.Text = $"Количество решённых: {statistics.correctCountGeneral.ToString()}";
+            labelStatisticPageCorrectAdd.Text = statistics.correctCountAdd.ToString();
+            labelStatisticPageCorrectSub.Text = statistics.correctCountSub.ToString();
+            labelStatisticPageCorrectMult.Text = statistics.correctCountMult.ToString();
+            labelStatisticPageCorrectDiv.Text = statistics.correctCountDiv.ToString();
 
-            labelStatisticPageCountGeneral.Text = $"Всего тренировок было: {statistics.trainingCountGeneral.ToString()}";
-            labelStatisticPageCountAdd.Text = $"На сложение: {statistics.trainingCountAdd.ToString()}";
-            labelStatisticPageCountSub.Text = $"На вычитание: {statistics.trainingCountSub.ToString()}";
-            labelStatisticPageCountMult.Text = $"На умножение: {statistics.trainingCountMult.ToString()}";
-            labelStatisticPageCountDiv.Text = $"На деление: {statistics.trainingCountDiv.ToString()}";
+            labelStatisticPageCountGeneral.Text = $"Всего тренировок: {statistics.trainingCountGeneral.ToString()}";
+            labelStatisticPageCountAdd.Text = statistics.trainingCountAdd.ToString();
+            labelStatisticPageCountSub.Text = statistics.trainingCountSub.ToString();
+            labelStatisticPageCountMult.Text = statistics.trainingCountMult.ToString();
+            labelStatisticPageCountDiv.Text = statistics.trainingCountDiv.ToString();
 
-            labelStatisticPageMistakeGeneral.Text = $"Всего ошибок было: {statistics.incorrectCountGeneral.ToString()}";
-            labelStatisticPageMistakeAdd.Text = $"На сложение: {statistics.incorrectCountAdd.ToString()}";
-            labelStatisticPageMistakeSub.Text = $"На вычитание: {statistics.incorrectCountSub.ToString()}";
-            labelStatisticPageMistakeMult.Text = $"На умножение: {statistics.incorrectCountMult.ToString()}";
-            labelStatisticPageMistakeDiv.Text = $"На деление: {statistics.incorrectCountDiv.ToString()}";
+            labelStatisticPageMistakeGeneral.Text = $"Количество ошибок: {statistics.incorrectCountGeneral.ToString()}";
+            labelStatisticPageMistakeAdd.Text = statistics.incorrectCountAdd.ToString();
+            labelStatisticPageMistakeSub.Text = statistics.incorrectCountSub.ToString();
+            labelStatisticPageMistakeMult.Text = statistics.incorrectCountMult.ToString();
+            labelStatisticPageMistakeDiv.Text = statistics.incorrectCountDiv.ToString();
+
+            labelStatisticPageAccuracyGeneral.Text = $"Текущая точность: {statistics.incorrectCountGeneral.ToString()}%";
+            labelStatisticPageAccuracyAdd.Text = $"{statistics.accuracyAdd.ToString()}%";
+            labelStatisticPageAccuracySub.Text = $"{statistics.accuracySub.ToString()}%";
+            labelStatisticPageAccuracyMult.Text = $"{statistics.accuracyMult.ToString()}%";
+            labelStatisticPageAccuracyDiv.Text = $"{statistics.accuracyDiv.ToString()}%";
         }
 
         private void buttonStatisticPageToMenu_Click(object sender, EventArgs e)

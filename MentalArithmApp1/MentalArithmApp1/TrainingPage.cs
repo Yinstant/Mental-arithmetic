@@ -73,6 +73,8 @@ namespace MentalArithmApp1
         {
             if (e.KeyData == Keys.Enter)
             {
+                e.SuppressKeyPress = true;
+
                 string buf = textBoxTrainingPage.Text;
                 int attempt;
                 bool IsNum = int.TryParse(buf, out attempt);
