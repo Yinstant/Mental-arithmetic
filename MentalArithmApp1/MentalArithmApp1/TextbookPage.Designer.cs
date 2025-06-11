@@ -48,11 +48,11 @@
             labelTextbookPageHeading.BackColor = Color.Transparent;
             labelTextbookPageHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTextbookPageHeading.ForeColor = Color.FromArgb(147, 15, 255);
-            labelTextbookPageHeading.Location = new Point(191, 32);
+            labelTextbookPageHeading.Location = new Point(429, 19);
             labelTextbookPageHeading.Name = "labelTextbookPageHeading";
-            labelTextbookPageHeading.Size = new Size(227, 56);
+            labelTextbookPageHeading.Size = new Size(214, 56);
             labelTextbookPageHeading.TabIndex = 1;
-            labelTextbookPageHeading.Text = "Учебник.";
+            labelTextbookPageHeading.Text = "Учебник";
             // 
             // buttonTextbookPageToBack
             // 
@@ -109,11 +109,12 @@
             // 
             // pictureBoxTextbookPage
             // 
-            pictureBoxTextbookPage.Anchor = AnchorStyles.None;
+            pictureBoxTextbookPage.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBoxTextbookPage.BackColor = Color.Transparent;
-            pictureBoxTextbookPage.Location = new Point(100, 112);
+            pictureBoxTextbookPage.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBoxTextbookPage.Location = new Point(0, 0);
             pictureBoxTextbookPage.Name = "pictureBoxTextbookPage";
-            pictureBoxTextbookPage.Size = new Size(856, 370);
+            pictureBoxTextbookPage.Size = new Size(1082, 570);
             pictureBoxTextbookPage.TabIndex = 9;
             pictureBoxTextbookPage.TabStop = false;
             // 
@@ -180,15 +181,15 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelTextbookPageHeading);
+            Controls.Add(buttonTextbookPageToNext);
+            Controls.Add(buttonTextbookPageToBack);
+            Controls.Add(buttonTextbookPageToMenu);
             Controls.Add(labelTextbookPageClose);
             Controls.Add(labelTextbookPageHelp);
             Controls.Add(buttonTextbookPageToChoice);
             Controls.Add(buttonTextbookPageSettings);
             Controls.Add(pictureBoxTextbookPage);
-            Controls.Add(buttonTextbookPageToMenu);
-            Controls.Add(buttonTextbookPageToNext);
-            Controls.Add(buttonTextbookPageToBack);
-            Controls.Add(labelTextbookPageHeading);
             HelpButton = true;
             MaximizeBox = false;
             MaximumSize = new Size(1100, 700);

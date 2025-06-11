@@ -63,11 +63,11 @@ namespace MentalArithmApp1
 
             for (int i = 0; i < 5; i++)
                 dir = Directory.GetParent(dir).FullName;
-            string path = $"{dir}\\Textbook\\{modePath}\\page{pageNum}.jpg";
+            string path = $"{dir}\\Textbook\\{modePath}\\page{pageNum}.png";
 
             try
             {
-                pictureBoxTextbookPage.Image = Image.FromFile(path);
+                pictureBoxTextbookPage.BackgroundImage = Image.FromFile(path);
             }
             catch
             {
