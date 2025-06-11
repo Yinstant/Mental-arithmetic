@@ -44,6 +44,7 @@
             // 
             // labelTimeChoiceHeading
             // 
+            labelTimeChoiceHeading.Anchor = AnchorStyles.Top;
             labelTimeChoiceHeading.AutoSize = true;
             labelTimeChoiceHeading.BackColor = Color.Transparent;
             labelTimeChoiceHeading.FlatStyle = FlatStyle.Flat;
@@ -167,6 +168,7 @@
             // 
             // buttonTimeChoiceToBack
             // 
+            buttonTimeChoiceToBack.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             buttonTimeChoiceToBack.BackColor = Color.Transparent;
             buttonTimeChoiceToBack.FlatAppearance.BorderSize = 0;
             buttonTimeChoiceToBack.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -182,6 +184,7 @@
             // 
             // buttonTimeChoiceToMenu
             // 
+            buttonTimeChoiceToMenu.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             buttonTimeChoiceToMenu.BackColor = Color.Transparent;
             buttonTimeChoiceToMenu.FlatAppearance.BorderSize = 0;
             buttonTimeChoiceToMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -200,6 +203,7 @@
             // 
             // panelTimeChoice
             // 
+            panelTimeChoice.Anchor = AnchorStyles.None;
             panelTimeChoice.BackColor = Color.Transparent;
             panelTimeChoice.BackgroundImage = (Image)resources.GetObject("panelTimeChoice.BackgroundImage");
             panelTimeChoice.BackgroundImageLayout = ImageLayout.Center;
@@ -215,6 +219,7 @@
             // 
             // labelTimeChoiceClose
             // 
+            labelTimeChoiceClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTimeChoiceClose.AutoSize = true;
             labelTimeChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTimeChoiceClose.Location = new Point(1010, 0);
@@ -226,6 +231,7 @@
             // 
             // labelTimeChoiceHelp
             // 
+            labelTimeChoiceHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTimeChoiceHelp.AutoSize = true;
             labelTimeChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTimeChoiceHelp.Location = new Point(950, 0);

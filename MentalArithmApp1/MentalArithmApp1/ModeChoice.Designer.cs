@@ -44,6 +44,7 @@
             // 
             // labelModeChoiceHeading
             // 
+            labelModeChoiceHeading.Anchor = AnchorStyles.Top;
             labelModeChoiceHeading.AutoSize = true;
             labelModeChoiceHeading.BackColor = Color.Transparent;
             labelModeChoiceHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
@@ -147,6 +148,7 @@
             // 
             // buttonModeChoiceToMenu
             // 
+            buttonModeChoiceToMenu.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             buttonModeChoiceToMenu.FlatAppearance.BorderSize = 0;
             buttonModeChoiceToMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttonModeChoiceToMenu.FlatAppearance.MouseOverBackColor = Color.Transparent;
@@ -164,6 +166,7 @@
             // 
             // panelModeChoice
             // 
+            panelModeChoice.Anchor = AnchorStyles.None;
             panelModeChoice.BackColor = Color.Transparent;
             panelModeChoice.BackgroundImage = (Image)resources.GetObject("panelModeChoice.BackgroundImage");
             panelModeChoice.BackgroundImageLayout = ImageLayout.Center;
@@ -178,6 +181,7 @@
             // 
             // labelModeChoiceClose
             // 
+            labelModeChoiceClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelModeChoiceClose.AutoSize = true;
             labelModeChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelModeChoiceClose.Location = new Point(1010, 0);
@@ -189,6 +193,7 @@
             // 
             // labelModeChoiceHelp
             // 
+            labelModeChoiceHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelModeChoiceHelp.AutoSize = true;
             labelModeChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelModeChoiceHelp.Location = new Point(950, 0);

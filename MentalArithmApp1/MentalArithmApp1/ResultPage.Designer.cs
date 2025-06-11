@@ -72,6 +72,7 @@
             // 
             // labelResultPageHeading
             // 
+            labelResultPageHeading.Anchor = AnchorStyles.Top;
             labelResultPageHeading.AutoSize = true;
             labelResultPageHeading.BackColor = Color.Transparent;
             labelResultPageHeading.Font = new Font("Arial Black", 25F);
@@ -84,6 +85,7 @@
             // 
             // buttonResultPageToMenu
             // 
+            buttonResultPageToMenu.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             buttonResultPageToMenu.BackColor = Color.Transparent;
             buttonResultPageToMenu.FlatAppearance.BorderSize = 0;
             buttonResultPageToMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -102,6 +104,7 @@
             // 
             // buttonResultPageToModeChoice
             // 
+            buttonResultPageToModeChoice.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             buttonResultPageToModeChoice.BackColor = Color.Transparent;
             buttonResultPageToModeChoice.FlatAppearance.BorderSize = 0;
             buttonResultPageToModeChoice.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -120,6 +123,7 @@
             // 
             // panelResultPage
             // 
+            panelResultPage.Anchor = AnchorStyles.None;
             panelResultPage.BackColor = Color.Transparent;
             panelResultPage.BackgroundImage = (Image)resources.GetObject("panelResultPage.BackgroundImage");
             panelResultPage.BackgroundImageLayout = ImageLayout.Center;
@@ -167,6 +171,7 @@
             // 
             // buttonResultPageToStatistics
             // 
+            buttonResultPageToStatistics.Anchor = AnchorStyles.Bottom;
             buttonResultPageToStatistics.BackColor = Color.Transparent;
             buttonResultPageToStatistics.FlatAppearance.BorderSize = 0;
             buttonResultPageToStatistics.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -200,6 +205,7 @@
             // 
             // labelResultPageClose
             // 
+            labelResultPageClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelResultPageClose.AutoSize = true;
             labelResultPageClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelResultPageClose.Location = new Point(1010, 0);
@@ -211,6 +217,7 @@
             // 
             // labelResultPageHelp
             // 
+            labelResultPageHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelResultPageHelp.AutoSize = true;
             labelResultPageHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelResultPageHelp.Location = new Point(950, 0);

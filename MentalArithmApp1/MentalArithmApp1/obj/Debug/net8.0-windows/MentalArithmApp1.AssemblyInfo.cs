@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MentalArithmApp1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce38cd0861a1dee0adffb3048bdb41b14f84cd45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+005fef114bd1ff3febe67efa51a63c193d45346c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MentalArithmApp1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MentalArithmApp1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -44,6 +44,7 @@
             // 
             // labelComplexityChoiceHeading
             // 
+            labelComplexityChoiceHeading.Anchor = AnchorStyles.Top;
             labelComplexityChoiceHeading.AutoSize = true;
             labelComplexityChoiceHeading.BackColor = Color.Transparent;
             labelComplexityChoiceHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
@@ -125,6 +126,7 @@
             // 
             // buttonComplexityChoiceToBack
             // 
+            buttonComplexityChoiceToBack.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             buttonComplexityChoiceToBack.BackColor = Color.Transparent;
             buttonComplexityChoiceToBack.FlatAppearance.BorderSize = 0;
             buttonComplexityChoiceToBack.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -159,6 +161,7 @@
             // 
             // panelComplexityChoice
             // 
+            panelComplexityChoice.Anchor = AnchorStyles.None;
             panelComplexityChoice.BackColor = Color.Transparent;
             panelComplexityChoice.BackgroundImage = (Image)resources.GetObject("panelComplexityChoice.BackgroundImage");
             panelComplexityChoice.BackgroundImageLayout = ImageLayout.Center;
@@ -172,6 +175,7 @@
             // 
             // labelComplexityChoiceClose
             // 
+            labelComplexityChoiceClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelComplexityChoiceClose.AutoSize = true;
             labelComplexityChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelComplexityChoiceClose.Location = new Point(1010, 0);
@@ -183,6 +187,7 @@
             // 
             // labelComplexityChoiceHelp
             // 
+            labelComplexityChoiceHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelComplexityChoiceHelp.AutoSize = true;
             labelComplexityChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelComplexityChoiceHelp.Location = new Point(950, 0);

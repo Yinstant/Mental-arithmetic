@@ -99,6 +99,7 @@
             // 
             // labelStatisticPageHeading
             // 
+            labelStatisticPageHeading.Anchor = AnchorStyles.Top;
             labelStatisticPageHeading.AutoSize = true;
             labelStatisticPageHeading.BackColor = Color.Transparent;
             labelStatisticPageHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
@@ -111,6 +112,7 @@
             // 
             // buttonStatisticPageToMenu
             // 
+            buttonStatisticPageToMenu.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             buttonStatisticPageToMenu.BackColor = Color.Transparent;
             buttonStatisticPageToMenu.FlatAppearance.BorderSize = 0;
             buttonStatisticPageToMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -144,6 +146,7 @@
             // 
             // buttonStatisticPageDelete
             // 
+            buttonStatisticPageDelete.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             buttonStatisticPageDelete.BackColor = Color.Transparent;
             buttonStatisticPageDelete.BackgroundImageLayout = ImageLayout.None;
             buttonStatisticPageDelete.FlatAppearance.BorderSize = 0;
@@ -160,6 +163,7 @@
             // 
             // panelStatisticPageTrainings
             // 
+            panelStatisticPageTrainings.Anchor = AnchorStyles.None;
             panelStatisticPageTrainings.BackColor = Color.Transparent;
             panelStatisticPageTrainings.BackgroundImage = (Image)resources.GetObject("panelStatisticPageTrainings.BackgroundImage");
             panelStatisticPageTrainings.BackgroundImageLayout = ImageLayout.Center;
@@ -266,6 +270,7 @@
             // 
             // panelStatisticPageRights
             // 
+            panelStatisticPageRights.Anchor = AnchorStyles.None;
             panelStatisticPageRights.BackColor = Color.Transparent;
             panelStatisticPageRights.BackgroundImage = (Image)resources.GetObject("panelStatisticPageRights.BackgroundImage");
             panelStatisticPageRights.BackgroundImageLayout = ImageLayout.Center;
@@ -372,6 +377,7 @@
             // 
             // panelStatisticPageAccuracy
             // 
+            panelStatisticPageAccuracy.Anchor = AnchorStyles.None;
             panelStatisticPageAccuracy.BackColor = Color.Transparent;
             panelStatisticPageAccuracy.BackgroundImage = (Image)resources.GetObject("panelStatisticPageAccuracy.BackgroundImage");
             panelStatisticPageAccuracy.BackgroundImageLayout = ImageLayout.Center;
@@ -478,6 +484,7 @@
             // 
             // panelStatisticPageMistakes
             // 
+            panelStatisticPageMistakes.Anchor = AnchorStyles.None;
             panelStatisticPageMistakes.BackColor = Color.Transparent;
             panelStatisticPageMistakes.BackgroundImage = (Image)resources.GetObject("panelStatisticPageMistakes.BackgroundImage");
             panelStatisticPageMistakes.BackgroundImageLayout = ImageLayout.Center;
@@ -584,6 +591,7 @@
             // 
             // labelStatisticPageClose
             // 
+            labelStatisticPageClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelStatisticPageClose.AutoSize = true;
             labelStatisticPageClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelStatisticPageClose.Location = new Point(1010, 0);
@@ -595,6 +603,7 @@
             // 
             // labelStatisticPageHelp
             // 
+            labelStatisticPageHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelStatisticPageHelp.AutoSize = true;
             labelStatisticPageHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelStatisticPageHelp.Location = new Point(950, 0);

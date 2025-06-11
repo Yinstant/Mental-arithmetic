@@ -44,6 +44,7 @@
             // 
             // buttonTextbookChoiceToMenu
             // 
+            buttonTextbookChoiceToMenu.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             buttonTextbookChoiceToMenu.FlatAppearance.BorderSize = 0;
             buttonTextbookChoiceToMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttonTextbookChoiceToMenu.FlatAppearance.MouseOverBackColor = Color.Transparent;
@@ -152,6 +153,7 @@
             // 
             // labelTextbookChoiceHeading
             // 
+            labelTextbookChoiceHeading.Anchor = AnchorStyles.Top;
             labelTextbookChoiceHeading.AutoSize = true;
             labelTextbookChoiceHeading.BackColor = Color.Transparent;
             labelTextbookChoiceHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
@@ -164,6 +166,7 @@
             // 
             // panelTextbookChoice
             // 
+            panelTextbookChoice.Anchor = AnchorStyles.None;
             panelTextbookChoice.BackColor = Color.Transparent;
             panelTextbookChoice.BackgroundImage = (Image)resources.GetObject("panelTextbookChoice.BackgroundImage");
             panelTextbookChoice.BackgroundImageLayout = ImageLayout.Center;
@@ -178,6 +181,7 @@
             // 
             // labelTextbookChoiceClose
             // 
+            labelTextbookChoiceClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTextbookChoiceClose.AutoSize = true;
             labelTextbookChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTextbookChoiceClose.Location = new Point(1010, 0);
@@ -189,6 +193,7 @@
             // 
             // labelTextbookChoiceHelp
             // 
+            labelTextbookChoiceHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTextbookChoiceHelp.AutoSize = true;
             labelTextbookChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTextbookChoiceHelp.Location = new Point(950, 0);

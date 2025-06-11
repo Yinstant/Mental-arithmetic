@@ -43,6 +43,7 @@
             // 
             // labelTextbookPageHeading
             // 
+            labelTextbookPageHeading.Anchor = AnchorStyles.Top;
             labelTextbookPageHeading.AutoSize = true;
             labelTextbookPageHeading.BackColor = Color.Transparent;
             labelTextbookPageHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
@@ -55,6 +56,7 @@
             // 
             // buttonTextbookPageToBack
             // 
+            buttonTextbookPageToBack.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             buttonTextbookPageToBack.BackColor = Color.Transparent;
             buttonTextbookPageToBack.FlatAppearance.BorderSize = 0;
             buttonTextbookPageToBack.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -71,6 +73,7 @@
             // 
             // buttonTextbookPageToNext
             // 
+            buttonTextbookPageToNext.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             buttonTextbookPageToNext.BackColor = Color.Transparent;
             buttonTextbookPageToNext.FlatAppearance.BorderSize = 0;
             buttonTextbookPageToNext.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -87,6 +90,7 @@
             // 
             // buttonTextbookPageToMenu
             // 
+            buttonTextbookPageToMenu.Anchor = AnchorStyles.Bottom;
             buttonTextbookPageToMenu.BackColor = Color.Transparent;
             buttonTextbookPageToMenu.FlatAppearance.BorderSize = 0;
             buttonTextbookPageToMenu.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -105,6 +109,7 @@
             // 
             // pictureBoxTextbookPage
             // 
+            pictureBoxTextbookPage.Anchor = AnchorStyles.None;
             pictureBoxTextbookPage.BackColor = Color.Transparent;
             pictureBoxTextbookPage.Location = new Point(100, 112);
             pictureBoxTextbookPage.Name = "pictureBoxTextbookPage";
@@ -129,6 +134,7 @@
             // 
             // buttonTextbookPageToChoice
             // 
+            buttonTextbookPageToChoice.Anchor = AnchorStyles.Bottom;
             buttonTextbookPageToChoice.BackColor = Color.Transparent;
             buttonTextbookPageToChoice.FlatAppearance.BorderSize = 0;
             buttonTextbookPageToChoice.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -147,6 +153,7 @@
             // 
             // labelTextbookPageClose
             // 
+            labelTextbookPageClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTextbookPageClose.AutoSize = true;
             labelTextbookPageClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTextbookPageClose.Location = new Point(1010, 0);
@@ -158,6 +165,7 @@
             // 
             // labelTextbookPageHelp
             // 
+            labelTextbookPageHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTextbookPageHelp.AutoSize = true;
             labelTextbookPageHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTextbookPageHelp.Location = new Point(950, 0);

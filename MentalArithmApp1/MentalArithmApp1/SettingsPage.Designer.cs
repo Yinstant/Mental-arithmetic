@@ -47,6 +47,7 @@
             // 
             // labelSettingsPageHeading
             // 
+            labelSettingsPageHeading.Anchor = AnchorStyles.Top;
             labelSettingsPageHeading.AutoSize = true;
             labelSettingsPageHeading.Font = new Font("Segoe UI", 40F, FontStyle.Bold);
             labelSettingsPageHeading.Location = new Point(339, 18);
@@ -57,6 +58,7 @@
             // 
             // buttonSettingsPageToMenu
             // 
+            buttonSettingsPageToMenu.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             buttonSettingsPageToMenu.FlatAppearance.BorderSize = 0;
             buttonSettingsPageToMenu.FlatStyle = FlatStyle.Flat;
             buttonSettingsPageToMenu.Image = (Image)resources.GetObject("buttonSettingsPageToMenu.Image");
@@ -103,6 +105,7 @@
             // 
             // buttonSettingsSet
             // 
+            buttonSettingsSet.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             buttonSettingsSet.Location = new Point(77, 504);
             buttonSettingsSet.Name = "buttonSettingsSet";
             buttonSettingsSet.Size = new Size(143, 101);
@@ -113,6 +116,7 @@
             // 
             // groupBoxScreenSize
             // 
+            groupBoxScreenSize.Anchor = AnchorStyles.None;
             groupBoxScreenSize.BackColor = Color.Transparent;
             groupBoxScreenSize.Controls.Add(radioButtonScreenSizeFixed);
             groupBoxScreenSize.Controls.Add(radioButtonScreenSizeFull);
@@ -127,6 +131,7 @@
             // 
             // labelSettingsPageHelp
             // 
+            labelSettingsPageHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelSettingsPageHelp.AutoSize = true;
             labelSettingsPageHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelSettingsPageHelp.Location = new Point(950, 0);
@@ -138,6 +143,7 @@
             // 
             // groupBoxTopPanel
             // 
+            groupBoxTopPanel.Anchor = AnchorStyles.None;
             groupBoxTopPanel.BackColor = Color.Transparent;
             groupBoxTopPanel.Controls.Add(radioButtonTopPanelNo);
             groupBoxTopPanel.Controls.Add(radioButtonTopPanelYes);
@@ -172,6 +178,7 @@
             // 
             // labelSettingsPageClose
             // 
+            labelSettingsPageClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelSettingsPageClose.AutoSize = true;
             labelSettingsPageClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelSettingsPageClose.Location = new Point(1010, 0);

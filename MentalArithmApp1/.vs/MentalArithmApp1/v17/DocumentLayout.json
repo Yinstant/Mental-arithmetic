@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\settingspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\settingspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,13 +23,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MentalArithmApp1\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "MentalArithmApp1\\MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "SettingsPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\SettingsPage.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\SettingsPage.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\SettingsPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MentalArithmApp1\\SettingsPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:59:08.292Z",
+              "WhenOpened": "2025-06-11T13:17:39.422Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "MentalArithmApp1\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\Program.cs",
               "RelativeToolTip": "MentalArithmApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T07:48:43.449Z",
               "EditorCaption": ""

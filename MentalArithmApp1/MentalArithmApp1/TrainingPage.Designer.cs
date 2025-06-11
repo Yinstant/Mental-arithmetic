@@ -99,6 +99,7 @@ namespace MentalArithmApp1
             // 
             // labelTrainingPageTime
             // 
+            labelTrainingPageTime.Anchor = AnchorStyles.Top;
             labelTrainingPageTime.AutoSize = true;
             labelTrainingPageTime.BackColor = Color.Transparent;
             labelTrainingPageTime.Font = new Font("Cascadia Code", 64F, FontStyle.Bold, GraphicsUnit.Pixel);
@@ -110,11 +111,12 @@ namespace MentalArithmApp1
             labelTrainingPageTime.RightToLeft = RightToLeft.No;
             labelTrainingPageTime.Size = new Size(327, 115);
             labelTrainingPageTime.TabIndex = 3;
-            labelTrainingPageTime.Text = "14:88";
+            labelTrainingPageTime.Text = "--:--";
             labelTrainingPageTime.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // textBoxTrainingPage
             // 
+            textBoxTrainingPage.Anchor = AnchorStyles.None;
             textBoxTrainingPage.Font = new Font("Cascadia Code", 25F);
             textBoxTrainingPage.ForeColor = Color.FromArgb(106, 37, 0);
             textBoxTrainingPage.Location = new Point(306, 413);
@@ -127,6 +129,7 @@ namespace MentalArithmApp1
             // 
             // labelTrainingPageExample
             // 
+            labelTrainingPageExample.Anchor = AnchorStyles.None;
             labelTrainingPageExample.BackColor = Color.Transparent;
             labelTrainingPageExample.FlatStyle = FlatStyle.Flat;
             labelTrainingPageExample.Font = new Font("Arial Black", 80F, FontStyle.Regular, GraphicsUnit.Pixel);
@@ -154,6 +157,7 @@ namespace MentalArithmApp1
             // 
             // labelTrainingPageClose
             // 
+            labelTrainingPageClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTrainingPageClose.AutoSize = true;
             labelTrainingPageClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTrainingPageClose.Location = new Point(1010, 0);
@@ -165,6 +169,7 @@ namespace MentalArithmApp1
             // 
             // labelTrainingPageHelp
             // 
+            labelTrainingPageHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTrainingPageHelp.AutoSize = true;
             labelTrainingPageHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTrainingPageHelp.Location = new Point(950, 0);

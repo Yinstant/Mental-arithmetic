@@ -64,6 +64,7 @@
             // 
             // buttonTimeIncrementChoiceToBack
             // 
+            buttonTimeIncrementChoiceToBack.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             buttonTimeIncrementChoiceToBack.BackColor = Color.Transparent;
             buttonTimeIncrementChoiceToBack.FlatAppearance.BorderSize = 0;
             buttonTimeIncrementChoiceToBack.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -94,6 +95,7 @@
             // 
             // labelTimeIncrementChoiceHeading
             // 
+            labelTimeIncrementChoiceHeading.Anchor = AnchorStyles.Top;
             labelTimeIncrementChoiceHeading.AutoSize = true;
             labelTimeIncrementChoiceHeading.BackColor = Color.Transparent;
             labelTimeIncrementChoiceHeading.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
@@ -182,6 +184,7 @@
             // 
             // panelTimeIncrementChoice
             // 
+            panelTimeIncrementChoice.Anchor = AnchorStyles.None;
             panelTimeIncrementChoice.BackColor = Color.Transparent;
             panelTimeIncrementChoice.BackgroundImage = (Image)resources.GetObject("panelTimeIncrementChoice.BackgroundImage");
             panelTimeIncrementChoice.BackgroundImageLayout = ImageLayout.Center;
@@ -196,6 +199,7 @@
             // 
             // labelTimeIncrementChoiceClose
             // 
+            labelTimeIncrementChoiceClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTimeIncrementChoiceClose.AutoSize = true;
             labelTimeIncrementChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTimeIncrementChoiceClose.Location = new Point(1010, 0);
@@ -207,6 +211,7 @@
             // 
             // labelTimeIncrementChoiceHelp
             // 
+            labelTimeIncrementChoiceHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             labelTimeIncrementChoiceHelp.AutoSize = true;
             labelTimeIncrementChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
             labelTimeIncrementChoiceHelp.Location = new Point(950, 0);

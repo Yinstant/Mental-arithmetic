@@ -151,7 +151,7 @@
             // 
             // panelMainMenu
             // 
-            panelMainMenu.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panelMainMenu.Anchor = AnchorStyles.None;
             panelMainMenu.BackgroundImage = (Image)resources.GetObject("panelMainMenu.BackgroundImage");
             panelMainMenu.BackgroundImageLayout = ImageLayout.Zoom;
             panelMainMenu.Controls.Add(buttonMainMenuAchievements);
