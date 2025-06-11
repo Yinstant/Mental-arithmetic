@@ -12,10 +12,37 @@ namespace MentalArithmApp1
 {
     public partial class ModeChoice : Form
     {
+        private Point lastPoint;
         public ModeChoice()
         {
-            Program.training = new DataClasses.Training();
             InitializeComponent();
+
+            if (Program.settings.ScreenSize == "Fixed")
+            {
+            }
+            else if (Program.settings.ScreenSize == "Full")
+            {
+                this.MaximumSize = new Size();
+                this.TopMost = true;
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (Program.settings.ScreenSize == "Adaptive")
+            {
+                this.MaximumSize = new Size();
+            }
+
+            if (Program.settings.isTopPanel)
+            {
+                if (Program.settings.ScreenSize != "Full") { 
+                    labelModeChoiceClose.Hide();
+                    labelModeChoiceHelp.Hide();
+                }
+            }
+            else
+            {
+                this.FormBorderStyle = FormBorderStyle.None;
+            }
         }
 
         private void buttonModeChoiceToMenu_Click(object sender, EventArgs e)
@@ -82,6 +109,25 @@ namespace MentalArithmApp1
             SettingsPage settingsPage = new();
             settingsPage.Show();
             this.Hide();
+        }
+
+        private void ModeChoice_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new(e.X, e.Y);
+        }
+
+        private void ModeChoice_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void labelModeChoiceClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

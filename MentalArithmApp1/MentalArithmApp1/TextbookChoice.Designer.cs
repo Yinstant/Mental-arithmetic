@@ -37,6 +37,8 @@
             buttonTextbookChoiceSettings = new Button();
             labelTextbookChoiceHeading = new Label();
             panelTextbookChoice = new Panel();
+            labelTextbookChoiceClose = new Label();
+            labelTextbookChoiceHelp = new Label();
             panelTextbookChoice.SuspendLayout();
             SuspendLayout();
             // 
@@ -174,12 +176,35 @@
             panelTextbookChoice.Size = new Size(714, 416);
             panelTextbookChoice.TabIndex = 14;
             // 
+            // labelTextbookChoiceClose
+            // 
+            labelTextbookChoiceClose.AutoSize = true;
+            labelTextbookChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTextbookChoiceClose.Location = new Point(1010, 0);
+            labelTextbookChoiceClose.Name = "labelTextbookChoiceClose";
+            labelTextbookChoiceClose.Size = new Size(55, 56);
+            labelTextbookChoiceClose.TabIndex = 20;
+            labelTextbookChoiceClose.Text = "X";
+            labelTextbookChoiceClose.Click += labelTextbookChoiceClose_Click;
+            // 
+            // labelTextbookChoiceHelp
+            // 
+            labelTextbookChoiceHelp.AutoSize = true;
+            labelTextbookChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTextbookChoiceHelp.Location = new Point(950, 0);
+            labelTextbookChoiceHelp.Name = "labelTextbookChoiceHelp";
+            labelTextbookChoiceHelp.Size = new Size(48, 56);
+            labelTextbookChoiceHelp.TabIndex = 19;
+            labelTextbookChoiceHelp.Text = "?";
+            // 
             // TextbookChoice
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelTextbookChoiceClose);
+            Controls.Add(labelTextbookChoiceHelp);
             Controls.Add(buttonTextbookChoiceToMenu);
             Controls.Add(buttonTextbookChoiceSettings);
             Controls.Add(labelTextbookChoiceHeading);
@@ -193,6 +218,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
             FormClosed += TextbookChoice_FormClosed;
+            MouseDown += TextbookChoice_MouseDown;
+            MouseMove += TextbookChoice_MouseMove;
             panelTextbookChoice.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -208,5 +235,7 @@
         private Button buttonTextbookChoiceSettings;
         private Label labelTextbookChoiceHeading;
         private Panel panelTextbookChoice;
+        private Label labelTextbookChoiceClose;
+        private Label labelTextbookChoiceHelp;
     }
 }

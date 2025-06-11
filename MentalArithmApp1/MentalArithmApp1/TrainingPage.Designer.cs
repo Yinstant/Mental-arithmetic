@@ -40,6 +40,8 @@ namespace MentalArithmApp1
             labelTrainingPageExample = new Label();
             timerTrainingPage = new System.Windows.Forms.Timer(components);
             labelTrainingPageReaction = new Label();
+            labelTrainingPageClose = new Label();
+            labelTrainingPageHelp = new Label();
             SuspendLayout();
             // 
             // buttonTrainingPageToTimeIncrementChoice
@@ -150,12 +152,35 @@ namespace MentalArithmApp1
             labelTrainingPageReaction.Text = "Начали!";
             labelTrainingPageReaction.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // labelTrainingPageClose
+            // 
+            labelTrainingPageClose.AutoSize = true;
+            labelTrainingPageClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTrainingPageClose.Location = new Point(1010, 0);
+            labelTrainingPageClose.Name = "labelTrainingPageClose";
+            labelTrainingPageClose.Size = new Size(55, 56);
+            labelTrainingPageClose.TabIndex = 20;
+            labelTrainingPageClose.Text = "X";
+            labelTrainingPageClose.Click += labelTrainingPageClose_Click;
+            // 
+            // labelTrainingPageHelp
+            // 
+            labelTrainingPageHelp.AutoSize = true;
+            labelTrainingPageHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTrainingPageHelp.Location = new Point(950, 0);
+            labelTrainingPageHelp.Name = "labelTrainingPageHelp";
+            labelTrainingPageHelp.Size = new Size(48, 56);
+            labelTrainingPageHelp.TabIndex = 19;
+            labelTrainingPageHelp.Text = "?";
+            // 
             // TrainingPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelTrainingPageClose);
+            Controls.Add(labelTrainingPageHelp);
             Controls.Add(labelTrainingPageReaction);
             Controls.Add(labelTrainingPageExample);
             Controls.Add(textBoxTrainingPage);
@@ -175,6 +200,8 @@ namespace MentalArithmApp1
             FormClosed += TrainingPage_FormClosed;
             HelpRequested += TrainingPage_HelpRequested;
             KeyDown += input_KeyDown;
+            MouseDown += TrainingPage_MouseDown;
+            MouseMove += TrainingPage_MouseMove;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -189,5 +216,7 @@ namespace MentalArithmApp1
         private Label labelTrainingPageExample;
         private System.Windows.Forms.Timer timerTrainingPage;
         private Label labelTrainingPageReaction;
+        private Label labelTrainingPageClose;
+        private Label labelTrainingPageHelp;
     }
 }

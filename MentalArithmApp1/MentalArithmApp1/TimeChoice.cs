@@ -12,9 +12,37 @@ namespace MentalArithmApp1
 {
     public partial class TimeChoice : Form
     {
+        private Point lastPoint;
         public TimeChoice()
         {
             InitializeComponent();
+
+            if (Program.settings.ScreenSize == "Fixed")
+            {
+            }
+            else if (Program.settings.ScreenSize == "Full")
+            {
+                this.MaximumSize = new Size();
+                this.TopMost = true;
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (Program.settings.ScreenSize == "Adaptive")
+            {
+                this.MaximumSize = new Size();
+            }
+
+            if (Program.settings.isTopPanel)
+            {
+                if (Program.settings.ScreenSize != "Full") { 
+                    labelTimeChoiceClose.Hide();
+                    labelTimeChoiceHelp.Hide();
+                }
+            }
+            else
+            {
+                this.FormBorderStyle = FormBorderStyle.None;
+            }
         }
         private void labelTimeChoiceHeading_Click(object sender, EventArgs e)
         {
@@ -92,6 +120,25 @@ namespace MentalArithmApp1
             SettingsPage settingsPage = new();
             settingsPage.Show();
             this.Hide();
+        }
+
+        private void TimeChoice_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new(e.X, e.Y);
+        }
+
+        private void TimeChoice_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void labelTimeChoiceClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

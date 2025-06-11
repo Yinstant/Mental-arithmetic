@@ -36,6 +36,8 @@
             pictureBoxTextbookPage = new PictureBox();
             buttonTextbookPageSettings = new Button();
             buttonTextbookPageToChoice = new Button();
+            labelTextbookPageClose = new Label();
+            labelTextbookPageHelp = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBoxTextbookPage).BeginInit();
             SuspendLayout();
             // 
@@ -143,12 +145,35 @@
             buttonTextbookPageToChoice.UseVisualStyleBackColor = false;
             buttonTextbookPageToChoice.Click += buttonTextbookPageToChoice_Click;
             // 
+            // labelTextbookPageClose
+            // 
+            labelTextbookPageClose.AutoSize = true;
+            labelTextbookPageClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTextbookPageClose.Location = new Point(1010, 0);
+            labelTextbookPageClose.Name = "labelTextbookPageClose";
+            labelTextbookPageClose.Size = new Size(55, 56);
+            labelTextbookPageClose.TabIndex = 20;
+            labelTextbookPageClose.Text = "X";
+            labelTextbookPageClose.Click += labelTextbookPageClose_Click;
+            // 
+            // labelTextbookPageHelp
+            // 
+            labelTextbookPageHelp.AutoSize = true;
+            labelTextbookPageHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTextbookPageHelp.Location = new Point(950, 0);
+            labelTextbookPageHelp.Name = "labelTextbookPageHelp";
+            labelTextbookPageHelp.Size = new Size(48, 56);
+            labelTextbookPageHelp.TabIndex = 19;
+            labelTextbookPageHelp.Text = "?";
+            // 
             // TextbookPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelTextbookPageClose);
+            Controls.Add(labelTextbookPageHelp);
             Controls.Add(buttonTextbookPageToChoice);
             Controls.Add(buttonTextbookPageSettings);
             Controls.Add(pictureBoxTextbookPage);
@@ -165,6 +190,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
             FormClosed += TextbookPage_FormClosed;
+            MouseDown += TextbookPage_MouseDown;
+            MouseMove += TextbookPage_MouseMove;
             ((System.ComponentModel.ISupportInitialize)pictureBoxTextbookPage).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -179,5 +206,7 @@
         private PictureBox pictureBoxTextbookPage;
         private Button buttonTextbookPageSettings;
         private Button buttonTextbookPageToChoice;
+        private Label labelTextbookPageClose;
+        private Label labelTextbookPageHelp;
     }
 }

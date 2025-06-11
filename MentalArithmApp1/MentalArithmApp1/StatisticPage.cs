@@ -13,9 +13,37 @@ namespace MentalArithmApp1
 {
     public partial class StatisticPage : Form
     {
+        private Point lastPoint;
         public StatisticPage()
         {
             InitializeComponent();
+
+            if (Program.settings.ScreenSize == "Fixed")
+            {
+            }
+            else if (Program.settings.ScreenSize == "Full")
+            {
+                this.MaximumSize = new Size();
+                this.TopMost = true;
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (Program.settings.ScreenSize == "Adaptive")
+            {
+                this.MaximumSize = new Size();
+            }
+
+            if (Program.settings.isTopPanel)
+            {
+                if (Program.settings.ScreenSize != "Full") { 
+                    labelStatisticPageClose.Hide();
+                    labelStatisticPageHelp.Hide();
+                }
+            }
+            else
+            {
+                this.FormBorderStyle = FormBorderStyle.None;
+            }
 
             Statistics statistics = new();
             statistics.Get();
@@ -79,6 +107,25 @@ namespace MentalArithmApp1
             StatisticPage statisticPage = new();
             statisticPage.Show();
             this.Hide();
+        }
+
+        private void StatisticPage_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new(e.X, e.Y);
+        }
+
+        private void StatisticPage_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void labelStatisticPageClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

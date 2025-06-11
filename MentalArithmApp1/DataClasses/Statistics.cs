@@ -105,8 +105,7 @@ namespace DataClasses
             string path = $"{dir}\\Statistics\\{varName}.txt";
             if (!File.Exists(path))
             {
-                //throw new Exception($"Отсутствует файл {varName}.txt");
-                return 0;
+                throw new Exception($"Отсутствует файл {varName}.txt");
             }
             else {
                 string fileText = File.ReadAllText(path);

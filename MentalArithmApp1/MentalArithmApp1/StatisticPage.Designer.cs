@@ -73,6 +73,8 @@
             panelStatisticPageMistakesAdd = new Panel();
             labelStatisticPageMistakeAdd = new Label();
             labelStatisticPageMistakeGeneral = new Label();
+            labelStatisticPageClose = new Label();
+            labelStatisticPageHelp = new Label();
             panelStatisticPageTrainings.SuspendLayout();
             panelStatisticPageTrainingDiv.SuspendLayout();
             panelStatisticPageTrainingMult.SuspendLayout();
@@ -580,12 +582,35 @@
             labelStatisticPageMistakeGeneral.TabIndex = 8;
             labelStatisticPageMistakeGeneral.Text = "Количество ошибок:";
             // 
+            // labelStatisticPageClose
+            // 
+            labelStatisticPageClose.AutoSize = true;
+            labelStatisticPageClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelStatisticPageClose.Location = new Point(1010, 0);
+            labelStatisticPageClose.Name = "labelStatisticPageClose";
+            labelStatisticPageClose.Size = new Size(55, 56);
+            labelStatisticPageClose.TabIndex = 24;
+            labelStatisticPageClose.Text = "X";
+            labelStatisticPageClose.Click += labelStatisticPageClose_Click;
+            // 
+            // labelStatisticPageHelp
+            // 
+            labelStatisticPageHelp.AutoSize = true;
+            labelStatisticPageHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelStatisticPageHelp.Location = new Point(950, 0);
+            labelStatisticPageHelp.Name = "labelStatisticPageHelp";
+            labelStatisticPageHelp.Size = new Size(48, 56);
+            labelStatisticPageHelp.TabIndex = 23;
+            labelStatisticPageHelp.Text = "?";
+            // 
             // StatisticPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelStatisticPageClose);
+            Controls.Add(labelStatisticPageHelp);
             Controls.Add(buttonStatisticPageDelete);
             Controls.Add(buttonStatisticPageSettings);
             Controls.Add(buttonStatisticPageToMenu);
@@ -605,6 +630,8 @@
             HelpButtonClicked += StatisticPage_HelpButtonClicked;
             FormClosed += StatisticPage_FormClosed;
             HelpRequested += StatisticPage_HelpRequested;
+            MouseDown += StatisticPage_MouseDown;
+            MouseMove += StatisticPage_MouseMove;
             panelStatisticPageTrainings.ResumeLayout(false);
             panelStatisticPageTrainings.PerformLayout();
             panelStatisticPageTrainingDiv.ResumeLayout(false);
@@ -679,5 +706,7 @@
         private Label labelStatisticPageMistakeMult;
         private Label labelStatisticPageMistakeSub;
         private Label labelStatisticPageMistakeAdd;
+        private Label labelStatisticPageClose;
+        private Label labelStatisticPageHelp;
     }
 }

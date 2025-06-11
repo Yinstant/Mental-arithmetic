@@ -40,6 +40,8 @@
             labelResultPageMode = new Label();
             buttonResultPageToStatistics = new Button();
             buttonResultPageSettings = new Button();
+            labelResultPageClose = new Label();
+            labelResultPageHelp = new Label();
             panelResultPage.SuspendLayout();
             SuspendLayout();
             // 
@@ -196,12 +198,35 @@
             buttonResultPageSettings.UseVisualStyleBackColor = false;
             buttonResultPageSettings.Click += buttonResultPageSettings_Click;
             // 
+            // labelResultPageClose
+            // 
+            labelResultPageClose.AutoSize = true;
+            labelResultPageClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelResultPageClose.Location = new Point(1010, 0);
+            labelResultPageClose.Name = "labelResultPageClose";
+            labelResultPageClose.Size = new Size(55, 56);
+            labelResultPageClose.TabIndex = 20;
+            labelResultPageClose.Text = "X";
+            labelResultPageClose.Click += labelResultPageClose_Click;
+            // 
+            // labelResultPageHelp
+            // 
+            labelResultPageHelp.AutoSize = true;
+            labelResultPageHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelResultPageHelp.Location = new Point(950, 0);
+            labelResultPageHelp.Name = "labelResultPageHelp";
+            labelResultPageHelp.Size = new Size(48, 56);
+            labelResultPageHelp.TabIndex = 19;
+            labelResultPageHelp.Text = "?";
+            // 
             // ResultPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelResultPageClose);
+            Controls.Add(labelResultPageHelp);
             Controls.Add(buttonResultPageSettings);
             Controls.Add(buttonResultPageToStatistics);
             Controls.Add(buttonResultPageToModeChoice);
@@ -219,6 +244,8 @@
             HelpButtonClicked += ResultPage_HelpButtonClicked;
             FormClosed += ResultPage_FormClosed;
             HelpRequested += ResultPage_HelpRequested;
+            MouseDown += ResultPage_MouseDown;
+            MouseMove += ResultPage_MouseMove;
             panelResultPage.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -237,5 +264,7 @@
         private Label labelResultPageAccuracy;
         private Label labelResultPageMode;
         private ProgressBar progressBar1;
+        private Label labelResultPageClose;
+        private Label labelResultPageHelp;
     }
 }

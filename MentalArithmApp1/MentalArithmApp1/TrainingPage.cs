@@ -13,12 +13,42 @@ namespace MentalArithmApp1
 {
     public partial class TrainingPage : Form
     {
+        private Point lastPoint;
+
         Time time = new Time(Program.training);
         MathTask task;
         public TrainingPage()
         {
             Program.training.Reset();
             InitializeComponent();
+
+            if (Program.settings.ScreenSize == "Fixed")
+            {
+            }
+            else if (Program.settings.ScreenSize == "Full")
+            {
+                this.MaximumSize = new Size();
+                this.TopMost = true;
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (Program.settings.ScreenSize == "Adaptive")
+            {
+                this.MaximumSize = new Size();
+            }
+
+            if (Program.settings.isTopPanel)
+            {
+                if (Program.settings.ScreenSize != "Full") { 
+                    labelTrainingPageClose.Hide();
+                    labelTrainingPageHelp.Hide();
+                }
+            }
+            else
+            {
+                this.FormBorderStyle = FormBorderStyle.None;
+            }
+
             // 
             // timerTrainingPage
             // 
@@ -43,7 +73,8 @@ namespace MentalArithmApp1
                 TimeChoice timeChoice = new();
                 timeChoice.Show();
             }
-            else { 
+            else
+            {
                 TimeIncrementChoice timeIncrementChoice = new();
                 timeIncrementChoice.Show();
             }
@@ -51,6 +82,7 @@ namespace MentalArithmApp1
         }
         private void buttonTrainingPageEnd_Click(object sender, EventArgs e)
         {
+            timerTrainingPage.Stop();
             ResultPage resultPage = new ResultPage();
             resultPage.Show();
             this.Hide();
@@ -129,6 +161,25 @@ namespace MentalArithmApp1
             SettingsPage settingsPage = new();
             settingsPage.Show();
             this.Hide();
+        }
+
+        private void TrainingPage_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new(e.X, e.Y);
+        }
+
+        private void TrainingPage_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void labelTrainingPageClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

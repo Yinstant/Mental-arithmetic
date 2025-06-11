@@ -37,6 +37,8 @@
             buttonComplexityChoiceToBack = new Button();
             buttonComplexityChoiceToMenu = new Button();
             panelComplexityChoice = new Panel();
+            labelComplexityChoiceClose = new Label();
+            labelComplexityChoiceHelp = new Label();
             panelComplexityChoice.SuspendLayout();
             SuspendLayout();
             // 
@@ -168,12 +170,35 @@
             panelComplexityChoice.Size = new Size(996, 329);
             panelComplexityChoice.TabIndex = 7;
             // 
+            // labelComplexityChoiceClose
+            // 
+            labelComplexityChoiceClose.AutoSize = true;
+            labelComplexityChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelComplexityChoiceClose.Location = new Point(1010, 0);
+            labelComplexityChoiceClose.Name = "labelComplexityChoiceClose";
+            labelComplexityChoiceClose.Size = new Size(55, 56);
+            labelComplexityChoiceClose.TabIndex = 18;
+            labelComplexityChoiceClose.Text = "X";
+            labelComplexityChoiceClose.Click += labelComplexityChoiceClose_Click;
+            // 
+            // labelComplexityChoiceHelp
+            // 
+            labelComplexityChoiceHelp.AutoSize = true;
+            labelComplexityChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelComplexityChoiceHelp.Location = new Point(950, 0);
+            labelComplexityChoiceHelp.Name = "labelComplexityChoiceHelp";
+            labelComplexityChoiceHelp.Size = new Size(48, 56);
+            labelComplexityChoiceHelp.TabIndex = 17;
+            labelComplexityChoiceHelp.Text = "?";
+            // 
             // ComplexityChoice
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelComplexityChoiceClose);
+            Controls.Add(labelComplexityChoiceHelp);
             Controls.Add(buttonComplexityChoiceToMenu);
             Controls.Add(buttonComplexityChoiceToBack);
             Controls.Add(buttonComplexityChoiceSettings);
@@ -190,6 +215,8 @@
             HelpButtonClicked += ComplexityChoice_HelpButtonClicked;
             FormClosed += ComplexityChoice_FormClosed;
             HelpRequested += ComplexityChoice_HelpRequested;
+            MouseDown += ComplexityChoice_MouseDown;
+            MouseMove += ComplexityChoice_MouseMove;
             panelComplexityChoice.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -205,5 +232,7 @@
         private Button buttonComplexityChoiceToBack;
         private Button buttonComplexityChoiceToMenu;
         private Panel panelComplexityChoice;
+        private Label labelComplexityChoiceClose;
+        private Label labelComplexityChoiceHelp;
     }
 }

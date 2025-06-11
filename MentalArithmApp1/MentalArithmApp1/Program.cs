@@ -7,6 +7,8 @@ namespace MentalArithmApp1
     {
         public static Training training = new();
 
+        public static Settings settings = new();
+        
         [STAThread]
         static void Main()
         {
@@ -14,6 +16,7 @@ namespace MentalArithmApp1
             // see https://aka.ms/applicationconfiguration.
 
             ApplicationConfiguration.Initialize();
+            settings.Get();
             Application.Run(new MainMenu());
         }
     }

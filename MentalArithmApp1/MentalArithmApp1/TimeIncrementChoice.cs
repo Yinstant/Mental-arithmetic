@@ -12,9 +12,36 @@ namespace MentalArithmApp1
 {
     public partial class TimeIncrementChoice : Form
     {
+        private Point lastPoint;
         public TimeIncrementChoice()
         {
             InitializeComponent();
+
+            if (Program.settings.ScreenSize == "Fixed")
+            {
+            }
+            else if (Program.settings.ScreenSize == "Full")
+            {
+                this.MaximumSize = new Size();
+                this.TopMost = true;
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (Program.settings.ScreenSize == "Adaptive")
+            {
+                this.MaximumSize = new Size();
+            }
+
+            if (Program.settings.isTopPanel) { 
+                if (Program.settings.ScreenSize != "Full") { 
+                    labelTimeIncrementChoiceClose.Hide();
+                    labelTimeIncrementChoiceHelp.Hide();
+                }
+            }
+            else
+            {
+                this.FormBorderStyle = FormBorderStyle.None;
+            }
         }
 
         private void buttonTimeIncrementChoice0sec_Click(object sender, EventArgs e)
@@ -71,6 +98,25 @@ namespace MentalArithmApp1
         }
 
         private void TimeIncrementChoice_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void TimeIncrementChoice_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new(e.X, e.Y);
+        }
+
+        private void TimeIncrementChoice_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void labelTimeIncrementChoiceClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

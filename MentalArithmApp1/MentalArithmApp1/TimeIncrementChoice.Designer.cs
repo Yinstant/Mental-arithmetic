@@ -38,6 +38,8 @@
             buttonTimeIncrementChoice3sec = new Button();
             buttonTimeIncrementChoice5sec = new Button();
             panelTimeIncrementChoice = new Panel();
+            labelTimeIncrementChoiceClose = new Label();
+            labelTimeIncrementChoiceHelp = new Label();
             panelTimeIncrementChoice.SuspendLayout();
             SuspendLayout();
             // 
@@ -192,12 +194,35 @@
             panelTimeIncrementChoice.Size = new Size(742, 330);
             panelTimeIncrementChoice.TabIndex = 17;
             // 
+            // labelTimeIncrementChoiceClose
+            // 
+            labelTimeIncrementChoiceClose.AutoSize = true;
+            labelTimeIncrementChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTimeIncrementChoiceClose.Location = new Point(1010, 0);
+            labelTimeIncrementChoiceClose.Name = "labelTimeIncrementChoiceClose";
+            labelTimeIncrementChoiceClose.Size = new Size(55, 56);
+            labelTimeIncrementChoiceClose.TabIndex = 20;
+            labelTimeIncrementChoiceClose.Text = "X";
+            labelTimeIncrementChoiceClose.Click += labelTimeIncrementChoiceClose_Click;
+            // 
+            // labelTimeIncrementChoiceHelp
+            // 
+            labelTimeIncrementChoiceHelp.AutoSize = true;
+            labelTimeIncrementChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTimeIncrementChoiceHelp.Location = new Point(950, 0);
+            labelTimeIncrementChoiceHelp.Name = "labelTimeIncrementChoiceHelp";
+            labelTimeIncrementChoiceHelp.Size = new Size(48, 56);
+            labelTimeIncrementChoiceHelp.TabIndex = 19;
+            labelTimeIncrementChoiceHelp.Text = "?";
+            // 
             // TimeIncrementChoice
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelTimeIncrementChoiceClose);
+            Controls.Add(labelTimeIncrementChoiceHelp);
             Controls.Add(buttonTimeIncrementChoiceToMenu);
             Controls.Add(buttonTimeIncrementChoiceToBack);
             Controls.Add(buttonTimeIncrementChoiceSettings);
@@ -212,6 +237,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
             FormClosed += TimeIncrementChoice_FormClosed;
+            MouseDown += TimeIncrementChoice_MouseDown;
+            MouseMove += TimeIncrementChoice_MouseMove;
             panelTimeIncrementChoice.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -228,5 +255,7 @@
         private Button buttonTimeIncrementChoice3sec;
         private Button buttonTimeIncrementChoice5sec;
         private Panel panelTimeIncrementChoice;
+        private Label labelTimeIncrementChoiceClose;
+        private Label labelTimeIncrementChoiceHelp;
     }
 }

@@ -13,10 +13,38 @@ namespace MentalArithmApp1
 {
     public partial class ResultPage : Form
     {
+        private Point lastPoint;
         public ResultPage()
         {
             InitializeComponent();
-            
+
+            if (Program.settings.ScreenSize == "Fixed")
+            {
+            }
+            else if (Program.settings.ScreenSize == "Full")
+            {
+                this.MaximumSize = new Size();
+                this.TopMost = true;
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (Program.settings.ScreenSize == "Adaptive")
+            {
+                this.MaximumSize = new Size();
+            }
+
+            if (Program.settings.isTopPanel)
+            {
+                if (Program.settings.ScreenSize != "Full") { 
+                    labelResultPageClose.Hide();
+                    labelResultPageHelp.Hide();
+                }
+            }
+            else
+            {
+                this.FormBorderStyle = FormBorderStyle.None;
+            }
+
             Statistics.SetTrainig(Program.training);
 
             labelResultPageMode.Text = Program.training.ToString();
@@ -69,7 +97,28 @@ namespace MentalArithmApp1
 
         private void buttonResultPageSettings_Click(object sender, EventArgs e)
         {
+            SettingsPage settingsPage = new();
+            settingsPage.Show();
+            this.Hide();
+        }
 
+        private void ResultPage_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new(e.X, e.Y);
+        }
+
+        private void ResultPage_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void labelResultPageClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -37,6 +37,8 @@
             buttonModeChoiceDivision = new Button();
             buttonModeChoiceToMenu = new Button();
             panelModeChoice = new Panel();
+            labelModeChoiceClose = new Label();
+            labelModeChoiceHelp = new Label();
             panelModeChoice.SuspendLayout();
             SuspendLayout();
             // 
@@ -174,12 +176,35 @@
             panelModeChoice.Size = new Size(792, 434);
             panelModeChoice.TabIndex = 7;
             // 
+            // labelModeChoiceClose
+            // 
+            labelModeChoiceClose.AutoSize = true;
+            labelModeChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelModeChoiceClose.Location = new Point(1010, 0);
+            labelModeChoiceClose.Name = "labelModeChoiceClose";
+            labelModeChoiceClose.Size = new Size(55, 56);
+            labelModeChoiceClose.TabIndex = 20;
+            labelModeChoiceClose.Text = "X";
+            labelModeChoiceClose.Click += labelModeChoiceClose_Click;
+            // 
+            // labelModeChoiceHelp
+            // 
+            labelModeChoiceHelp.AutoSize = true;
+            labelModeChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelModeChoiceHelp.Location = new Point(950, 0);
+            labelModeChoiceHelp.Name = "labelModeChoiceHelp";
+            labelModeChoiceHelp.Size = new Size(48, 56);
+            labelModeChoiceHelp.TabIndex = 19;
+            labelModeChoiceHelp.Text = "?";
+            // 
             // ModeChoice
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelModeChoiceClose);
+            Controls.Add(labelModeChoiceHelp);
             Controls.Add(labelModeChoiceHeading);
             Controls.Add(buttonModeChoiceSettings);
             Controls.Add(buttonModeChoiceToMenu);
@@ -196,6 +221,8 @@
             FormClosed += ModeChoice_FormClosed;
             Load += ModeChoice_Load;
             HelpRequested += ModeChoice_HelpRequested;
+            MouseDown += ModeChoice_MouseDown;
+            MouseMove += ModeChoice_MouseMove;
             panelModeChoice.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -211,5 +238,7 @@
         private Button buttonModeChoiceDivision;
         private Button buttonModeChoiceToMenu;
         private Panel panelModeChoice;
+        private Label labelModeChoiceClose;
+        private Label labelModeChoiceHelp;
     }
 }

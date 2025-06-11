@@ -62,7 +62,7 @@
                 if (value >= 0)
                     timerTime = value;
                 else
-                    throw new Exception("Неверное значение");
+                    throw new Exception("Отрицательное значение количества времени!");
             }
         }
 
@@ -77,7 +77,7 @@
                 if (value >= 0)
                     incrementTime = value;
                 else
-                    throw new Exception("Неверное значение");
+                    throw new Exception("Отрицательное значение количества добавляемого времени!");
             }
         }
 

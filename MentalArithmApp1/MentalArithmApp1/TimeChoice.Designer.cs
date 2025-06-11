@@ -37,6 +37,8 @@
             buttonTimeChoiceToBack = new Button();
             buttonTimeChoiceToMenu = new Button();
             panelTimeChoice = new Panel();
+            labelTimeChoiceClose = new Label();
+            labelTimeChoiceHelp = new Label();
             panelTimeChoice.SuspendLayout();
             SuspendLayout();
             // 
@@ -211,12 +213,35 @@
             panelTimeChoice.Size = new Size(988, 334);
             panelTimeChoice.TabIndex = 9;
             // 
+            // labelTimeChoiceClose
+            // 
+            labelTimeChoiceClose.AutoSize = true;
+            labelTimeChoiceClose.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTimeChoiceClose.Location = new Point(1010, 0);
+            labelTimeChoiceClose.Name = "labelTimeChoiceClose";
+            labelTimeChoiceClose.Size = new Size(55, 56);
+            labelTimeChoiceClose.TabIndex = 20;
+            labelTimeChoiceClose.Text = "X";
+            labelTimeChoiceClose.Click += labelTimeChoiceClose_Click;
+            // 
+            // labelTimeChoiceHelp
+            // 
+            labelTimeChoiceHelp.AutoSize = true;
+            labelTimeChoiceHelp.Font = new Font("Arial Black", 40F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelTimeChoiceHelp.Location = new Point(950, 0);
+            labelTimeChoiceHelp.Name = "labelTimeChoiceHelp";
+            labelTimeChoiceHelp.Size = new Size(48, 56);
+            labelTimeChoiceHelp.TabIndex = 19;
+            labelTimeChoiceHelp.Text = "?";
+            // 
             // TimeChoice
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
+            Controls.Add(labelTimeChoiceClose);
+            Controls.Add(labelTimeChoiceHelp);
             Controls.Add(buttonTimeChoiceToMenu);
             Controls.Add(buttonTimeChoiceToBack);
             Controls.Add(buttonTimeChoiceSettings);
@@ -234,6 +259,8 @@
             FormClosed += TimeChoice_FormClosed;
             Load += TimeChoice_Load;
             HelpRequested += TimeChoice_HelpRequested;
+            MouseDown += TimeChoice_MouseDown;
+            MouseMove += TimeChoice_MouseMove;
             panelTimeChoice.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -251,5 +278,7 @@
         private Button buttonTimeChoiceToBack;
         private Button buttonTimeChoiceToMenu;
         private Panel panelTimeChoice;
+        private Label labelTimeChoiceClose;
+        private Label labelTimeChoiceHelp;
     }
 }

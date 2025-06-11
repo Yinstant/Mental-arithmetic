@@ -12,10 +12,38 @@ namespace MentalArithmApp1
 {
     public partial class TextbookPage : Form
     {
+        private Point lastPoint;
         int Mode, PageNum;
         public TextbookPage(int mode, int pageNum)
         {
             InitializeComponent();
+
+            if (Program.settings.ScreenSize == "Fixed")
+            {
+            }
+            else if (Program.settings.ScreenSize == "Full")
+            {
+                this.MaximumSize = new Size();
+                this.TopMost = true;
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else if (Program.settings.ScreenSize == "Adaptive")
+            {
+                this.MaximumSize = new Size();
+            }
+
+            if (Program.settings.isTopPanel)
+            {
+                if (Program.settings.ScreenSize != "Full") { 
+                    labelTextbookPageClose.Hide();
+                    labelTextbookPageHelp.Hide();
+                }
+            }
+            else
+            {
+                this.FormBorderStyle = FormBorderStyle.None;
+            }
 
             Mode = mode;
             PageNum = pageNum;
@@ -90,6 +118,25 @@ namespace MentalArithmApp1
             TextbookChoice textbookChoice = new();
             textbookChoice.Show();
             this.Hide();
+        }
+
+        private void TextbookPage_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void TextbookPage_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new(e.X, e.Y);
+        }
+
+        private void labelTextbookPageClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
