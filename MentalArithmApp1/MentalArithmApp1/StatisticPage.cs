@@ -105,11 +105,21 @@ namespace MentalArithmApp1
 
         private void buttonStatisticPageDelete_Click(object sender, EventArgs e)
         {
-            Statistics.DeleteStat();
-            Achievement.Delete();
-            StatisticPage statisticPage = new();
-            statisticPage.Show();
-            this.Hide();
+            DialogResult result = MessageBox.Show(
+                "Вы уверены, что хотите удалить всю статистику? Весь ваш прогресс будет утерян НАВСЕГДА!",
+                "Вы уверены?",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning,
+                MessageBoxDefaultButton.Button2
+                );
+
+            if (result == DialogResult.Yes) { 
+                Statistics.DeleteStat();
+                Achievement.Delete();
+                StatisticPage statisticPage = new();
+                statisticPage.Show();
+                this.Hide();
+            }
         }
 
         private void StatisticPage_MouseDown(object sender, MouseEventArgs e)

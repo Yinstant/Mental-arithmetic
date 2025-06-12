@@ -47,13 +47,23 @@ namespace MentalArithmApp1
 
             Statistics.SetTrainig(Program.training);
 
+
             Achievement achievement = new(Program.training.Mode);
             achievement.GetLevel();
+
             if (achievement.Level != "Diamond" && achievement.IsChanged()) {
                 while (achievement.Level != "Diamond" && achievement.IsChanged()) {
                     achievement.IncreaseLevel();
                 }
                 achievement.SetLevel();
+
+                DialogResult result = MessageBox.Show(
+                    $"Вы получили достижение уровня {achievement.Level} в данном режиме! Перейти к достижениям?",
+                    "Новое достижение!",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Information,
+                    MessageBoxDefaultButton.Button1
+                    );
             }
 
             labelResultPageMode.Text = Program.training.ToString();
