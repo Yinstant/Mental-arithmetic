@@ -10,3 +10,4 @@ C:\Users\Admin\OneDrive\Рабочий стол\Проект. Устный сч�
 C:\Users\Admin\OneDrive\Рабочий стол\Проект. Устный счёт\Mental-arithmetic\MentalArithmApp1\DataClasses\obj\Debug\net8.0\refint\DataClasses.dll
 C:\Users\Admin\OneDrive\Рабочий стол\Проект. Устный счёт\Mental-arithmetic\MentalArithmApp1\DataClasses\obj\Debug\net8.0\DataClasses.pdb
 C:\Users\Admin\OneDrive\Рабочий стол\Проект. Устный счёт\Mental-arithmetic\MentalArithmApp1\DataClasses\obj\Debug\net8.0\ref\DataClasses.dll
+C:\Users\Admin\OneDrive\Рабочий стол\Проект. Устный счёт\Mental-arithmetic\MentalArithmApp1\DataClasses\obj\Debug\net8.0\DataClasses.csproj.AssemblyReference.cache

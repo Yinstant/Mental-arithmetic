@@ -35,7 +35,8 @@ namespace MentalArithmApp1
 
             if (Program.settings.isTopPanel)
             {
-                if (Program.settings.ScreenSize != "Full") { 
+                if (Program.settings.ScreenSize != "Full")
+                {
                     labelStatisticPageClose.Hide();
                     labelStatisticPageHelp.Hide();
                 }
@@ -65,7 +66,7 @@ namespace MentalArithmApp1
             labelStatisticPageMistakeMult.Text = statistics.incorrectCountMult.ToString();
             labelStatisticPageMistakeDiv.Text = statistics.incorrectCountDiv.ToString();
 
-            labelStatisticPageAccuracyGeneral.Text = $"Текущая точность: {statistics.incorrectCountGeneral.ToString()}%";
+            labelStatisticPageAccuracyGeneral.Text = $"Текущая точность: {statistics.accuracyGeneral.ToString()}%";
             labelStatisticPageAccuracyAdd.Text = $"{statistics.accuracyAdd.ToString()}%";
             labelStatisticPageAccuracySub.Text = $"{statistics.accuracySub.ToString()}%";
             labelStatisticPageAccuracyMult.Text = $"{statistics.accuracyMult.ToString()}%";
@@ -104,6 +105,7 @@ namespace MentalArithmApp1
         private void buttonStatisticPageDelete_Click(object sender, EventArgs e)
         {
             Statistics.DeleteStat();
+            Achievement.Delete();
             StatisticPage statisticPage = new();
             statisticPage.Show();
             this.Hide();

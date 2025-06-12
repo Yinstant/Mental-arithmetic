@@ -42,7 +42,7 @@
             labelStatisticPageCorrectSub = new Label();
             panelStatisticPageTrainingAdd = new Panel();
             labelStatisticPageCorrectAdd = new Label();
-            labelStatisticPageCountGeneral = new Label();
+            labelStatisticPageCorrectGeneral = new Label();
             panelStatisticPageRights = new Panel();
             panelStatisticPageRightsDiv = new Panel();
             labelStatisticPageCountDiv = new Label();
@@ -52,7 +52,7 @@
             labelStatisticPageCountSub = new Label();
             panelStatisticPageRightsAdd = new Panel();
             labelStatisticPageCountAdd = new Label();
-            labelStatisticPageCorrectGeneral = new Label();
+            labelStatisticPageCountGeneral = new Label();
             panelStatisticPageAccuracy = new Panel();
             panelStatisticPageAccuracyDiv = new Panel();
             labelStatisticPageAccuracyDiv = new Label();
@@ -171,8 +171,8 @@
             panelStatisticPageTrainings.Controls.Add(panelStatisticPageTrainingMult);
             panelStatisticPageTrainings.Controls.Add(panelStatisticPageTrainingSub);
             panelStatisticPageTrainings.Controls.Add(panelStatisticPageTrainingAdd);
-            panelStatisticPageTrainings.Controls.Add(labelStatisticPageCountGeneral);
-            panelStatisticPageTrainings.Location = new Point(45, 119);
+            panelStatisticPageTrainings.Controls.Add(labelStatisticPageCorrectGeneral);
+            panelStatisticPageTrainings.Location = new Point(541, 119);
             panelStatisticPageTrainings.Name = "panelStatisticPageTrainings";
             panelStatisticPageTrainings.Size = new Size(490, 170);
             panelStatisticPageTrainings.TabIndex = 19;
@@ -257,16 +257,16 @@
             labelStatisticPageCorrectAdd.Text = "0";
             labelStatisticPageCorrectAdd.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // labelStatisticPageCountGeneral
+            // labelStatisticPageCorrectGeneral
             // 
-            labelStatisticPageCountGeneral.AutoSize = true;
-            labelStatisticPageCountGeneral.Font = new Font("Arial Black", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelStatisticPageCountGeneral.ForeColor = Color.FromArgb(255, 0, 98);
-            labelStatisticPageCountGeneral.Location = new Point(33, 10);
-            labelStatisticPageCountGeneral.Name = "labelStatisticPageCountGeneral";
-            labelStatisticPageCountGeneral.Size = new Size(279, 36);
-            labelStatisticPageCountGeneral.TabIndex = 4;
-            labelStatisticPageCountGeneral.Text = "Всего тренировок:";
+            labelStatisticPageCorrectGeneral.AutoSize = true;
+            labelStatisticPageCorrectGeneral.Font = new Font("Arial Black", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelStatisticPageCorrectGeneral.ForeColor = Color.FromArgb(255, 0, 98);
+            labelStatisticPageCorrectGeneral.Location = new Point(33, 10);
+            labelStatisticPageCorrectGeneral.Name = "labelStatisticPageCorrectGeneral";
+            labelStatisticPageCorrectGeneral.Size = new Size(349, 36);
+            labelStatisticPageCorrectGeneral.TabIndex = 4;
+            labelStatisticPageCorrectGeneral.Text = "Количество решённых:";
             // 
             // panelStatisticPageRights
             // 
@@ -278,8 +278,8 @@
             panelStatisticPageRights.Controls.Add(panelStatisticPageRightsMult);
             panelStatisticPageRights.Controls.Add(panelStatisticPageRightsSub);
             panelStatisticPageRights.Controls.Add(panelStatisticPageRightsAdd);
-            panelStatisticPageRights.Controls.Add(labelStatisticPageCorrectGeneral);
-            panelStatisticPageRights.Location = new Point(541, 119);
+            panelStatisticPageRights.Controls.Add(labelStatisticPageCountGeneral);
+            panelStatisticPageRights.Location = new Point(45, 119);
             panelStatisticPageRights.Name = "panelStatisticPageRights";
             panelStatisticPageRights.Size = new Size(490, 170);
             panelStatisticPageRights.TabIndex = 20;
@@ -364,16 +364,16 @@
             labelStatisticPageCountAdd.Text = "0";
             labelStatisticPageCountAdd.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // labelStatisticPageCorrectGeneral
+            // labelStatisticPageCountGeneral
             // 
-            labelStatisticPageCorrectGeneral.AutoSize = true;
-            labelStatisticPageCorrectGeneral.Font = new Font("Arial Black", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelStatisticPageCorrectGeneral.ForeColor = Color.FromArgb(255, 0, 98);
-            labelStatisticPageCorrectGeneral.Location = new Point(36, 10);
-            labelStatisticPageCorrectGeneral.Name = "labelStatisticPageCorrectGeneral";
-            labelStatisticPageCorrectGeneral.Size = new Size(349, 36);
-            labelStatisticPageCorrectGeneral.TabIndex = 8;
-            labelStatisticPageCorrectGeneral.Text = "Количество решённых:";
+            labelStatisticPageCountGeneral.AutoSize = true;
+            labelStatisticPageCountGeneral.Font = new Font("Arial Black", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelStatisticPageCountGeneral.ForeColor = Color.FromArgb(255, 0, 98);
+            labelStatisticPageCountGeneral.Location = new Point(36, 10);
+            labelStatisticPageCountGeneral.Name = "labelStatisticPageCountGeneral";
+            labelStatisticPageCountGeneral.Size = new Size(279, 36);
+            labelStatisticPageCountGeneral.TabIndex = 8;
+            labelStatisticPageCountGeneral.Text = "Всего тренировок:";
             // 
             // panelStatisticPageAccuracy
             // 
@@ -478,9 +478,9 @@
             labelStatisticPageAccuracyGeneral.ForeColor = Color.FromArgb(255, 0, 98);
             labelStatisticPageAccuracyGeneral.Location = new Point(33, 9);
             labelStatisticPageAccuracyGeneral.Name = "labelStatisticPageAccuracyGeneral";
-            labelStatisticPageAccuracyGeneral.Size = new Size(279, 36);
+            labelStatisticPageAccuracyGeneral.Size = new Size(282, 36);
             labelStatisticPageAccuracyGeneral.TabIndex = 8;
-            labelStatisticPageAccuracyGeneral.Text = "Всего тренировок:";
+            labelStatisticPageAccuracyGeneral.Text = "Текущая точность:";
             // 
             // panelStatisticPageMistakes
             // 
@@ -619,6 +619,7 @@
             BackColor = Color.FromArgb(195, 215, 255);
             ClientSize = new Size(1082, 653);
             Controls.Add(labelStatisticPageClose);
+            Controls.Add(panelStatisticPageTrainings);
             Controls.Add(labelStatisticPageHelp);
             Controls.Add(buttonStatisticPageDelete);
             Controls.Add(buttonStatisticPageSettings);
@@ -627,7 +628,6 @@
             Controls.Add(panelStatisticPageMistakes);
             Controls.Add(panelStatisticPageAccuracy);
             Controls.Add(panelStatisticPageRights);
-            Controls.Add(panelStatisticPageTrainings);
             HelpButton = true;
             MaximizeBox = false;
             MaximumSize = new Size(1100, 700);
@@ -695,8 +695,8 @@
         private Panel panelStatisticPageMistakesMult;
         private Panel panelStatisticPageMistakesSub;
         private Panel panelStatisticPageMistakesAdd;
-        private Label labelStatisticPageCountGeneral;
         private Label labelStatisticPageCorrectGeneral;
+        private Label labelStatisticPageCountGeneral;
         private Label labelStatisticPageAccuracyGeneral;
         private Label labelStatisticPageMistakeGeneral;
         private Label labelStatisticPageCorrectAdd;

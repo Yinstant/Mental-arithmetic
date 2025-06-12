@@ -68,6 +68,7 @@ namespace MentalArithmApp1
         }
         private void buttonTrainingPageToTimeIncrementChoice_Click(object sender, EventArgs e)
         {
+            timerTrainingPage.Stop();
             if (Program.training.TimerTime == 0)
             {
                 TimeChoice timeChoice = new();
@@ -158,6 +159,7 @@ namespace MentalArithmApp1
 
         private void buttonTrainingPageSettings_Click(object sender, EventArgs e)
         {
+            timerTrainingPage.Stop();
             SettingsPage settingsPage = new();
             settingsPage.Show();
             this.Hide();

@@ -25,7 +25,8 @@ namespace MentalArithmApp1
 
             if (Program.settings.isTopPanel)
             {
-                if (Program.settings.ScreenSize != "Full") { 
+                if (Program.settings.ScreenSize != "Full")
+                {
                     labelMainMenuClose.Hide();
                     labelMainMenuHelp.Hide();
                 }
@@ -101,6 +102,13 @@ namespace MentalArithmApp1
         private void labelMainMenuClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void buttonMainMenuAchievements_Click(object sender, EventArgs e)
+        {
+            AchievementsPage achievementsPage = new();
+            achievementsPage.Show();
+            this.Hide();
         }
     }
 }

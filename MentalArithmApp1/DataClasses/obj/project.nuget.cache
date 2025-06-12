@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BIKRdfE1o34=",
+  "dgSpecHash": "deb7cCQ5A/0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Рабочий стол\\Проект. Устный счёт\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\DataClasses.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.6\\microsoft.win32.systemevents.9.0.6.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.drawing.common\\9.0.6\\system.drawing.common.9.0.6.nupkg.sha512"
+  ],
   "logs": []
 }

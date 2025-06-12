@@ -104,6 +104,7 @@
             // 
             // buttonMainMenuSettings
             // 
+            buttonMainMenuSettings.BackColor = Color.Transparent;
             buttonMainMenuSettings.FlatAppearance.BorderSize = 0;
             buttonMainMenuSettings.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttonMainMenuSettings.FlatAppearance.MouseOverBackColor = Color.Transparent;
@@ -113,7 +114,7 @@
             buttonMainMenuSettings.Name = "buttonMainMenuSettings";
             buttonMainMenuSettings.Size = new Size(91, 88);
             buttonMainMenuSettings.TabIndex = 4;
-            buttonMainMenuSettings.UseVisualStyleBackColor = true;
+            buttonMainMenuSettings.UseVisualStyleBackColor = false;
             buttonMainMenuSettings.Click += buttonMainMenuSettings_Click;
             // 
             // labelMainMenuHeading
@@ -148,6 +149,7 @@
             buttonMainMenuAchievements.TabIndex = 6;
             buttonMainMenuAchievements.Text = "Достижения";
             buttonMainMenuAchievements.UseVisualStyleBackColor = false;
+            buttonMainMenuAchievements.Click += buttonMainMenuAchievements_Click;
             // 
             // panelMainMenu
             // 
