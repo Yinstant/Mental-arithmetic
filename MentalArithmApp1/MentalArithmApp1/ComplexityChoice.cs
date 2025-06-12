@@ -100,6 +100,7 @@ namespace MentalArithmApp1
         private void buttonComplexityChoiceSettings_Click(object sender, EventArgs e)
         {
             SettingsPage settingsPage = new();
+            settingsPage.ancestor = this;
             settingsPage.Show();
             this.Hide();
         }

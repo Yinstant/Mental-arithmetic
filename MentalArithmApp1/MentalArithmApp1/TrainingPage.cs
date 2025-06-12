@@ -161,6 +161,7 @@ namespace MentalArithmApp1
         {
             timerTrainingPage.Stop();
             SettingsPage settingsPage = new();
+            settingsPage.ancestor = this;
             settingsPage.Show();
             this.Hide();
         }

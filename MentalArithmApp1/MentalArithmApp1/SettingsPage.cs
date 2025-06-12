@@ -13,6 +13,7 @@ namespace MentalArithmApp1
 {
     public partial class SettingsPage : Form
     {
+        public Form ancestor;
         private Point lastPoint;
         public SettingsPage()
         {
@@ -39,7 +40,8 @@ namespace MentalArithmApp1
             if (Program.settings.isTopPanel)
             {
                 radioButtonTopPanelYes.Checked = true;
-                if (Program.settings.ScreenSize != "Full") { 
+                if (Program.settings.ScreenSize != "Full")
+                {
                     labelSettingsPageClose.Hide();
                     labelSettingsPageHelp.Hide();
                 }
@@ -116,6 +118,14 @@ namespace MentalArithmApp1
         private void labelSettingsPageClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void buttonSettingsPageToBack_Click(object sender, EventArgs e)
+        {
+            if (ancestor is TrainingPage)
+                ((TrainingPage)ancestor).timerTrainingPage.Start();
+            ancestor.Show();
+            this.Hide();
         }
     }
 }

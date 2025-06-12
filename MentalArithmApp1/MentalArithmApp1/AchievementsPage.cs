@@ -13,6 +13,7 @@ namespace MentalArithmApp1
 {
     public partial class AchievementsPage : Form
     {
+        private Point lastPoint;
         public AchievementsPage()
         {
             InitializeComponent();
@@ -94,6 +95,7 @@ namespace MentalArithmApp1
         private void buttonAchievementsPageSettings_Click(object sender, EventArgs e)
         {
             SettingsPage settingsPage = new();
+            settingsPage.ancestor = this;
             settingsPage.Show();
             this.Hide();
         }
@@ -103,6 +105,20 @@ namespace MentalArithmApp1
             MainMenu mainMenu = new();
             mainMenu.Show();
             this.Hide();
+        }
+
+        private void AchievementsPage_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new(e.X, e.Y);
+        }
+
+        private void AchievementsPage_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
         }
     }
 }

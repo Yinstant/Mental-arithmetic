@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C65C28B7-AAD0-489B-A96A-60D8E890E03F}|DataClasses\\DataClasses.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\dataclasses\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C65C28B7-AAD0-489B-A96A-60D8E890E03F}|DataClasses\\DataClasses.csproj|solutionrelative:dataclasses\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\statisticpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\statisticpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\statisticpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\statisticpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\trainingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|solutionrelative:mentalarithmapp1\\trainingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{482EB4D8-0B61-4B31-BB33-3FBCB49DE463}|MentalArithmApp1\\MentalArithmApp1.csproj|c:\\users\\admin\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u043E\u0435\u043A\u0442. \u0443\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\mental-arithmetic\\mentalarithmapp1\\mentalarithmapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,49 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatisticPage.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\StatisticPage.cs",
-              "RelativeDocumentMoniker": "MentalArithmApp1\\StatisticPage.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\StatisticPage.cs",
-              "RelativeToolTip": "MentalArithmApp1\\StatisticPage.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAowGsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T16:35:30.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StatisticPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\StatisticPage.cs",
-              "RelativeDocumentMoniker": "MentalArithmApp1\\StatisticPage.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\StatisticPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "MentalArithmApp1\\StatisticPage.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T16:35:28.576Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Achievement.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\Achievement.cs",
-              "RelativeDocumentMoniker": "DataClasses\\Achievement.cs",
-              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\DataClasses\\Achievement.cs",
-              "RelativeToolTip": "DataClasses\\Achievement.cs",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAAAAIBAAAvAAAAAAAAAA==",
+              "Title": "TrainingPage.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\TrainingPage.cs",
+              "RelativeDocumentMoniker": "MentalArithmApp1\\TrainingPage.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\TrainingPage.cs",
+              "RelativeToolTip": "MentalArithmApp1\\TrainingPage.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T05:51:29.143Z",
+              "WhenOpened": "2025-06-12T17:13:24.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442. \u0423\u0441\u0442\u043D\u044B\u0439 \u0441\u0447\u0451\u0442\\Mental-arithmetic\\MentalArithmApp1\\MentalArithmApp1\\Program.cs",
               "RelativeDocumentMoniker": "MentalArithmApp1\\Program.cs",
@@ -76,7 +43,8 @@
               "RelativeToolTip": "MentalArithmApp1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T07:48:43.449Z"
+              "WhenOpened": "2025-05-01T07:48:43.449Z",
+              "EditorCaption": ""
             }
           ]
         }

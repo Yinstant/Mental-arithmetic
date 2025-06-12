@@ -219,7 +219,7 @@ namespace MentalArithmApp1
         private Label labelTrainingPageTime;
         private TextBox textBoxTrainingPage;
         private Label labelTrainingPageExample;
-        private System.Windows.Forms.Timer timerTrainingPage;
+        public System.Windows.Forms.Timer timerTrainingPage;
         private Label labelTrainingPageReaction;
         private Label labelTrainingPageClose;
         private Label labelTrainingPageHelp;

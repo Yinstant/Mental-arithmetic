@@ -33,31 +33,31 @@
             labelAchievementsPageHelp = new Label();
             buttonAchievementsPageSettings = new Button();
             panelAchievementsPageAdd = new Panel();
+            labelAchievementsPageAddRight = new Label();
+            labelAchievementsPageAddLeft = new Label();
+            progressBarAdd = new ProgressBar();
             pictureBoxAdd = new PictureBox();
             labelAchievementsPageAdd = new Label();
             panelAchievementsPageSub = new Panel();
+            labelAchievementsPageSubRight = new Label();
+            labelAchievementsPageSubLeft = new Label();
+            progressBarSub = new ProgressBar();
             pictureBoxSub = new PictureBox();
             labelAchievementsPageSub = new Label();
             panelAchievementsPageMult = new Panel();
+            labelAchievementsPageMultRight = new Label();
+            labelAchievementsPageMultLeft = new Label();
+            progressBarMult = new ProgressBar();
             pictureBoxMult = new PictureBox();
             labelAchievementsPageMult = new Label();
             panelAchievementsPageDiv = new Panel();
+            labelAchievementsPageDivRight = new Label();
+            labelAchievementsPageDivLeft = new Label();
+            progressBarDiv = new ProgressBar();
             pictureBoxDiv = new PictureBox();
             labelAchievementsPageDiv = new Label();
             buttonAchievementsPageToMenu = new Button();
             labelAchievementsPageHeading = new Label();
-            progressBarAdd = new ProgressBar();
-            progressBarSub = new ProgressBar();
-            progressBarMult = new ProgressBar();
-            progressBarDiv = new ProgressBar();
-            labelAchievementsPageAddLeft = new Label();
-            labelAchievementsPageSubLeft = new Label();
-            labelAchievementsPageMultLeft = new Label();
-            labelAchievementsPageDivLeft = new Label();
-            labelAchievementsPageAddRight = new Label();
-            labelAchievementsPageSubRight = new Label();
-            labelAchievementsPageMultRight = new Label();
-            labelAchievementsPageDivRight = new Label();
             panelAchievementsPageAdd.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAdd).BeginInit();
             panelAchievementsPageSub.SuspendLayout();
@@ -122,6 +122,35 @@
             panelAchievementsPageAdd.Size = new Size(491, 179);
             panelAchievementsPageAdd.TabIndex = 24;
             // 
+            // labelAchievementsPageAddRight
+            // 
+            labelAchievementsPageAddRight.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelAchievementsPageAddRight.ForeColor = Color.FromArgb(106, 37, 0);
+            labelAchievementsPageAddRight.Location = new Point(314, 106);
+            labelAchievementsPageAddRight.Name = "labelAchievementsPageAddRight";
+            labelAchievementsPageAddRight.Size = new Size(140, 36);
+            labelAchievementsPageAddRight.TabIndex = 32;
+            labelAchievementsPageAddRight.Text = "25";
+            labelAchievementsPageAddRight.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // labelAchievementsPageAddLeft
+            // 
+            labelAchievementsPageAddLeft.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelAchievementsPageAddLeft.ForeColor = Color.FromArgb(106, 37, 0);
+            labelAchievementsPageAddLeft.Location = new Point(156, 106);
+            labelAchievementsPageAddLeft.Name = "labelAchievementsPageAddLeft";
+            labelAchievementsPageAddLeft.Size = new Size(140, 36);
+            labelAchievementsPageAddLeft.TabIndex = 31;
+            labelAchievementsPageAddLeft.Text = "0";
+            labelAchievementsPageAddLeft.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // progressBarAdd
+            // 
+            progressBarAdd.Location = new Point(167, 60);
+            progressBarAdd.Name = "progressBarAdd";
+            progressBarAdd.Size = new Size(287, 43);
+            progressBarAdd.TabIndex = 30;
+            // 
             // pictureBoxAdd
             // 
             pictureBoxAdd.BackgroundImage = (Image)resources.GetObject("pictureBoxAdd.BackgroundImage");
@@ -158,6 +187,35 @@
             panelAchievementsPageSub.Name = "panelAchievementsPageSub";
             panelAchievementsPageSub.Size = new Size(491, 179);
             panelAchievementsPageSub.TabIndex = 25;
+            // 
+            // labelAchievementsPageSubRight
+            // 
+            labelAchievementsPageSubRight.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelAchievementsPageSubRight.ForeColor = Color.FromArgb(106, 37, 0);
+            labelAchievementsPageSubRight.Location = new Point(313, 106);
+            labelAchievementsPageSubRight.Name = "labelAchievementsPageSubRight";
+            labelAchievementsPageSubRight.Size = new Size(140, 36);
+            labelAchievementsPageSubRight.TabIndex = 34;
+            labelAchievementsPageSubRight.Text = "25";
+            labelAchievementsPageSubRight.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // labelAchievementsPageSubLeft
+            // 
+            labelAchievementsPageSubLeft.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelAchievementsPageSubLeft.ForeColor = Color.FromArgb(106, 37, 0);
+            labelAchievementsPageSubLeft.Location = new Point(156, 106);
+            labelAchievementsPageSubLeft.Name = "labelAchievementsPageSubLeft";
+            labelAchievementsPageSubLeft.Size = new Size(140, 36);
+            labelAchievementsPageSubLeft.TabIndex = 33;
+            labelAchievementsPageSubLeft.Text = "0";
+            labelAchievementsPageSubLeft.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // progressBarSub
+            // 
+            progressBarSub.Location = new Point(166, 60);
+            progressBarSub.Name = "progressBarSub";
+            progressBarSub.Size = new Size(287, 43);
+            progressBarSub.TabIndex = 32;
             // 
             // pictureBoxSub
             // 
@@ -196,6 +254,35 @@
             panelAchievementsPageMult.Size = new Size(491, 179);
             panelAchievementsPageMult.TabIndex = 26;
             // 
+            // labelAchievementsPageMultRight
+            // 
+            labelAchievementsPageMultRight.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelAchievementsPageMultRight.ForeColor = Color.FromArgb(106, 37, 0);
+            labelAchievementsPageMultRight.Location = new Point(314, 109);
+            labelAchievementsPageMultRight.Name = "labelAchievementsPageMultRight";
+            labelAchievementsPageMultRight.Size = new Size(140, 36);
+            labelAchievementsPageMultRight.TabIndex = 34;
+            labelAchievementsPageMultRight.Text = "25";
+            labelAchievementsPageMultRight.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // labelAchievementsPageMultLeft
+            // 
+            labelAchievementsPageMultLeft.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelAchievementsPageMultLeft.ForeColor = Color.FromArgb(106, 37, 0);
+            labelAchievementsPageMultLeft.Location = new Point(156, 109);
+            labelAchievementsPageMultLeft.Name = "labelAchievementsPageMultLeft";
+            labelAchievementsPageMultLeft.Size = new Size(140, 36);
+            labelAchievementsPageMultLeft.TabIndex = 33;
+            labelAchievementsPageMultLeft.Text = "0";
+            labelAchievementsPageMultLeft.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // progressBarMult
+            // 
+            progressBarMult.Location = new Point(167, 63);
+            progressBarMult.Name = "progressBarMult";
+            progressBarMult.Size = new Size(287, 43);
+            progressBarMult.TabIndex = 32;
+            // 
             // pictureBoxMult
             // 
             pictureBoxMult.BackgroundImage = (Image)resources.GetObject("pictureBoxMult.BackgroundImage");
@@ -232,6 +319,35 @@
             panelAchievementsPageDiv.Name = "panelAchievementsPageDiv";
             panelAchievementsPageDiv.Size = new Size(491, 179);
             panelAchievementsPageDiv.TabIndex = 27;
+            // 
+            // labelAchievementsPageDivRight
+            // 
+            labelAchievementsPageDivRight.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelAchievementsPageDivRight.ForeColor = Color.FromArgb(106, 37, 0);
+            labelAchievementsPageDivRight.Location = new Point(313, 109);
+            labelAchievementsPageDivRight.Name = "labelAchievementsPageDivRight";
+            labelAchievementsPageDivRight.Size = new Size(140, 36);
+            labelAchievementsPageDivRight.TabIndex = 34;
+            labelAchievementsPageDivRight.Text = "25";
+            labelAchievementsPageDivRight.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // labelAchievementsPageDivLeft
+            // 
+            labelAchievementsPageDivLeft.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
+            labelAchievementsPageDivLeft.ForeColor = Color.FromArgb(106, 37, 0);
+            labelAchievementsPageDivLeft.Location = new Point(156, 109);
+            labelAchievementsPageDivLeft.Name = "labelAchievementsPageDivLeft";
+            labelAchievementsPageDivLeft.Size = new Size(140, 36);
+            labelAchievementsPageDivLeft.TabIndex = 33;
+            labelAchievementsPageDivLeft.Text = "0";
+            labelAchievementsPageDivLeft.TextAlign = ContentAlignment.MiddleLeft;
+            // 
+            // progressBarDiv
+            // 
+            progressBarDiv.Location = new Point(166, 63);
+            progressBarDiv.Name = "progressBarDiv";
+            progressBarDiv.Size = new Size(287, 43);
+            progressBarDiv.TabIndex = 32;
             // 
             // pictureBoxDiv
             // 
@@ -286,122 +402,6 @@
             labelAchievementsPageHeading.TabIndex = 29;
             labelAchievementsPageHeading.Text = "Достижения";
             // 
-            // progressBarAdd
-            // 
-            progressBarAdd.Location = new Point(167, 60);
-            progressBarAdd.Name = "progressBarAdd";
-            progressBarAdd.Size = new Size(287, 43);
-            progressBarAdd.TabIndex = 30;
-            // 
-            // progressBarSub
-            // 
-            progressBarSub.Location = new Point(166, 60);
-            progressBarSub.Name = "progressBarSub";
-            progressBarSub.Size = new Size(287, 43);
-            progressBarSub.TabIndex = 32;
-            // 
-            // progressBarMult
-            // 
-            progressBarMult.Location = new Point(167, 63);
-            progressBarMult.Name = "progressBarMult";
-            progressBarMult.Size = new Size(287, 43);
-            progressBarMult.TabIndex = 32;
-            // 
-            // progressBarDiv
-            // 
-            progressBarDiv.Location = new Point(166, 63);
-            progressBarDiv.Name = "progressBarDiv";
-            progressBarDiv.Size = new Size(287, 43);
-            progressBarDiv.TabIndex = 32;
-            // 
-            // labelAchievementsPageAddLeft
-            // 
-            labelAchievementsPageAddLeft.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelAchievementsPageAddLeft.ForeColor = Color.FromArgb(106, 37, 0);
-            labelAchievementsPageAddLeft.Location = new Point(156, 106);
-            labelAchievementsPageAddLeft.Name = "labelAchievementsPageAddLeft";
-            labelAchievementsPageAddLeft.Size = new Size(140, 36);
-            labelAchievementsPageAddLeft.TabIndex = 31;
-            labelAchievementsPageAddLeft.Text = "0";
-            labelAchievementsPageAddLeft.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // labelAchievementsPageSubLeft
-            // 
-            labelAchievementsPageSubLeft.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelAchievementsPageSubLeft.ForeColor = Color.FromArgb(106, 37, 0);
-            labelAchievementsPageSubLeft.Location = new Point(156, 106);
-            labelAchievementsPageSubLeft.Name = "labelAchievementsPageSubLeft";
-            labelAchievementsPageSubLeft.Size = new Size(140, 36);
-            labelAchievementsPageSubLeft.TabIndex = 33;
-            labelAchievementsPageSubLeft.Text = "0";
-            labelAchievementsPageSubLeft.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // labelAchievementsPageMultLeft
-            // 
-            labelAchievementsPageMultLeft.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelAchievementsPageMultLeft.ForeColor = Color.FromArgb(106, 37, 0);
-            labelAchievementsPageMultLeft.Location = new Point(156, 109);
-            labelAchievementsPageMultLeft.Name = "labelAchievementsPageMultLeft";
-            labelAchievementsPageMultLeft.Size = new Size(140, 36);
-            labelAchievementsPageMultLeft.TabIndex = 33;
-            labelAchievementsPageMultLeft.Text = "0";
-            labelAchievementsPageMultLeft.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // labelAchievementsPageDivLeft
-            // 
-            labelAchievementsPageDivLeft.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelAchievementsPageDivLeft.ForeColor = Color.FromArgb(106, 37, 0);
-            labelAchievementsPageDivLeft.Location = new Point(156, 109);
-            labelAchievementsPageDivLeft.Name = "labelAchievementsPageDivLeft";
-            labelAchievementsPageDivLeft.Size = new Size(140, 36);
-            labelAchievementsPageDivLeft.TabIndex = 33;
-            labelAchievementsPageDivLeft.Text = "0";
-            labelAchievementsPageDivLeft.TextAlign = ContentAlignment.MiddleLeft;
-            // 
-            // labelAchievementsPageAddRight
-            // 
-            labelAchievementsPageAddRight.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelAchievementsPageAddRight.ForeColor = Color.FromArgb(106, 37, 0);
-            labelAchievementsPageAddRight.Location = new Point(314, 106);
-            labelAchievementsPageAddRight.Name = "labelAchievementsPageAddRight";
-            labelAchievementsPageAddRight.Size = new Size(140, 36);
-            labelAchievementsPageAddRight.TabIndex = 32;
-            labelAchievementsPageAddRight.Text = "25";
-            labelAchievementsPageAddRight.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // labelAchievementsPageSubRight
-            // 
-            labelAchievementsPageSubRight.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelAchievementsPageSubRight.ForeColor = Color.FromArgb(106, 37, 0);
-            labelAchievementsPageSubRight.Location = new Point(313, 106);
-            labelAchievementsPageSubRight.Name = "labelAchievementsPageSubRight";
-            labelAchievementsPageSubRight.Size = new Size(140, 36);
-            labelAchievementsPageSubRight.TabIndex = 34;
-            labelAchievementsPageSubRight.Text = "25";
-            labelAchievementsPageSubRight.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // labelAchievementsPageMultRight
-            // 
-            labelAchievementsPageMultRight.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelAchievementsPageMultRight.ForeColor = Color.FromArgb(106, 37, 0);
-            labelAchievementsPageMultRight.Location = new Point(314, 109);
-            labelAchievementsPageMultRight.Name = "labelAchievementsPageMultRight";
-            labelAchievementsPageMultRight.Size = new Size(140, 36);
-            labelAchievementsPageMultRight.TabIndex = 34;
-            labelAchievementsPageMultRight.Text = "25";
-            labelAchievementsPageMultRight.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // labelAchievementsPageDivRight
-            // 
-            labelAchievementsPageDivRight.Font = new Font("Cascadia Code", 25F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelAchievementsPageDivRight.ForeColor = Color.FromArgb(106, 37, 0);
-            labelAchievementsPageDivRight.Location = new Point(313, 109);
-            labelAchievementsPageDivRight.Name = "labelAchievementsPageDivRight";
-            labelAchievementsPageDivRight.Size = new Size(140, 36);
-            labelAchievementsPageDivRight.TabIndex = 34;
-            labelAchievementsPageDivRight.Text = "25";
-            labelAchievementsPageDivRight.TextAlign = ContentAlignment.MiddleRight;
-            // 
             // AchievementsPage
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -425,6 +425,8 @@
             Name = "AchievementsPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mental arithmetic";
+            MouseDown += AchievementsPage_MouseDown;
+            MouseMove += AchievementsPage_MouseMove;
             panelAchievementsPageAdd.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBoxAdd).EndInit();
             panelAchievementsPageSub.ResumeLayout(false);
